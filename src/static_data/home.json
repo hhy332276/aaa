@@ -1,0 +1,533 @@
+{
+  "zh": {
+    "home": {
+      "translate": "1",
+      "integrateUrl": "/imgs/mindstudio.png",
+      "integrateTitle": "一站式集成开发环境",
+      "integrateTitleSub": "Mind Studio",
+      "integrateText": "Mind Studio是一套基于华为昇腾AI处理器开发的AI全栈开发平台，提供了自定义算子的开发，网络层的网络移植、优化和分析等功能，另外在业务引擎层提供了一套可视化的AI引擎拖拽式编程服务，内置了丰富的高性能算子库，极大的降低了AI应用程序的开发门槛。",
+      "high": "高算力低功耗AI处理器",
+      "help": "帮助开发者降低开发难度和运营成本，加速应用上市",
+      "life": "全生命周期开发平台",
+      "built": "内置丰富高性能算子库，多种开发、调试、调优和部署工具",
+      "widely": "广泛的业务支持",
+      "structure": "构建面向各行各业、各种应用场景的参考解决方案",
+      "tabOne": "Atlas 200 DK",
+      "tabTwo": "Atlas 200",
+      "tabThree": "Atlas 300",
+      "tabFour": "Atlas 500",
+      "atlasTwoHundred": "Atlas 200 DK AI开发者套件",
+      "atlasTwoHundredText": "Ascend是基于华为公司自研的人工智能芯片计算平台生态项目，面向开发者提供AI硬件计算平台，包含计算资源、运行框架以及相关配套工具等，让开发者可以便捷高效的编写在特定硬件设备上运行的人工智能应用程序。",
+      "atlasTwoHundredAI": "Atlas 200 AI加速模块",
+      "atlasTwoHundredAIText": "Atlas 200是一款高性能低功耗的AI加速模块，外形尺寸只有半张信用卡的大小，耗电量仅为9.5瓦，支持16通道实时高清视频分析，可以部署在摄像头、无人机和机器人等设备上。",
+      "atlasThreeHundred": "Atlas 300 AI加速卡",
+      "atlasThreeHundredText": "基于昇腾AI处理器，以标准的半高半长PCIe卡的产品形态，提供多种数据精度，适用于人工智能训练和推理场景（主要是推理）。Atlas 300 AI加速卡采用全新的DaVinci架构，提供业界领先的性能与能效比，可广泛应用于数据中心和智能边缘。",
+      "atlasFiveHundred": "Atlas 500 智能小站",
+      "atlasFiveHundredText": "Atlas 500智能小站是一款性能强大，能在边缘进行实时处理的边缘计算产品，单台可提供16 TOPS INT8的处理能力，同时功耗极低。Atlas 500集成了WIFI和LTE两种无线数据接口，提供灵活的网络接入和数据传输方案。",
+      "rise": "华为昇腾生态计划",
+      "colleges": "高校教学合作计划",
+      "collegesSub": "助力高校人工智能学科建设，培养产业转型和创新发展所需要的新工科人才。",
+      "developer": "Altas 开发者大赛",
+      "developerSub": "耕耘AI梦想、实践AI创新，打造全行业、全场景AI解决方案，构建万物互联的智能世界。",
+      "newsTitle": "新闻中心",
+      "newsTime": "2019年4月11日",
+      "newSub": "华为Atlas人工智能计算平台正式上市",
+      "numberTime": "11",
+      "numberTimeOne": "10",
+      "april": "2019-4",
+      "may": "2019-5",
+      "june": "2019-6",
+      "mayTitle": "华为Atlas人工智能开发者大赛正式启动",
+      "mayConter": "[中国，苏州，2019年5月10日] 华为在智能计算大会苏州会场宣布，正式启动2019华为Atlas人工智能开发者大赛。作为华为赋能开发者系列计划的重要组成部分，此次大赛面向全球具有创新精神的开发者展开，旨在为开发者提供最好的创新实践舞台。",
+      "juneTitle": "金域医学携手华为云，AI辅助宫颈癌筛查技术获突破性进展",
+      "juneConter": "[中国，广州，2019年6月11日] 金域医学与华为云在2019中国生物产业大会上联合宣布，双方在人工智能（AI）辅助病理诊断应用开发方面取得突破性进展。金域医学病理专家团队与华为云AI团队合作，首次基于病理形态学，通过深度学习技术，训练出精准、高效的AI辅助宫颈癌筛查模型。该模型在排阴率高于60%的基础上，阴性片判读的正确率高于99%，同时，阳性病变的检出率超过99.9%。这是目前国际上已公布的AI辅助宫颈癌筛查的最高水平。通常情况下，细胞病理医生镜下阅读宫颈细胞涂片，平均每例要花费6分钟，而AI识别仅需36秒，通过AI辅助宫颈癌筛查模型判读速度是人工判读的10倍。",
+      "aprilTitle": "华为Atlas人工智能计算平台正式上市",
+      "aprilConter": "[中国，深圳，2019年4月11日] 华为宣布Atlas人工智能计算平台系列产品正式上市，开启了Atlas商用新篇章。",
+      "faceImgZh": "/imgs/PIC05.png",
+      "faceIDImg": "/imgs/PIC07.png",
+      "vehicleImg": "/imgs/PIC07.png",
+      "bodyImg": "/imgs/application_pic05.png",
+      "riseImg": "/imgs/PIC09.png",
+      "collegesImg": "/imgs/PIC11.png",
+      "developerImg": "/imgs/PIC10.png",
+      "describeImg": "/imgs/PIC12.jpg",
+      "newImg": "/imgs/news03.png",
+      "fillImgUrl": "/imgs/Fill1.png",
+      "secondFillImgUrl": "/imgs/Fill2.png",
+      "thirdFillImgUrl": "/imgs/Fill3.png",
+      "twoHundredDK": "/imgs/atlas200DK.png",
+      "twoHundred": "/imgs/atlas200.png",
+      "threeHundred": "/imgs/atlas300.png",
+      "fiveHundred": "/imgs/atlas500.png",
+      "newsList": [
+        {
+          "date":"23",
+          "yearMonth": "2019-8",
+          "newsTime": "2019年8月23日",
+          "newsImg": "/imgs/news_pic13.jpg",
+          "newsTitle": "华为发布算力最强AI处理器Ascend 910 及全场景AI计算框架MindSpore",
+          "newsContent":"[中国,深圳,2019年8月23日] 华为正式发布算力最强的AI处理器Ascend 910(昇腾910),同时推出全场景AI计算框架MindSpore。",
+          "newsLink": "https://www.huawei.com/cn/press-events/news/2019/8/huawei-ascend-910-most-powerful-ai-processor"
+        },
+        {
+          "date":"11",
+          "yearMonth": "2019-4",
+          "newsTime": "2019年4月11日",
+          "newsImg": "/imgs/news03.png",
+          "newsTitle": "华为Atlas人工智能计算平台正式上市",
+          "newsContent":"[中国,深圳,2019年4月11日] 华为宣布Atlas人工智能计算平台系列产品正式上市,开启了Atlas商用新篇章。",
+          "newsLink": "https://www.huawei.com/cn/press-events/news/2019/4/huawei-atlas-intelligent-computing-launch"
+        },
+        {
+          "date":"6",
+          "yearMonth": "2018-11",
+          "newsTime": "2018年11月6日",
+          "newsImg": "/imgs/news02.png",
+          "newsTitle": "华为为黎巴嫩引入最新5G技术",
+          "newsContent":"[黎巴嫩,贝鲁特,2018年11月6日]黎巴嫩领先的移动通信和数据运营商touch最近利用华为的最新5G设备在该国进行了首个5G商业测试。",
+          "newsLink": "https://www.huawei.com/cn/press-events/news/2018/11/huawei-state-of-the-art-5g-lebanon"
+        }
+      ],
+      "sellProductList": [
+        {
+          "sellProductImg": "/imgs/atlas200DK.png",
+          "sellProductTitle": "Atlas 200 DK AI开发者套件",
+          "sellProductContent": "华为Atlas 200 DK AI开发者套件是以昇腾310处理器为核心的一个开发者板形态产品，帮助AI应用的开发者快速熟悉开发环境。其主要功能是将昇腾310处理器的核心功能通过该板上的外围接口开放出来，方便用户快速简捷的接入并使用昇腾310处理器强大的处理能力。",
+          "sellProductDetail": "https://e.huawei.com/cn/products/cloud-computing-dc/servers/g-series/atlas-200",
+          "sellProductStart": "/documentation/details/zh/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/experience",
+          "sellProductPurchase": "https://www.vmall.com/product/10086085080100.html?78119",
+          "sellProductDocumentation": "/documentation/details/zh/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0178961794.html"
+        },
+        {
+          "sellProductImg": "/imgs/atlas200.png",
+          "sellProductTitle": "Atlas 200 AI加速模块",
+          "sellProductContent": "Atlas 200是一款高性能低功耗的AI加速模块，外形尺寸只有半张信用卡的大小，耗电量仅为9.5瓦，支持16通道实时高清视频分析，可以部署在摄像头、无人机和机器人等设备上。",
+          "sellProductDetail": "https://e.huawei.com/cn/products/cloud-computing-dc/servers/g-series/atlas-200-ai",
+          "sellProductStart": "",
+          "sellProductPurchase": "https://www.vmall.com/product/10086505046615.html?78119",
+          "sellProductDocumentation": "/documentation/details/zh/1.0/3552547e3e6e4e06b19269d8832a4ea4/zh-cn_topic_0176420240.html"
+        },
+        {
+          "sellProductImg": "/imgs/atlas300.png",
+          "sellProductTitle": "Atlas 300 AI加速卡",
+          "sellProductContent": "基于昇腾AI处理器，以标准的半高半长PCIe卡的产品形态，提供多种数据精度，适用于人工智能训练和推理场景（主要是推理）。Atlas 300 AI加速卡采用全新的DaVinci架构，提供业界领先的性能与能效比，可广泛应用于数据中心和智能边缘。",
+          "sellProductDetail": "https://e.huawei.com/cn/products/cloud-computing-dc/servers/g-series/atlas-300-ai",
+          "sellProductStart": "",
+          "sellProductPurchase":"",
+          "sellProductDocumentation": "/documentation/details/zh/1.0/9ec14623b52d46e286dce11db5ada63c/zh-cn_topic_0176420185.html"
+        },
+        {
+          "sellProductImg": "/imgs/atlas500.png",
+          "sellProductTitle": "Atlas 500 智能小站",
+          "sellProductContent": "Atlas 500智能小站是一款性能强大，能在边缘进行实时处理的边缘计算产品，单台可提供16 TOPS INT8的处理能力，同时功耗极低。Atlas 500集成了WIFI和LTE两种无线数据接口，提供灵活的网络接入和数据传输方案。",
+          "sellProductDetail": "https://e.huawei.com/cn/products/cloud-computing-dc/servers/g-series/atlas-500",
+          "sellProductStart": "",
+          "sellProductPurchase":"",
+          "sellProductDocumentation": "/documentation/details/zh/1.0/a71bd3a961d546b7881bb7f25417ad8e/zh-cn_topic_0175394093.html"
+        }
+      ]
+    },
+    "videos": [
+      {
+        "thumbnail": "",
+        "title": "Atlas 200 DK 系列教程--引言",
+        "views": "2342",
+        "description": "Atlas 200 DK系列教程的课时划分和观看前需要的准备知识",
+        "imgUrl": "/imgs/pic_introduction.jpg",
+        "videoUrl": "https://obs-9be7.obs.cn-east-2.myhuaweicloud.com/turing/vedio/first-video-remanufacture/0引言.mp4"
+      },
+      {
+        "thumbnail": "",
+        "title": "Atlas 200 DK 系列教程--快速搭建开发环境",
+        "views": "2342",
+        "description": "本教程端到端介绍了什么是Atlas 200 DK，Atlas 200 DK的部署流程及功能使用",
+        "imgUrl": "/imgs/pic_env.png",
+        "videoUrl": "https://obs-9be7.obs.cn-east-2.myhuaweicloud.com/turing/vedio/first-video-remanufacture/快速搭建开发板环境.mp4"
+      },
+      {
+        "thumbnail": "",
+        "title": "Atlas 200 DK 系列教程--初级篇",
+        "views": "2342",
+        "description": "本教程介绍了Atlas 200 DK的外观,演示了Atlas 200 DK开发环境的部署及使用....",
+        "imgUrl": "/imgs/pic_primary.jpg",
+        "videoUrl": "https://obs-9be7.obs.cn-east-2.myhuaweicloud.com/turing/vedio/fasterrcnn.mp4"
+      },
+      {
+        "thumbnail": "",
+        "title": "AI基础系列教程",
+        "views": "2342",
+        "description": "本课程旨在让开发者快速了解人工智能深度学习相关的概念、原理、神经网络基础知识，通过文本识别、人脸识别了解相关算法的应用",
+        "imgUrl": "imgs/school_pic02.jpg",
+        "videoUrl": "https://obs-9be7.obs.cn-east-2.myhuaweicloud.com/turing/vedio/轻松玩转Atlas200DK7-12.mp4",
+        "ppt": ""
+      }
+    ],
+    "application": [
+      {
+        "title":"人脸检测",
+        "describe": "检测摄像捕获视频中的人脸，对于检测到的每张人脸返回其人脸坐标及相应的置信度。",
+        "author": "Ascend",
+        "time": "创建时间：2019/4/25"
+      },{
+        "title":"人脸识别",
+        "describe": "捕获摄像头中的人脸，与系统中已注册的人脸进行比对并预测出最可能的用户实时显示。",
+        "author": "Ascend",
+        "time": "创建时间：2019/4/25"
+      },{
+        "title":"车辆检测",
+        "describe": "检测出视频中的车辆，并进一步对车辆的型号、车辆的颜色以及车牌进行识别。",
+        "author": "Ascend",
+        "time": "创建时间：2019/4/25"
+      },{
+        "title": "人体检测",
+        "describe": "检测出视频中的人体，并进一步识别人体特征包含性别、年龄、衣服颜色、佩戴装饰等特征进行识别。",
+        "author": "Ascend",
+        "time": "创建时间：2019/4/25"
+      }
+    ],
+    "slideshow": [
+      {
+        "title": "昇腾开发者社区",
+        "subTitle": "基于华为昇腾系列AI处理器进行AI应用开发的开放使能平台，全方位助力开发者，共建开放、普惠的人工智能生态。",
+        "imgUrl": "/imgs/homebanner.png",
+        "button": true,
+        "butt": "立即加入",
+        "type": "1",
+        "url": ""
+      },
+      {
+        "title": "",
+        "subTitle": "",
+        "imgUrl": "/imgs/atlasbanner.jpg",
+        "type": "1",
+        "url": ""
+      },
+      {
+        "title": "",
+        "subTitle": "",
+        "imgUrl": "/imgs/activitybanner.jpg",
+        "type": "1",
+        "url": "/activity/details",
+        "translate": "1"
+      },
+      {
+        "title": "Atlas 200 DK AI开发者套件",
+        "subTitle": "",
+        "subTitleOne": "<p>Ascend AI处理器&nbsp;&nbsp;|&nbsp;&nbsp;高集成度&nbsp;&nbsp;|&nbsp;&nbsp;快速搭建开发环境</p>",
+        "imgUrl": "/imgs/homebannerpj.png",
+        "productButton": "<a href='https://www.vmall.com/list-594'target='blank'><button style='background: #3d88ff;color: #ffffff;width: 120px;height: 35px;padding: 0;margin-top: 50px;'>立即购买</button></a>",
+        "url": ""
+      }
+    ],
+    "about": {
+      "title": "开发者支持",
+      "translate": "1",
+      "data": "Ascend DK",
+      "explain": "华为首款基于全新自研的AI处理器开源能力套件",
+      "subject": "Ascend简介",
+      "introduce": "2018年10月10日，华为正式发布全栈全场景AI解决方案。全栈，意味着为广大AI应用开发者提供强大、经济的算力，低门槛的应用开发平台，实现AI数据建模、模型训练、应用开发更加简单、敏捷、高效。全场景，意味着让智能无所不及，覆盖端、边、云任何商业场景。",
+      "introducea": "全栈全场景AI解决方案的昇腾310芯片是业界面向边缘计算场景最强算力的AI SoC。当前最典型的几种边缘计算场景是安防、自动驾驶和智能制造。 无论哪一种边缘计算场景，都对空间、功耗、算力提出了苛刻的约束条件。一颗昇腾310芯片可以实现高达16TOPS的现场算力，支持同时识别包括人、车、障碍物、交通标示在内的200个不同的物体；一秒钟内可处理上千张图片。无论是在急速行驶的汽车上，还是在高速运转的生产线上。无论是复杂的科学研究，还是日常的教育活动，昇腾310可以为各行各业提供触手可及的高效算力。10月华为联合奥迪展示了L4级无人驾驶的路测，汽车上配备了华为的MDC车载计算单元。根据测算，支持L4级无人驾驶这样非常复杂 的边缘计算场景时，310芯片组一共也仅消耗200瓦的能耗。",
+      "introduceb": "昇腾系列AI芯片的另外一个独特优势是采用了华为开创性的统一、可扩展的架构，即“达芬奇架构”，它实现了从极致的低功耗到极致的大算力场景的全覆盖，市场上还没有其它架构能做到。“达芬奇架构”能一次开发适用于所有场景的部署、迁移和协同，大大提升了软件开发的效率，加速AI在各行业的切实应用。",
+      "more": "更多资源",
+      "forum": "开发者论坛",
+      "forumex": "向其他开发者分享资讯，针对各种开放服务能力提出疑问，并与其他开发者分享技术资讯。",
+      "forumbutt": "访问论坛",
+      "news": "文档中心",
+      "newsex": "您可以在此获取基于华为昇腾系列AI处理器的相关文档。帮助您了解华为昇腾系列AI处理器软硬件，并进行人工智能应用的开发。",
+      "newsbutt": "查看文档",
+      "video": "昇腾学院",
+      "videoex": "昇腾学院提供AI领域的实践培训，开发者、研究人员和院校师生可以获取和丰富华为昇腾AI处理器的开发和实践经验。",
+      "videobutt": "观看视频",
+      "call": "联系我们",
+      "official": "官网联系方式",
+      "business": "业务联系方式",
+      "officialem": "官网邮箱",
+      "officialaddress": "developer@huawei.com",
+      "complaint": "投诉邮箱",
+      "complaintem": "devComplaint@huawei.com",
+      "application": "应用",
+      "applicationqq": "QQ 4000886183",
+      "game": "游戏接入",
+      "gameqq": "QQ 2851508949",
+      "other": "其他问题",
+      "otherqq": "QQ 3402755877",
+      "elm": "联系邮箱",
+      "have": "更多需求，请发邮件至",
+      "com": "Ascend@huawei.com",
+      "we": "，我们会尽快处理和回复",
+      "send": "发送电子邮件",
+      "xinImg": "/imgs/xin.png"
+    },
+    "activity": {
+      "title": "活动中心",
+      "titlebottom": "与来自华为和其它业界领先机构的嘉宾和开发者一起探讨技术，分享经验，了解人工智能领域最新的研究成果和创新发现。",
+      "activity": "当前活动",
+      "content": "全栈开放，引爆无限可能",
+      "button": "进行中",
+      "prohibit": "已结束",
+      "time": "活动时间：2019-05-10",
+      "universities": "华为沃土计划，见证成长的力量"
+    }
+  },
+  "en": {
+    "home": {
+      "integrateUrl": "/imgs/mindstudio.png",
+      "integrateTitle": "One-Stop Integrated Development Environment Mind Studio",
+      "integrateTitleSub": "Mind Studio",
+      "integrateText": "Mind Studio is an AI full-stack development platform based on Huawei Ascend AI processor. It enables the development of custom operators, and provides features such as network migration, optimization, and analysis at the network layer. It provides AI engine orchestration in drag-and-drop mode at the service engine layer and a collection of high-performance operator libraries, greatly reducing the complexity of AI app development.",
+      "high": "High-Computing, Low-Power AI Processor",
+      "help": "Reduces development complexity and operation costs and speeds up app go-to-market.",
+      "life": "Full-Lifecycle Development Platform",
+      "built": "Provides ample high-performance operator libraries and handy tools for debugging, optimization, and deployment.",
+      "widely": "Extensive Service Support",
+      "structure": "Builds reference solutions across industries and application scenarios.",
+      "tabOne": "Atlas 200 DK",
+      "tabTwo": "Atlas 200",
+      "tabThree": "Atlas 300",
+      "tabFour": "Atlas 500",
+      "atlasTwoHundred": "Atlas 200 DK AI Developer Kit",
+      "atlasTwoHundredText": "Huawei Ascend is an artificial intelligence (AI) chipset computing platform. This platform provides computing resources, running frameworks, and necessary tools, allowing convenient and efficient AI app craft for specific hardware devices.",
+      "atlasTwoHundredAI": "Atlas 200 AI Accelerator Module",
+      "atlasTwoHundredAIText": "Packaged in a form factor half the size of a credit card, the Atlas 200 AI’s power consumption is as low as 9.5 Watts while supporting 16-channel real-time HD video analytics. This high-performance, low-power product can be deployed on devices such as cameras, drones, and robots.",
+      "atlasThreeHundred": "Atlas 300 AI Accelerator Card",
+      "atlasThreeHundredText": "Based on the Ascend AI processor, the Atlas 300 AI accelerator card is packaged in a standard half-height, half-length PCIe card form factor. It supports multiple types of data precision and is suitable for AI training and inference scenarios (mainly inference). The Atlas 300 AI accelerator card uses a groundbreaking Da Vinci architecture to unlock industry-leading performance and energy efficiency. It can be widely used for data centers and the intelligent edge.",
+      "atlasFiveHundred": "Atlas 500 AI Edge Station",
+      "atlasFiveHundredText": "Unlocking powerful performance, the Atlas 500 AI Edge Station is designed for real-time data processing at the edge. A single device can provide 16 TOPS of INT8 processing capability with ultra-low power consumption. The Atlas 500 AI integrates Wi-Fi and LTE wireless data interfaces to support flexible network access and data transmission schemes.",
+      "rise": "Huawei Ascend Ecosystem",
+      "colleges": "University Partnerships",
+      "collegesSub": "Empowering the construction of AI disciplines in universities and inspiring future engineering talents for industry transformation and innovation",
+      "developer": "Altas Developer Contest",
+      "developerSub": "Fueling AI innovation and bringing AI solutions to all industries and scenarios for a fully connected, intelligent world",
+      "newsTitle": "News",
+      "newsTime": "April 11, 2019",
+      "newSub": "Huawei Atlas AI Computing Platform Ready on a Commercial Scale",
+      "numberTime": "11",
+      "numberTimeOne": "10",
+      "april": "2019-4",
+      "may": "2019-5",
+      "june": "2019-6",
+      "mayTitle": "Huawei Atlas AI Developer Contest Kicks Off",
+      "mayConter": "May 10, 2019 | Huawei 2019 Atlas AI Developer Contest kicked off in Suzhou, China. As an indispensable part of the Huawei Developer Enablement Plan, this contest aims to maximize the opportunities for innovation practice for developers worldwide.",
+      "juneTitle": "HUAWEI CLOUD AI Offers Breakthrough in Cervical Cancer Diagnosis",
+      "juneConter": "June 11, 2019 | Huawei Cloud and Kingmed Diagnostics announced a technological breakthrough in the AI-assisted pathological examination of cervical cancer.",
+      "aprilTitle": "Huawei Atlas AI Computing Platform Ready on a Commercial Scale",
+      "aprilConter": "April 11, 2019 | Huawei officially launched the Atlas AI computing platform, unlocking a new chapter on the Atlas commercialization roadmap.",
+      "faceImgZh": "/imgs/PIC05.png",
+      "faceIDImg": "/imgs/PIC07.png",
+      "vehicleImg": "/imgs/PIC07.png",
+      "bodyImg": "/imgs/application_pic05.png",
+      "riseImg": "/imgs/PIC09.png",
+      "collegesImg": "/imgs/PIC11.png",
+      "developerImg": "/imgs/PIC10.png",
+      "describeImg": "/imgs/PIC12.jpg",
+      "newImg": "/imgs/news03.png",
+      "fillImgUrl": "/imgs/Fill1.png",
+      "secondFillImgUrl": "/imgs/Fill2.png",
+      "thirdFillImgUrl": "/imgs/Fill3.png",
+      "twoHundredDK": "/imgs/atlas200DK.png",
+      "twoHundred": "/imgs/atlas200.png",
+      "threeHundred": "/imgs/atlas300.png",
+      "fiveHundred": "/imgs/atlas500.png",
+      "newsList": [
+        {
+          "date":"23",
+          "yearMonth": "2019-8",
+          "newsTime": "Aug 23, 2019",
+          "newsImg": "/imgs/news_pic13.jpg",
+          "newsTitle": "Huawei launches Ascend 910, the world's most powerful AI processor, and MindSpore, an all-scenario AI computing framework",
+          "newsContent":"August 23, 2019 | Huawei officially launched the world's most powerful AI processor – the Ascend 910 – as well as an all-scenario AI computing framework, MindSpore.",
+          "newsLink": "https://www.huawei.com/en/press-events/news/2019/8/huawei-ascend-910-most-powerful-ai-processor"
+        },
+        {
+          "date":"11",
+          "yearMonth": "2019-4",
+          "newsTime": "April 11, 2019",
+          "newsImg": "/imgs/news03.png",
+          "newsTitle": "Huawei Atlas AI Computing Platform Ready on a Commercial Scale",
+          "newsContent":"April 11, 2019 | Huawei officially launched the Atlas AI computing platform, unlocking a new chapter on the Atlas commercialization roadmap.",
+          "newsLink": "https://www.huawei.com/en/press-events/news/2019/4/huawei-atlas-intelligent-computing-launch"
+        },
+        {
+          "date":"6",
+          "yearMonth": "2018-11",
+          "newsTime": " November 6, 2018",
+          "newsImg": "/imgs/news02.png",
+          "newsTitle": "Huawei introduces the latest 5G technology for Lebanon",
+          "newsContent":"November 6, 2018 | Lebanese leading mobile communications and data operator touch recently conducted the first 5G commercial test in the country using Huawei's latest 5G equipment.",
+          "newsLink": "https://www.huawei.com/en/press-events/news/2018/11/huawei-state-of-the-art-5g-lebanon"
+        }
+      ],
+      "sellProductList": [
+        {
+          "sellProductImg": "/imgs/atlas200DK.png",
+          "sellProductTitle": "Atlas 200 DK AI Developer Kit",
+          "sellProductContent": "Powered by the Huawei Ascend 310 processor, the Atlas 200 DK AI Developer Kit helps AI application developers quickly get familiar with the development environment. The device provides external ports for developers to quickly and easily access and use the powerful processing capability of the Ascend 310 processor. ",
+          "sellProductDetail": "https://e.huawei.com/en/products/cloud-computing-dc/servers/g-series/atlas-200",
+          "sellProductStart": "/documentation/details/en/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/experience",
+          "sellProductPurchase": "https://www.vmall.com/product/10086085080100.html?78119",
+          "sellProductDocumentation": "/documentation/details/en/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0178961794.html"
+        },
+        {
+          "sellProductImg": "/imgs/atlas200.png",
+          "sellProductTitle": "Atlas 200 AI Accelerator Module",
+          "sellProductContent": "Packaged in a form factor half the size of a credit card, the Atlas 200 AI’s power consumption is as low as 9.5 Watts while supporting 16-channel real-time HD video analytics. This high-performance, low-power product can be deployed on devices such as cameras, drones, and robots.",
+          "sellProductDetail": "https://e.huawei.com/en/products/cloud-computing-dc/servers/g-series/atlas-200-ai",
+          "sellProductStart": "",
+          "sellProductPurchase": "https://www.vmall.com/product/10086505046615.html?78119",
+          "sellProductDocumentation": "/documentation/details/en/1.0/3552547e3e6e4e06b19269d8832a4ea4/en-us_topic_0176420240.html"
+        },
+        {
+          "sellProductImg": "/imgs/atlas300.png",
+          "sellProductTitle": "Atlas 300 AI Accelerator Card",
+          "sellProductContent": "Based on the Ascend AI processor, the Atlas 300 AI accelerator card is packaged in a standard half-height, half-length PCIe card form factor. It supports multiple types of data precision and is suitable for AI training and inference scenarios (mainly inference). The Atlas 300 AI accelerator card uses a groundbreaking Da Vinci architecture to unlock industry-leading performance and energy efficiency. It can be widely used for data centers and the intelligent edge.",
+          "sellProductDetail": "https://e.huawei.com/en/products/cloud-computing-dc/servers/g-series/atlas-300-ai",
+          "sellProductStart": "",
+          "sellProductPurchase":"",
+          "sellProductDocumentation": "/documentation/details/zh/1.0/9ec14623b52d46e286dce11db5ada63c/en-us_topic_0176420185.html"
+        },
+        {
+          "sellProductImg": "/imgs/atlas500.png",
+          "sellProductTitle": "Atlas 500 AI Edge Station",
+          "sellProductContent": "Unlocking powerful performance, the Atlas 500 AI Edge Station is designed for real-time data processing at the edge. A single device can provide 16 TOPS of INT8 processing capability with ultra-low power consumption. The Atlas 500 AI integrates Wi-Fi and LTE wireless data interfaces to support flexible network access and data transmission schemes.",
+          "sellProductDetail": "https://e.huawei.com/en/products/cloud-computing-dc/servers/g-series/atlas-500",
+          "sellProductStart": "",
+          "sellProductPurchase":"",
+          "sellProductDocumentation": "/documentation/details/en/1.0/a71bd3a961d546b7881bb7f25417ad8e/en-us_topic_0175394093.html"
+        }
+      ]
+    },
+    "videos": [
+      {
+        "thumbnail": "",
+        "title": "Atlas 200 DK series -- introduction",
+        "views": "2342",
+        "description": "The Atlas 200 DK tutorials is divided into periods and required preparation for viewing",
+        "imgUrl": "/imgs/pic_introduction.jpg",
+        "videoUrl": "https://obs-9be7.obs.cn-east-2.myhuaweicloud.com/turing/vedio/first-video-remanufacture/0引言.mp4"
+      },
+      {
+        "thumbnail": "",
+        "title": "Atlas 200 DK series - quickly set up a development environment",
+        "views": "2342",
+        "description": "What is Atlas 200 DK, Atlas 200 DK deployment process and functionality",
+        "imgUrl": "/imgs/pic_env.png",
+        "videoUrl": "https://obs-9be7.obs.cn-east-2.myhuaweicloud.com/turing/vedio/first-video-remanufacture/快速搭建开发板环境.mp4"
+      },
+      {
+        "thumbnail": "",
+        "title": "Atlas 200 DK series -- elementary level",
+        "views": "2342",
+        "description": "This tutorial describes what the Atlas 200 DK looks like and demonstrates the deployment and use of the Atlas 200 DK development environment...",
+        "imgUrl": "/imgs/pic_primary.jpg",
+        "videoUrl": "https://obs-9be7.obs.cn-east-2.myhuaweicloud.com/turing/vedio/fasterrcnn.mp4"
+      },
+      {
+        "thumbnail": "",
+        "title": "Basics series of AI tutorials",
+        "views": "2342",
+        "description": "This course aims to let developers quickly understand the concepts, principles and basic knowledge of neural network related to deep learning of artificial intelligence, and understand the application of relevant algorithms through text recognition and face recognition",
+        "imgUrl": "imgs/school_pic02.jpg",
+        "videoUrl": "https://obs-9be7.obs.cn-east-2.myhuaweicloud.com/turing/vedio/轻松玩转Atlas200DK7-12.mp4",
+        "ppt": ""
+      }
+    ],
+    "application": [
+      {
+        "title":"Face Detection",
+        "describe": "Detects faces in videos captured by cameras and returns the face coordinates and confidence of each detected face.",
+        "author": "Ascend",
+        "time": "Created on 2019-04-24"
+      },{
+        "title":"Facial Recognition",
+        "describe": "Compares faces captured by cameras with those registered in the system, predicts the most likely user, and returns the prediction result for real time display.",
+        "author": "Ascend",
+        "time": "Created on 2019-04-25"
+      },{
+        "title":"Vehicle Detection",
+        "describe": "Detects vehicles in videos, and further identifies vehicle brands, vehicle colors, and vehicle license plates.",
+        "author": "Ascend",
+        "time": "Created on 2019-04-25"
+      },{
+        "title":"Human Detection",
+        "describe": "Detects human bodies in videos, and further identifies the human body characteristics including the genders, ages, clothing colors, and accessories.",
+        "author": "Ascend",
+        "time": "Created on 2019-04-25"
+      }
+    ],
+    "slideshow": [
+      {
+        "title": "Ascend Developer Community",
+        "subTitle": "Inclusive, affordable AI ecosystem for AI app development based on Huawei Ascend AI processors",
+        "imgUrl": "/imgs/homebanner.png",
+        "button": true,
+        "butt": "Join Now",
+        "type": "1",
+        "url": ""
+      },
+      {
+        "title": "",
+        "subTitle": "",
+        "imgUrl": "/imgs/enatlasbanner.jpg",
+        "type": "1",
+        "url": ""
+      },
+      {
+        "title": "Atlas 200 Developer Kit",
+        "subTitle": "",
+        "subTitleOne": "<p>Ascend AI processor &nbsp;&nbsp;|&nbsp;&nbsp;Highly integrated &nbsp;&nbsp;|&nbsp;&nbsp;Quick environment setup</p>",
+        "imgUrl": "/imgs/homebannerpj.png",
+        "productButton": "<a href='https://www.vmall.com/list-594'target='blank'><button style='background: #3d88ff;color: #ffffff;width: 120px;height: 35px;padding: 0;margin-top: 50px;'>Buy Now</button></a>",
+        "url": ""
+      }
+    ],
+    "about": {
+      "translate": "",
+      "title": "Developer Support",
+      "data": "Ascend DK",
+      "explain": "Ascend DK is Huawei's first open source capability kit based on proprietary AI processors.",
+      "subject": "About Ascend",
+      "introduce": "On October 10, 2018, Huawei unveiled the full-stack all-scenario AI solution. Full stack means the outstanding, cost-effective computing power and low-barrier application development platform to AI application developers. This platform implements AI data modeling and model training, making application development simpler, more agile, and more efficient. All scenarios mean ubiquitous intelligence in all commercial scenarios across device, edge, and cloud.",
+      "introducea": "Ascend 310 of the full-stack all-scenario AI solution is the industry&apos;s most powerful AI chipset in terms of edge computing. Currently, the most typical edge computing scenarios are security, self-driving, and intelligent manufacturing. All these scenarios pose strict constraints on space, power consumption, and computing power. A single Ascend 310 chipset provides up to 16 TOPS onsite computing power, supports simultaneous identification of 200 different objects including people, vehicles, obstacles, and traffic signs, and processes thousands of images within just one second. From speeding cars to fast-running production lines and from complex scientific researches to daily educational activities, Ascend 310 is capable of providing convenient, efficient computing power. In October of 2018, Huawei collaborated with Audi to carry out the level 4 autonomous driving test. The tested car was equipped with Huawei&apos;s MDC vehicle-mounted computing unit. According to the test result, Ascend 310 uses only 200 W power in such a complex edge computing scenario.",
+      "introduceb": "Another unmatched advantage of Ascend series AI chipsets is that they use Huawei&apos;s the innovative, scalable Da Vinci architecture, which is the industry&rsquo;s first to fully cover scenarios from extreme low power consumption to ultimate big computing power. The Da Vinci architecture allows development of deployment, migration, and collaboration at a time for all scenarios, greatly improving the software development efficiency and accelerating AI application in various industries.",
+      "more": "More Resources",
+      "forum": "Developer Forum",
+      "forumex": "Find answers to your questions, and offer your support and advice to other developers.",
+      "forumbutt": "Join the Discussions",
+      "news": "Documentation",
+      "newsex": "Browse documentation about Huawei's Ascend AI processors to facilitate your development of AI apps.",
+      "newsbutt": "Read Documentation",
+      "video": "Ascend Institute",
+      "videoex": "Explore the AI educational resources and build your first Ascend project from the ground up with Huawei Ascend processors.",
+      "videobutt": "Watch Videos",
+      "call": "Contact Us",
+      "official": "Contact Info",
+      "business": "Business Cooperation",
+      "officialem": "Email Address",
+      "officialaddress": "developer@huawei.com",
+      "complaint": "Complaint",
+      "complaintem": "devComplaint@huawei.com",
+      "application": "Apps",
+      "applicationqq": "QQ 4000886183",
+      "game": "Games",
+      "gameqq": "QQ 2851508949",
+      "other": "Other",
+      "otherqq": "QQ 3402755877",
+      "elm": "Email",
+      "have": "Send an email to ",
+      "com": "Ascend@huawei.com",
+      "we": "，We will reply to you as soon as possible.",
+      "send": "Send Email",
+      "xinImg": "/imgs/xin.png"
+    },
+    "activity": {
+      "title": "Activities",
+      "titlebottom": "Meet fellow developers and Huawei engineers, attend talks on a wide range of AI topics, and share innovative ideas and best practices.",
+      "activity": "Ongoing Activities",
+      "content": "Opening the door to infinite possibilities",
+      "button": "Ongoing",
+      "prohibit": "Closed",
+      "time": "Date: 2019-05-10",
+      "universities": "Empowering developer growth"
+    }
+  }
+}

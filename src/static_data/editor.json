@@ -1,0 +1,22 @@
+{
+  "configOne":
+  {
+    "autoHeightEnabled": false,
+    "initialFrameHeight": 240,
+    "initialFrameWidth": "100%",
+    "serverUrl": "http://35.201.165.105:8000/controller.php",
+    "UEDITOR_HOME_URL": "/ueditor1_4_3_3/",
+    "enableAutoSave": false,
+    "toolbars": [[
+      "source","|", "undo", "redo", "|", "bold", "italic", "underline", "fontborder", "strikethrough", "removeformat","formatmatch","blockquote","|", "forecolor", "insertorderedlist", "insertunorderedlist","|", "lineheight", "|",
+      "customstyle", "paragraph", "fontfamily", "fontsize", "|", "justifyleft", "justifycenter", "justifyright", "justifyjustify", "|",
+      "link", "unlink","|", "insertimage", "emotion", "attachment", "insertcode", "|",
+      "horizontal", "spechars", "|",
+      "inserttable"
+    ]],
+    "elementPathEnabled" : false
+  }
+
+}
+
+

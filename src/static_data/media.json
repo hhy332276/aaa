@@ -1,0 +1,72 @@
+{
+  "media": {
+    "zh": [
+      {
+        "title": "Atlas 200 DK简介",
+        "views": "2342",
+        "description": "介绍了Atlas 200 DK的外观及基本操作，最后体验了人脸识别应用。",
+        "imgUrl": "/imgs/documentation_pic06.png",
+        "videoUrl": "https://obs-9be7.obs.cn-east-2.myhuaweicloud.com/turing/vedio/test.mp4",
+        "ppt": []
+      },
+      {
+        "title": "基于Faster R-CNN检测网络的推理应用开发",
+        "views": "2342",
+        "description": "以Faster R-CNN检测网络为例，介绍了应用Mind Studio进行零编码推理应用开发的过程。",
+        "imgUrl": "/imgs/documentation_pic03.png",
+        "videoUrl": "https://obs-9be7.obs.cn-east-2.myhuaweicloud.com/turing/vedio/fasterrcnn.mp4",
+        "ppt": []
+      },
+      {
+        "title": "开发示例之寻找小猪佩奇",
+        "views": "2342",
+        "description": "演示基于Atlas 200 DK开发者套件进行检测小猪佩奇的推理应用开发的全流程。",
+        "imgUrl": "/imgs/documentation_pic02.png",
+        "videoUrl": "https://obs-9be7.obs.cn-east-2.myhuaweicloud.com/turing/vedio/findpig.mp4",
+        "ppt": []
+      },
+      {
+        "title": "轻松玩转Atlas 200 DK",
+        "views": "2342",
+        "description": "本教程端到端介绍了什么是Atlas 200 DK，Atlas 200 DK的部署流程及功能使用。",
+        "imgUrl": "/imgs/documentation_pic04.png",
+        "videoUrl": "https://obs-9be7.obs.cn-east-2.myhuaweicloud.com/turing/vedio/轻松玩转Atlas 200 DK7-12.mp4",
+        "ppt": ""
+      }
+    ],
+    "en": [
+      {
+        "title": "Meet Atlas 200 DK",
+        "views": "2342",
+        "description": "Unpack the Atlas 200 DK and see how easy it is to develop a face detection app.",
+        "imgUrl": "/imgs/documentation_pic06.png",
+        "videoUrl": "https://obs-9be7.obs.cn-east-2.myhuaweicloud.com/turing/vedio/test.mp4",
+        "ppt": []
+      },
+      {
+        "title": "Developing an Inference App Based on the Faster R-CNN",
+        "views": "2342",
+        "description": "Learn how to develop an inference app based on the Faster R-CNN detection network in Mind Studio with zero manual programming.",
+        "imgUrl": "/imgs/documentation_pic03.png",
+        "videoUrl": "https://obs-9be7.obs.cn-east-2.myhuaweicloud.com/turing/vedio/fasterrcnn.mp4",
+        "ppt": []
+      },
+      {
+        "title": "Development Demo: Finding Peppa Pig",
+        "views": "2342",
+        "description": "See how an inference app for detecting Peppa pig is developed with the Atlas 200 DK.",
+        "imgUrl": "/imgs/documentation_pic02.png",
+        "videoUrl": "https://obs-9be7.obs.cn-east-2.myhuaweicloud.com/turing/vedio/findpig.mp4",
+        "ppt": []
+      },
+      {
+        "title": "Getting Started with Atlas 200 DK",
+        "views": "2342",
+        "description": "Take a closer look at the Atlas 200 DK and see how it works.",
+        "imgUrl": "/imgs/documentation_pic04.png",
+        "videoUrl": "https://obs-9be7.obs.cn-east-2.myhuaweicloud.com/turing/vedio/轻松玩转Atlas 200 DK7-12.mp4",
+        "ppt":""
+      }
+    ]
+  }
+}

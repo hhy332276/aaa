@@ -1,0 +1,182 @@
+{
+  "zh": {
+    "news": {
+      "h1": "华为发布AI战略",
+      "h2": "与全栈全场景AI解决方案",
+      "newtitle": "新闻列表",
+      "newLists": [
+        {
+          "imgUrl": "/imgs/news_pic13.jpg",
+          "newTime": "2019年08月23日",
+          "textTitle": "华为发布算力最强AI处理器Ascend 910 及全场景AI计算框架MindSpore",
+          "contentText": "华为正式发布算力最强的AI处理器Ascend 910（昇腾910），同时推出全场景AI计算框架MindSpore。华为公司轮值董事长徐直军在发布会上表示：华为自2018年10月发布AI战略以来，稳步而有序地推进战略执行、产品研发及商用进程。昇腾910、MindSpore的推出，标志着华为已完成全栈全场景AI解决方案（Portfolio）的构建，也标志着华为AI战略的执行进入了新的阶段。",
+          "jumpUrl": "https://www.huawei.com/cn/press-events/news/2019/8/huawei-ascend-910-most-powerful-ai-processor"
+        },
+        {
+          "imgUrl": "/imgs/news_pic01.png",
+          "newTime": "2019年6月11日",
+          "textTitle": "金域医学携手华为云，AI辅助宫颈癌筛查技术获突破性进展",
+          "contentText": "金域医学与华为云在2019中国生物产业大会上联合宣布，双方在人工智能（AI）辅助病理诊断应用开发方面取得突破性进展。金域医学病理专家团队与华为云AI团队合作，首次基于病理形态学，通过深度学习技术，训练出精准、高效的AI辅助宫颈癌筛查模型。该模型在排阴率高于60%的基础上，阴性片判读的正确率高于99%，同时，阳性病变的检出率超过99.9%。",
+          "jumpUrl": "https://www.huawei.com/cn/press-events/news/2019/6/huawei-cloud-ai-modelarts"
+        },
+        {
+          "imgUrl": "/imgs/news_pic02.png",
+          "newTime": "2019年5月10日",
+          "textTitle": "华为Atlas人工智能开发者大赛正式启动",
+          "contentText": "华为在智能计算大会苏州会场宣布，正式启动2019华为Atlas人工智能开发者大赛。作为华为赋能开发者系列计划的重要组成部分，此次大赛面向全球具有创新精神的开发者展开，旨在为开发者提供最好的创新实践舞台。",
+          "jumpUrl": "https://www.huawei.com/cn/press-events/news/2019/5/huawei-atlas-developer-competition"
+        },
+        {
+          "imgUrl": "/imgs/news_pic03.png",
+          "newTime": "2019年4月11日",
+          "textTitle": "华为Atlas人工智能计算平台正式上市",
+          "contentText": "打造覆盖端、边、云的全场景AI解决方案，华为宣布Atlas人工智能计算平台系列产品正式上市，开启了Atlas商用新篇章。",
+          "jumpUrl": "https://www.huawei.com/cn/press-events/news/2019/4/huawei-atlas-intelligent-computing-launch"
+        },
+        {
+          "imgUrl": "/imgs/news-pic04.png",
+          "newTime": "2018年11月07日",
+          "textTitle": "中国移动5G联创中心联合华为在世界互联网大会首发基于5G的8K VR直播业务",
+          "contentText": "在第五届世界互联网大会上，依托浙江移动5G现网环境，中国移动5G联创中心联合华为实现了业界首个8K VR直播业务的首发。作为公认的5G杀手级应用之一，VR业务近几年一直是业界的热点话题。",
+          "jumpUrl": "https://www.huawei.com/cn/press-events/news/2018/11/china-mobile-huawei-5g-8k-vr-broadcast-5th-wic"
+        },
+        {
+          "imgUrl": "/imgs/news-pic05.png",
+          "newTime": "2018年11月07日",
+          "textTitle": "华为昇腾310 AI芯片获颁第五届世界互联网领先科技成果奖",
+          "contentText": "在第五届世界互联网大会期间，华为昇腾310作为业界面向边缘计算场景最强算力的AI SoC，以及背后依托统一、可扩展的达芬奇架构，从400多项申报科技成果中脱颖而出，荣获第五届世界互联网领先科技成果奖。",
+          "jumpUrl": "https://www.huawei.com/cn/press-events/news/2018/11/huawei-ascend-310-world-internet-conference-2018-award"
+        },
+        {
+          "imgUrl": "/imgs/news-pic06.png",
+          "newTime": "2018年11月06日",
+          "textTitle": "华为为黎巴嫩引入最新5G技术",
+          "contentText": "黎巴嫩领先的移动通信和数据运营商touch最近利用华为的最新5G设备在该国进行了首个5G商业测试。",
+          "jumpUrl": "https://www.huawei.com/cn/press-events/news/2018/11/huawei-state-of-the-art-5g-lebanon"
+        },
+        {
+          "imgUrl": "/imgs/news-pic07.png",
+          "newTime": "2018年11月05日",
+          "textTitle": "华为CloudAIR荣获印度通信展IMC2018“年度创新解决方案”大奖",
+          "contentText": "在2018年印度移动通信展上，华为CloudAIR解决方案荣获 “年度创新解决方案（Innovative Network Solution of the Year for connectivity）”大奖。",
+          "jumpUrl": "https://www.huawei.com/cn/press-events/news/2018/11/huawei-cloudair-solution-awarded-imc-2018"
+        },
+        {
+          "imgUrl": "/imgs/news-pic08.png",
+          "newTime": "2018年10月19日",
+          "textTitle": "华为携手云天励飞打造AI视觉平台，让城市更便利、更安全",
+          "contentText": "近日，在华为全联接大会2018（HUAWEI CONNECT 2018）上，华为与视觉智能服务提供商云天励飞联合发布了AI视觉平台解决方案。",
+          "jumpUrl": "https://www.huawei.com/cn/press-events/news/2018/10/huawei-intellifusion-ai-visual-platform"
+        },
+        {
+          "imgUrl": "/imgs/news-pic09.png",
+          "newTime": "2018年10月12日",
+          "textTitle": "华为云发布更快的全流程AI开发平台",
+          "contentText": "今日，在HUAWEI CONNECT 2017期间，华为云发布AI全流程开发平台与工具——更快的AI开发平台ModelArts、更懂开发者的视觉AI应用开发平台HiLens、探索未来的量子计算模拟器与编程框架HiQ。",
+          "jumpUrl": "https://www.huawei.com/cn/press-events/news/2018/10/huawei-ai-platform-modelarts-hilens-hiq"
+        },
+        {
+          "imgUrl": "/imgs/news-pic10.png",
+          "newTime": "2018年10月12日",
+          "textTitle": "华为首发沃土AI开发者使能计划",
+          "contentText": "今日，在HUAWEI CONNECT 2018期间，面向开发者、合作伙伴、高校和科研机构，华为发布了沃土AI开发者使能计划，以全栈、全场景AI为依托，全力发展开发生态，在AI资源提供、平台支撑、课程赋能、联合解决方案等多方面提供支持，携手各方打造用得起、用得好、用得放心的普惠AI生态。",
+          "jumpUrl": "https://www.huawei.com/cn/press-events/news/2018/10/huawei-cloud-ai-ecosystem-plan"
+        },
+        {
+          "imgUrl": "/imgs/news-pic11.png",
+          "newTime": "2018年10月11日",
+          "textTitle": "华为发布Atlas智能计算平台，以强大算力开启AI未来",
+          "contentText": "今日，在华为全联接大会2018（HUAWEI CONNECT）上，华为发布了基于华为Ascend（昇腾）系列芯片和业界主流异构计算部件的Atlas智能计算平台，通过模块、板卡、小站、一体机等丰富的产品形态，打造面向端、边、云的全场景AI基础设施方案。作为华为全栈AI解决方案的重要组成部分，Atlas智能计算平台以强大算力助力客户开启AI未来并加速企业智能化进程。",
+          "jumpUrl": "https://www.huawei.com/cn/press-events/news/2018/10/atlas-intelligent-computing-platform"
+        },
+        {
+          "imgUrl": "/imgs/news-pic12.png",
+          "newTime": "2018年10月10日",
+          "textTitle": "华为发布AI战略与全栈全场景AI解决方案",
+          "contentText": "第三届HUAWEI CONNECT 2018（华为全联接大会）今日在上海世博展览馆和世博中心隆重开幕，为期三天。作为ICT产业的全球性旗舰大会，HUAWEI CONNECT 2018以“+智能，见未来”为主题，探讨人工智能的挑战与机遇，分享“+智能”的创新与实践。",
+          "jumpUrl": "https://www.huawei.com/cn/press-events/news/2018/10/huawei-hc-2018-eric-xu-ai"
+        }
+
+      ]
+    }
+  },
+  "en": {
+    "news": {
+      "h1": "Huawei Launches AI Strategy",
+      "h2": "and Full-Stack All-Scenario AI Solution",
+      "newtitle": "News List",
+      "newLists": [
+        {
+          "imgUrl": "/imgs/news_pic13.jpg",
+          "newTime": "August 23, 2019",
+          "textTitle": "Huawei launches Ascend 910, the world's most powerful AI processor, and MindSpore, an all-scenario AI computing framework",
+          "contentText": "Huawei officially launched the world's most powerful AI processor – the Ascend 910 – as well as an all-scenario AI computing framework, MindSpore.",
+          "jumpUrl": "https://www.huawei.com/en/press-events/news/2019/8/huawei-ascend-910-most-powerful-ai-processor"
+        },
+        {
+          "imgUrl": "/imgs/news_pic03.png",
+          "newTime": "April 11, 2019",
+          "textTitle": "Huawei Atlas AI Computing Platform Ready on a Commercial Scale",
+          "contentText": "Building an All-Scenario AI Solution for the Device-Edge-Cloud,Huawei officially launched the Atlas AI computing platform, unlocking a new chapter on the Atlas commercialization roadmap.",
+          "jumpUrl": "https://www.huawei.com/en/press-events/news/2019/4/huawei-atlas-intelligent-computing-launch"
+        },
+        {
+          "imgUrl": "/imgs/news-pic04.png",
+          "newTime": "November 7, 2018",
+          "textTitle": "China Mobile 5G Lianchuang Center and Huawei launch 5G-based 8K VR live broadcast service at World Internet Conference",
+          "contentText": "At the 5th World Internet Conference, relying on Zhejiang Mobile's 5G live network environment, China Mobile 5G Lianchuang Center and Huawei achieved the industry's first 8K VR live broadcast service.VR is destined to become a popular future application and is already growing increasingly recognized throughout the industry as one of the top 5G services. It has been dominating industry headlines over the past few years.",
+          "jumpUrl": "https://www.huawei.com/en/press-events/news/2018/11/china-mobile-huawei-5g-8k-vr-broadcast-5th-wic"
+        },
+        {
+          "imgUrl": "/imgs/news-pic05.png",
+          "newTime": "November 7, 2018",
+          "textTitle": "Huawei Shengteng 310 AI chip won the 5th World Internet Leading Scientific and Technological Achievement Award",
+          "contentText": "During the 5th World Internet Conference, Huawei Shengteng 310 was the industry's most powerful AI SoC for edge computing scenarios, and behind the unified and scalable DaVinci The architecture, which stood out from more than 400 declared scientific and technological achievements, won the 5th World Internet Leading Scientific and Technological Achievement Award. ",
+          "jumpUrl": "https://www.huawei.com/en/press-events/news/2018/11/huawei-ascend-310-world-internet-conference-2018-award"
+        },
+        {
+          "imgUrl": "/imgs/news-pic06.png",
+          "newTime": " November 6, 2018",
+          "textTitle": "Huawei introduces the latest 5G technology for Lebanon",
+          "contentText": "Lebanese leading mobile communications and data operator touch recently conducted the first 5G commercial test in the country using Huawei's latest 5G equipment.",
+          "jumpUrl": "https://www.huawei.com/en/press-events/news/2018/11/huawei-state-of-the-art-5g-lebanon"
+        },
+        {
+          "imgUrl": "/imgs/news-pic07.png",
+          "newTime": "November 5, 2018",
+          "textTitle": "Huawei CloudAIR won the IMC2018 'Innovative Solution of the Year'Award from India Communications Exhibition",
+          "contentText": "At the Mobile Communications Show in India in 2018, the Huawei CloudAIR solution won the 'Innovative Network Solution of the Year for Connectivity' award.",
+          "jumpUrl": "https://www.huawei.com/en/press-events/news/2018/11/huawei-cloudair-solution-awarded-imc-2018"
+        },
+        {
+          "imgUrl": "/imgs/news-pic09.png",
+          "newTime": "October 12, 2018",
+          "textTitle": "Huawei Cloud Releases Faster Full Process AI Development Platform",
+          "contentText": "Today, during HUAWEI CONNECT 2018, Huawei Cloud released the AI full-process development platform and tools - the faster AI development platform ModelArts, and the developer's visual AI application development platform. HiLens, exploring the future quantum computing simulator and programming framework HiQ.",
+          "jumpUrl": "https://www.huawei.com/en/press-events/news/2018/10/huawei-ai-platform-modelarts-hilens-hiq"
+        },
+        {
+          "imgUrl": "/imgs/news-pic10.png",
+          "newTime": "October 12, 2018",
+          "textTitle": "Huawei's first fertile AI developer enable plan",
+          "contentText": "Today, during HUAWEI CONNECT 2018, for developers, partners, universities and research institutions, Huawei released the fertile AI developer enablement plan, with full stack, full scene AI In order to rely on, we will fully develop and develop the ecology, provide support in AI resource provision, platform support, curriculum empowerment, joint solutions, etc., and work together to create an affordable, well-used and well-recognized Pratt & Whitney AI ecosystem.",
+          "jumpUrl": "https://www.huawei.com/en/press-events/news/2018/10/huawei-cloud-ai-ecosystem-plan"
+        },
+        {
+          "imgUrl": "/imgs/news-pic11.png",
+          "newTime": "October 11, 2018",
+          "textTitle": "Huawei released Atlas intelligent computing platform to open AI future with powerful computing power",
+          "contentText": "Today, at Huawei's fully connected conference 2018 (HUAWEI CONNECT), Huawei released the Atlas intelligent computing platform based on Huawei's Ascend series chips and mainstream heterogeneous computing components in the industry. ",
+          "jumpUrl": "https://www.huawei.com/en/press-events/news/2018/10/atlas-intelligent-computing-platform"
+        },
+        {
+          "imgUrl": "/imgs/news-pic12.png",
+          "newTime": "October 10, 2018",
+          "textTitle": "Huawei released AI strategy and full-stack full-scenario AI solution",
+          "contentText": "The third HUAWEI CONNECT 2018 (Huawei Full Connection Conference) was grandly opened today at the Shanghai World Expo Exhibition and Expo Center for three days. ",
+          "jumpUrl": "https://www.huawei.com/en/press-events/news/2018/10/huawei-hc-2018-eric-xu-ai"
+        }
+      ]
+    }
+  }
+}

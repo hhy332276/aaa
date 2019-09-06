@@ -1,0 +1,684 @@
+{
+  "colleges": {
+    "zh": {
+      "bannerImg": "/imgs/school_banner.png",
+      "title": "昇腾学院",
+      "collegeText": "昇腾学院提供AI领域的实践培训，开发者、研究人员和院校师生可以获取和丰富华为昇腾AI处理器的开发和实践经验。",
+      "tabTitle": "视频教程",
+      "tabText": "针对开发者将教学内容进行系列划分，方便有针对性，系统性学习，选择你感兴趣的系列开始学习吧",
+      "seriesTitle": "AI基础系列教程",
+      "seriesText": "本课程旨在让开发者快速了解人工智能深度学习相关的概念、原理，神经网络基础知识，通过文本识别、人脸识别了解相关算法的应用。",
+      "tabTitle_1":" Atlas 200 DK系列教程",
+      "tabText_1":"用简单、直观的方式、手把手教如何玩转 Atlas 200DK开发板的部署、使用和开发。",
+      "translate": "1",
+      "videos": [
+        {
+          "thumbnail": "",
+          "title": "Atlas 200 DK简介",
+          "views": "2342",
+          "description": "介绍了Atlas 200 DK的外观及基本操作，最后体验了人脸识别应用。",
+          "imgUrl": "/imgs/documentation_pic06.png",
+          "videoUrl": "https://obs-9be7.obs.cn-east-2.myhuaweicloud.com/turing/vedio/test.mp4",
+          "ppt": "",
+          "details": {
+            "textTitle": "摘要：",
+            "topText": "本教程介绍了Atlas 200 DK的外观，并演示Atlas 200 DK外接摄像头、连接PC机的操作，最后通过体验人脸识别应用让你对Atlas 200 DK有初步认识。",
+            "bottomText": "通过本教程，您将具备以下知识：",
+            "topList": [],
+            "bottomList": [
+              "认识Atlas 200 DK并了解其接口功能",
+              "对Atlas 200 DK的AI应用能力有直观的体验"
+            ]
+          }
+        },
+        {
+          "thumbnail": "",
+          "title": "基于Faster R-CNN检测网络的推理应用开发",
+          "views": "2342",
+          "description": "以Faster R-CNN检测网络为例，介绍了应用Mind Studio进行零编码推理应用开发的过程。",
+          "imgUrl": "/imgs/documentation_pic03.png",
+          "videoUrl": "https://obs-9be7.obs.cn-east-2.myhuaweicloud.com/turing/vedio/fasterrcnn.mp4",
+          "ppt": "",
+          "details": {
+            "textTitle": "摘要：",
+            "topText": "本教程以Faster R-CNN检测网络为例，介绍了应用Mind Studio进行零编码推理应用开发的过程：",
+            "bottomText": "通过本教程，您将具备以下实践知识：",
+            "bottomList": [
+              "了解Mind Studio工具栏中每个内置图元的使用场景",
+              "了解Engine编排的流程及关键参数设置原则",
+              "能够通过零编码编排开发一个AI应用程序"
+            ]
+          }
+        },
+        {
+          "thumbnail": "",
+          "title": "开发示例之寻找小猪佩奇",
+          "views": "2342",
+          "description": "演示基于Atlas 200 DK开发者套件进行检测小猪佩奇的推理应用开发的全流程。",
+          "imgUrl": "/imgs/documentation_pic02.png",
+          "videoUrl": "https://obs-9be7.obs.cn-east-2.myhuaweicloud.com/turing/vedio/findpig.mp4",
+          "ppt": "",
+          "details": {
+            "textTitle": "摘要：",
+            "topText": "本教程演示了基于Atlas 200 DK开发者套件进行检测小猪佩奇的推理应用开发的全流程，主要包括以下内容：",
+            "bottomText": "通过本教程，您将具备以下知识：",
+            "topList": [
+              "准备数据集及目标检测网络",
+              "准备推理环境",
+              "编排检测小猪佩奇的AI应用"
+            ],
+            "bottomList": [
+              "学会如何基于已有模型进行自定义目标检测的模型训练",
+              "知道如何应用已训练好的模型在基于昇腾处理器的平台上进行推理。"
+            ]
+          }
+        },
+        {
+          "thumbnail": "",
+          "title": "轻松玩转Atlas 200 DK",
+          "views": "2342",
+          "description": "本教程端到端介绍了什么是Atlas 200 DK，Atlas 200 DK的部署流程及功能使用。",
+          "imgUrl": "/imgs/documentation_pic04.png",
+          "videoUrl": "https://obs-9be7.obs.cn-east-2.myhuaweicloud.com/turing/vedio/轻松玩转Atlas 200 DK7-12.mp4",
+          "ppt": "",
+          "details": {
+            "textTitle": "摘要：",
+            "topText": "本教程端到端介绍了什么是Atlas 200 DK，Atlas 200 DK的部署流程及功能使用，主要包括以下内容：",
+            "bottomText": "通过本教程，您将具备以下知识：",
+            "topList": [
+              "初识Atlas 200 DK",
+              "Atlas 200 DK部署",
+              "基本应用开发"
+            ],
+            "bottomList": [
+              "了解Atlas 200 DK系统架构及典型AI应用场景",
+              "对集成开发环境功能特性有初步了解"
+            ]
+          }
+        }
+      ],
+      "learningVideosMsg": [
+        {
+          "thumbnail": "",
+          "title": " Atlas 200 DK 系列教程--引言",
+          "views": "2342",
+          "description": " Atlas 200 DK系列教程的课时划分和观看前需要的准备知识",
+          "imgUrl": "/imgs/pic_introduction.jpg",
+          "videoUrl": "https://obs-9be7.obs.cn-east-2.myhuaweicloud.com/turing/vedio/first-video-remanufacture/0引言.mp4",
+          "ppt": "",
+          "details": {
+            "textTitle": "摘要：",
+            "topText": "本教程介绍了Atlas 200 DK系列教程的课时划分和观看前需要的准备知识",
+            "bottomText": "通过本教程，您将具备以下知识：",
+            "topList": [],
+            "bottomList": [
+              " Atlas 200 DK系列教程的课时划分",
+              " Atlas 200 DK系列教程观看前需要的准备知识"
+            ]
+          }
+        },
+        {
+          "thumbnail": "",
+          "title": " Atlas 200 DK 系列教程--快速搭建开发环境",
+          "views": "2342",
+          "description": "本教程端到端介绍了什么是Atlas 200 DK，Atlas 200 DK的部署流程及功能使用",
+          "imgUrl": "/imgs/pic_env.png",
+          "videoUrl": "https://obs-9be7.obs.cn-east-2.myhuaweicloud.com/turing/vedio/first-video-remanufacture/快速搭建开发板环境.mp4",
+          "ppt": "",
+          "details": {
+            "textTitle": "摘要：",
+            "topText": "本教程端到端介绍了什么是Atlas 200 DK，Atlas 200 DK的部署流程及功能使用，主要包括以下内容：",
+            "topList": [
+              "初识Atlas 200 DK",
+              "Atlas 200 DK部署",
+              "基本应用开发"
+            ],
+            "bottomText": "通过本教程，您将具备以下知识：",
+            "bottomList": [
+              "了解Atlas 200 DK系统架构及典型AI应用场景",
+              "对集成开发环境功能特性有初步了解"
+            ]
+          }
+        },
+        {
+          "thumbnail": "",
+          "title": " Atlas 200 DK 系列教程--初级篇",
+          "views": "2342",
+          "description": "本教程介绍了 Atlas 200DK的外观,演示了 Atlas 200DK开发环境的部署及使用....",
+          "imgUrl": "/imgs/pic_primary.jpg",
+          "videoUrl": "https://obs-9be7.obs.cn-east-2.myhuaweicloud.com/turing/vedio/fasterrcnn.mp4"
+        }
+      ],
+      "learningVideos":[
+       {
+          "id": 0,
+          "label":"1 初见开发板",
+          "videoUrl": "https://obs-9be7.obs.cn-east-2.myhuaweicloud.com/turing/vedio/first-video-remanufacture/1初见开发板.mp4",
+          "docText": " ",
+          "docUrl": ""
+        },{
+          "id": 1,
+          "label":"2 为什么要用开发板",
+          "videoUrl": "https://obs-9be7.obs.cn-east-2.myhuaweicloud.com/turing/vedio/first-video-remanufacture/2为什么要用开发板.mp4",
+          "docText": " ",
+          "docUrl": ""
+        },{
+          "id": 2,
+          "label":"3 开发板所需硬件及原因",
+          "videoUrl": "https://obs-9be7.obs.cn-east-2.myhuaweicloud.com/turing/vedio/first-video-remanufacture/3开发板所需硬件及原因.mp4",
+          "docText": " ",
+          "docUrl": ""
+        },{
+          "id": 3,
+          "label":"4 在PC上安装Ubuntu",
+          "videoUrl": "https://obs-9be7.obs.cn-east-2.myhuaweicloud.com/turing/vedio/first-video-remanufacture/4在PC上装Ubuntu.mp4",
+          "docText": "Ubuntu镜像地址",
+          "docUrl": "http://old-releases.ubuntu.com/releases/16.04.3/ubuntu-16.04.3-desktop-amd64.iso"
+        },{
+          "id": 5,
+          "label":"5.1 什么是Mind Studio",
+          "videoUrl": "https://obs-9be7.obs.cn-east-2.myhuaweicloud.com/turing/vedio/first-video-remanufacture/5.1什么是MindStudio.mp4",
+          "docText": " ",
+          "docUrl": ""
+        },{
+          "id": 6,
+          "label":"5.2 安装Mind Studio前的准备",
+          "videoUrl": "https://obs-9be7.obs.cn-east-2.myhuaweicloud.com/turing/vedio/first-video-remanufacture/5.2安装MS的依赖.mp4",
+          "docText": "参考文档",
+          "docUrl": "http://ascend.huawei.com/documentation/details/zh/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0178961790.html"
+        },{
+          "id": 7,
+          "label":"5.3 安装Mind Studio",
+          "videoUrl": "https://obs-9be7.obs.cn-east-2.myhuaweicloud.com/turing/vedio/first-video-remanufacture/5.3安装MS.mp4",
+          "docText": "参考文档",
+          "docUrl": "http://ascend.huawei.com/documentation/details/zh/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0160789094.html"
+        },{
+          "id": 8,
+          "label":"5.4 Mind Studio的基本操作",
+          "videoUrl": "https://obs-9be7.obs.cn-east-2.myhuaweicloud.com/turing/vedio/first-video-remanufacture/5.4MS的基本操作.mp4",
+          "docText": "参考文档",
+          "docUrl": "http://ascend.huawei.com/documentation/details/zh/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0178961784.html"
+        },{
+          "id": 9,
+          "label":"5.5 使用Mind Studio开发辅助工具",
+          "videoUrl": "https://obs-9be7.obs.cn-east-2.myhuaweicloud.com/turing/vedio/first-video-remanufacture/5.5MS开发辐照工具.mp4",
+          "docText": "参考文档",
+          "docUrl": "http://ascend.huawei.com/documentation/details/zh/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0178961827.html"
+        },{
+          "id": 10,
+          "label":"5.6 使用profiling",
+          "videoUrl": "https://obs-9be7.obs.cn-east-2.myhuaweicloud.com/turing/vedio/first-video-remanufacture/5.6使用profiling.mp4",
+          "docText": "参考文档",
+          "docUrl": "http://ascend.huawei.com/documentation/details/zh/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0160785723.html"
+        },{
+          "id": 12,
+          "label":"6.1 为什么要制卡",
+          "videoUrl": "https://obs-9be7.obs.cn-east-2.myhuaweicloud.com/turing/vedio/first-video-remanufacture/6.1为什么要制卡.mp4",
+          "docText": " ",
+          "docUrl": ""
+        },{
+          "id": 13,
+          "label":"6.2 制卡操作",
+          "videoUrl": "https://obs-9be7.obs.cn-east-2.myhuaweicloud.com/turing/vedio/first-video-remanufacture/6.2制卡.mp4",
+          "docText": "参考文档",
+          "docUrl": "http://ascend.huawei.com/documentation/details/zh/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0177457226.html"
+        },{
+          "id": 15,
+          "label":"7.1 开发板连接宿主机",
+          "videoUrl": "https://obs-9be7.obs.cn-east-2.myhuaweicloud.com/turing/vedio/first-video-remanufacture/7.1开发板连接宿主机.mp4",
+          "docText": "参考文档",
+          "docUrl": "http://ascend.huawei.com/documentation/details/zh/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0177457239.html"
+        },{
+          "id": 16,
+          "label":"7.2 配置交叉编译环境",
+          "videoUrl": "https://obs-9be7.obs.cn-east-2.myhuaweicloud.com/turing/vedio/first-video-remanufacture/7.2配置交叉编译环境.mp4",
+          "docText": "参考文档",
+          "docUrl": "http://ascend.huawei.com/documentation/details/zh/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0177457216.html"
+        },{
+          "id": 17,
+          "label":"7.3 开发板与宿主机连接常见问题",
+          "videoUrl": "https://obs-9be7.obs.cn-east-2.myhuaweicloud.com/turing/vedio/first-video-remanufacture/7.3开发板与宿主机连接常见问题.mp4",
+          "docText": " ",
+          "docUrl": ""
+        },{
+          "id": 19,
+          "label":"8.1 升级Mind Studio和开发板",
+          "videoUrl": "https://obs-9be7.obs.cn-east-2.myhuaweicloud.com/turing/vedio/first-video-remanufacture/8.1升级MS和开发板.mp4",
+          "docText": "参考文档",
+          "docUrl": "http://ascend.huawei.com/documentation/details/zh/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0177457243.html"
+        },{
+          "id": 20,
+          "label":"8.2 重装Mind Studio和重新制卡",
+          "videoUrl": "https://obs-9be7.obs.cn-east-2.myhuaweicloud.com/turing/vedio/first-video-remanufacture/8.2重装MS和重制卡.mp4",
+          "docText": "参考文档",
+          "docUrl": "http://ascend.huawei.com/documentation/details/zh/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0160789109.html"
+        },{
+          "id": 22,
+          "label":"9.1 简单编排案例讲解",
+          "videoUrl": "https://obs-9be7.obs.cn-east-2.myhuaweicloud.com/turing/vedio/first-video-remanufacture/9简单编排.mp4",
+          "docText": "参考文档",
+          "docUrl": "http://ascend.huawei.com/documentation/details/zh/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0160786274.html"
+        },{
+          "id": 23,
+          "label":"9.2 图像分类应用的部署和使用",
+          "videoUrl": "https://obs-9be7.obs.cn-east-2.myhuaweicloud.com/turing/vedio/first-video-remanufacture/classification.mp4",
+          "docText": "参考文档",
+          "docUrl": "https://github.com/Ascend/sample-classification"
+        },{
+          "id": 24,
+          "label":"9.3 目标检测应用的部署和使用",
+          "videoUrl": "https://obs-9be7.obs.cn-east-2.myhuaweicloud.com/turing/vedio/first-video-remanufacture/objectdetection.mp4",
+          "docText": "参考文档",
+          "docUrl": "https://github.com/Ascend/sample-objectdetection"
+        },{
+          "id": 25,
+          "label":"9.4 人脸检测应用的部署和使用",
+          "videoUrl":"https://obs-9be7.obs.cn-east-2.myhuaweicloud.com/turing/vedio/first-video-remanufacture/facialrecognition.mp4",
+          "docText": "参考文档",
+          "docUrl": "https://github.com/Ascend/sample-facedetection"
+        },{
+          "id": 26,
+          "label":"9.5 人脸识别应用的部署和使用",
+          "videoUrl":"https://obs-9be7.obs.cn-east-2.myhuaweicloud.com/turing/vedio/first-video-remanufacture/facedetection.mp4",
+          "docText": "参考文档",
+          "docUrl": "https://github.com/Ascend/sample-facialrecognition"
+        }
+      ],
+      "applicationVideos": {
+        "thumbnail": "",
+        "tabTitle": "应用教程",
+        "tabText": "本教程详细介绍了蒙面脸检测的原理，在Atlas 200 DK上开发蒙面脸检测应用程序的详细流程，最后向大家演示了应用程序的部署、运行及结果展示",
+        "collegeVideos": [
+          {
+            "title": "蒙面脸检测",
+            "description": "介绍了蒙面脸检测的原理，和开发蒙面脸检测应用程序的详细流程及演示",
+            "imgUrl": "/imgs/occlusion-face_0.png",
+            "videosContent": [
+              {
+                "title": "【第一课】原理",
+                "imgUrl": "/imgs/occlusion-face_4.png",
+                "videoUrl": "https://obs-9be7.obs.cn-east-2.myhuaweicloud.com/turing/vedio/第一章 蒙面脸检测原理.mp4",
+                "titleText": "本课程介绍了蒙面脸检测的基本原理，包含：",
+                "descriptionList": [
+                  "蒙面脸检测的应用场景",
+                  "使用的网络模型及关键技术点",
+                  "不同场景下蒙面脸检测应用的效果展示"
+                ]
+              },
+              {
+                "title": "【第二课】开发过程",
+                "imgUrl": "/imgs/occlusion-face_5.png",
+                "videoUrl": "https://obs-9be7.obs.cn-east-2.myhuaweicloud.com/turing/vedio/第二章 蒙面脸检测工程.mp4",
+                "titleText": "本课程介绍了通过Mind Studio进行蒙面脸检测应用开发的流程，包含：",
+                "descriptionList": [
+                  "工程的创建及功能组件的添加、编排",
+                  "工程的编译、运行",
+                  "结果的查看"
+                ]
+              },
+              {
+                "title": "【第三课】运行和配置",
+                "imgUrl": "/imgs/occlusion-face_6.png",
+                "videoUrl": "https://obs-9be7.obs.cn-east-2.myhuaweicloud.com/turing/vedio/第三章 蒙面脸检测DEMO运行和配置.mp4",
+                "titleText": "本课程介绍了如何部署运行Github上的蒙面脸检测应用程序，包含：",
+                "descriptionList": [
+                  "蒙面脸检测应用程序的一键式部署",
+                  "蒙面脸检测应用程序的执行",
+                  "运行结果的查看及结果解析"
+                ]
+              }
+            ],
+            "details": {
+              "textTitle": "摘要：",
+              "topText": "蒙面脸检测是在一张图片中找出蒙面脸的位置坐标并加以判断是否属于蒙脸状态，在安防领域有着广泛的应用。本教程详细介绍了蒙面脸检测的原理，在Atlas 200 DK上开发蒙面脸检测应用程序的详细流程，最后向大家演示了应用程序的部署、运行及结果展示",
+              "bottomText": "",
+              "topList": [],
+              "bottomList": [
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "en": {
+      "bannerImg": "/imgs/school_banner.png",
+      "title": "Ascend Institute",
+      "collegeText": "Explore the AI educational resources and build your first Ascend project from the ground up with Huawei Ascend processors.",
+      "tabTitle": "Video Tutorials",
+      "tabText": "With step-by-step videos from our in-house experts, you will be up and running with your next project in no time.",
+      "seriesTitle": "AI基础系列教程",
+      "seriesText": "本课程旨在让开发者快速了解人工智能深度学习相关的概念、原理，神经网络基础知识，通过文本识别、人脸识别了解相关算法的应用。",
+      "tabTitle_1":"The  Atlas 200 DK series of tutorials",
+      "tabText_1":"How to deploy, use, and develop the  Atlas 200DK development board in a simple, intuitive, hands-on way。",
+      "videos": [
+        {
+          "thumbnail": "",
+          "title": "Meet Atlas 200 DK",
+          "views": "2342",
+          "description": "Unpack the Atlas 200 DK and see how easy it is to develop a face detection app.",
+          "imgUrl": "/imgs/documentation_pic06.png",
+          "videoUrl": "https://obs-9be7.obs.cn-east-2.myhuaweicloud.com/turing/vedio/test.mp4",
+          "ppt": "",
+          "details": {
+            "textTitle": "Abstract：",
+            "topText": "In this video, we will unpack and connect the Atlas 200 DK, and develop a face detection app.",
+            "bottomText": "By watching this video, you will have:",
+            "topList": [],
+            "bottomList": [
+              "Up-close look at the Atlas 200 DK and its interfaces",
+              "First impression on the AI app capabilities of the Atlas 200 DK"
+            ]
+          }
+        },
+        {
+          "thumbnail": "",
+          "title": "Developing an Inference App Based on the Faster R-CNN",
+          "views": "2342",
+          "description": "Learn how to develop an inference app based on the Faster R-CNN detection network in Mind Studio with zero manual programming.",
+          "imgUrl": "/imgs/documentation_pic03.png",
+          "videoUrl": "https://obs-9be7.obs.cn-east-2.myhuaweicloud.com/turing/vedio/fasterrcnn.mp4",
+          "ppt": "",
+          "details": {
+            "textTitle": "Abstract：",
+            "topText": "In this video, you will see how an inference app based on the Faster R-CNN detection network is developed using Mind Studio with zero manual programming.：",
+            "bottomText": "By watching this video, you will be able to:",
+            "bottomList": [
+              "Understand the purposes of each built-in graphical element in Mind Studio.",
+              "Learn the engine orchestration procedure and setting rules of key parameters",
+              "Develop an AI app using orchestration instead of manual programming"
+            ]
+          }
+        },
+        {
+          "thumbnail": "",
+          "title": "Development Demo: Finding Peppa Pig",
+          "views": "2342",
+          "description": "See how an inference app for detecting Peppa pig is developed with the Atlas 200 DK, including:",
+          "imgUrl": "/imgs/documentation_pic02.png",
+          "videoUrl": "https://obs-9be7.obs.cn-east-2.myhuaweicloud.com/turing/vedio/findpig.mp4",
+          "ppt": "",
+          "details": {
+            "textTitle": "Abstract：",
+            "topText": "In this video, you will see how to develop an inference app for detecting Peppa pig with Atlas 200 DK.：",
+            "bottomText": "By watching this video, you will be able to:",
+            "topList": [
+              "Preparing the datasets and target detection network",
+              "Preparing an inference environment",
+              "Orchestrating an AI app for detecting Peppa pig"
+            ],
+            "bottomList": [
+              "Train an off-the-shelf model for custom object detection.",
+              "Run inference on an Ascend processor-based platform with the model you train"
+            ]
+          }
+        },
+        {
+          "thumbnail": "",
+          "title": "Getting Started with Atlas 200 DK",
+          "views": "2342",
+          "description": "Take a closer look at the Atlas 200 DK and see how it works.",
+          "imgUrl": "/imgs/documentation_pic04.png",
+          "videoUrl": "https://obs-9be7.obs.cn-east-2.myhuaweicloud.com/turing/vedio/轻松玩转Atlas 200 DK7-12.mp4",
+          "ppt": "",
+          "details": {
+            "textTitle": "Abstract：",
+            "topText": "In this video, we will take a closer look at Atlas 200 DK, including:",
+            "bottomText": "By watching this video, you will learn:",
+            "topList": [
+              "System architecture of Atlas 200 DK",
+              "Atlas 200 DK deployment",
+              "Basic app development"
+            ],
+            "bottomList": [
+              "System architecture and typical AI application scenarios of the Atlas 200 DK",
+              "Features of the integrated development environment"
+            ]
+          }
+        }
+      ],
+      "learningVideosMsg": [
+        {
+          "thumbnail": "",
+          "title": " Atlas 200 DK series -- introduction",
+          "views": "2342",
+          "description": "The  Atlas 200 DK tutorials is divided into periods and required preparation for viewing",
+          "imgUrl": "/imgs/pic_introduction.jpg",
+          "videoUrl": "https://obs-9be7.obs.cn-east-2.myhuaweicloud.com/turing/vedio/first-video-remanufacture/0引言.mp4",
+          "ppt": "",
+          "details": {
+            "textTitle": "Abstract：",
+            "topText": "This tutorial introduces the  Atlas 200 DK tutorials to the class division and preparation required before viewing",
+            "bottomText": "Through this tutorial, you will have the following knowledge：",
+            "topList": [],
+            "bottomList": [
+              "Class division of The  Atlas 200 DK tutorials",
+              "What you need to know before you watch The  Atlas 200 DK tutorials"
+            ]
+          }
+        },
+        {
+          "thumbnail": "",
+          "title": " Atlas 200 DK series - quickly set up a development environment",
+          "views": "2342",
+          "description": "What is Atlas 200 DK, Atlas 200 DK deployment process and functionality",
+          "imgUrl": "/imgs/pic_env.png",
+          "videoUrl": "https://obs-9be7.obs.cn-east-2.myhuaweicloud.com/turing/vedio/first-video-remanufacture/快速搭建开发板环境.mp4",
+          "ppt": "",
+          "details": {
+            "textTitle": "Abstract：",
+            "topText": "What is Atlas 200 DK, Atlas 200 DK deployment process and functionality，It mainly includes the following contents：",
+            "topList": [
+              "The first Atlas 200 DK",
+              "Deploy Atlas 200 DK",
+              "Basic application development"
+            ],
+            "bottomText": "Through this tutorial, you will have the following knowledge：",
+            "bottomList": [
+              "Understand Atlas 200 DK system architecture and typical AI application scenarios",
+              "Basic understanding of integrated development environment features"
+            ]
+          }
+        },
+        {
+          "thumbnail": "",
+          "title": " Atlas 200 DK series -- elementary level",
+          "views": "2342",
+          "description": "This tutorial describes what the  Atlas 200DK looks like and demonstrates the deployment and use of the  Atlas 200DK development environment...",
+          "imgUrl": "/imgs/pic_primary.jpg",
+          "videoUrl": "https://obs-9be7.obs.cn-east-2.myhuaweicloud.com/turing/vedio/fasterrcnn.mp4"
+        }
+      ],
+      "learningVideos":[
+       {
+          "id": 0,
+          "label":"1 The first development board",
+          "videoUrl": "https://obs-9be7.obs.cn-east-2.myhuaweicloud.com/turing/vedio/first-video-remanufacture/1初见开发板.mp4",
+         "docText": " ",
+         "docUrl": ""
+        },{
+          "id": 1,
+          "label":"2 Why use development boards",
+          "videoUrl": "https://obs-9be7.obs.cn-east-2.myhuaweicloud.com/turing/vedio/first-video-remanufacture/2为什么要用开发板.mp4",
+          "docText": " ",
+          "docUrl": ""
+        },{
+          "id": 2,
+          "label":"3 Required hardware and reasons",
+          "videoUrl": "https://obs-9be7.obs.cn-east-2.myhuaweicloud.com/turing/vedio/first-video-remanufacture/3开发板所需硬件及原因.mp4",
+          "docText": " ",
+          "docUrl": ""
+        },{
+          "id": 3,
+          "label":"4 Install Ubuntu on your PC",
+          "videoUrl": "https://obs-9be7.obs.cn-east-2.myhuaweicloud.com/turing/vedio/first-video-remanufacture/4在PC上装Ubuntu.mp4",
+          "docText": "Ubuntu Mirror Address",
+          "docUrl": "http://old-releases.ubuntu.com/releases/16.04.3/ubuntu-16.04.3-desktop-amd64.iso"
+        },{
+          "id": 5,
+          "label":"5.1 What is MindSporeStudio",
+          "videoUrl": "https://obs-9be7.obs.cn-east-2.myhuaweicloud.com/turing/vedio/first-video-remanufacture/5.1什么是MindStudio.mp4",
+          "docText": " ",
+          "docUrl": ""
+        },{
+          "id": 6,
+          "label":"5.2 Preparation before installation in MindSporeStudio",
+          "videoUrl": "https://obs-9be7.obs.cn-east-2.myhuaweicloud.com/turing/vedio/first-video-remanufacture/5.2安装MS的依赖.mp4",
+          "docText": "Reference documentation",
+          "docUrl": "http://ascend.huawei.com/documentation/details/zh/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0178961790.html"
+        },{
+          "id": 7,
+          "label":"5.3 Install MindSporeStudio",
+          "videoUrl": "https://obs-9be7.obs.cn-east-2.myhuaweicloud.com/turing/vedio/first-video-remanufacture/5.3安装MS.mp4",
+          "docText": "Reference documentation",
+          "docUrl": "http://ascend.huawei.com/documentation/details/zh/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0160789094.html"
+        },{
+          "id": 8,
+          "label":"5.4 Basic operation of MS",
+          "videoUrl": "https://obs-9be7.obs.cn-east-2.myhuaweicloud.com/turing/vedio/first-video-remanufacture/5.4MS的基本操作.mp4",
+          "docText": "Reference documentation",
+          "docUrl": "http://ascend.huawei.com/documentation/details/zh/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0178961784.html"
+        },{
+          "id": 9,
+          "label":"5.5 Use MindSporeStudio's development AIDS",
+          "videoUrl": "https://obs-9be7.obs.cn-east-2.myhuaweicloud.com/turing/vedio/first-video-remanufacture/5.5MS开发辐照工具.mp4",
+          "docText": "Reference documentation",
+          "docUrl": "http://ascend.huawei.com/documentation/details/zh/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0178961827.html"
+        },{
+          "id": 10,
+          "label":"5.6 Use profiling",
+          "videoUrl": "https://obs-9be7.obs.cn-east-2.myhuaweicloud.com/turing/vedio/first-video-remanufacture/5.6使用profiling.mp4",
+          "docText": "Reference documentation",
+          "docUrl": "http://ascend.huawei.com/documentation/details/zh/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0160785723.html"
+        },{
+          "id": 12,
+          "label":"6.1 Why card printing",
+          "videoUrl": "https://obs-9be7.obs.cn-east-2.myhuaweicloud.com/turing/vedio/first-video-remanufacture/6.1为什么要制卡.mp4",
+          "docText": " ",
+          "docUrl": ""
+        },{
+          "id": 13,
+          "label":"6.2 Card printing steps",
+          "videoUrl": "https://obs-9be7.obs.cn-east-2.myhuaweicloud.com/turing/vedio/first-video-remanufacture/6.2制卡.mp4",
+          "docText": "Reference documentation",
+          "docUrl": "http://ascend.huawei.com/documentation/details/zh/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0177457226.html"
+        },{
+          "id": 15,
+          "label":"7.1 development board connection to host",
+          "videoUrl": "https://obs-9be7.obs.cn-east-2.myhuaweicloud.com/turing/vedio/first-video-remanufacture/7.1开发板连接宿主机.mp4",
+          "docText": "Reference documentation",
+          "docUrl": "http://ascend.huawei.com/documentation/details/zh/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0177457239.html"
+        },{
+          "id": 16,
+          "label":"7.2 Configure the build environmen",
+          "videoUrl": "https://obs-9be7.obs.cn-east-2.myhuaweicloud.com/turing/vedio/first-video-remanufacture/7.2配置交叉编译环境.mp4",
+          "docText": "Reference documentation",
+          "docUrl": "http://ascend.huawei.com/documentation/details/zh/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0177457216.html"
+        },{
+          "id": 17,
+          "label":"7.3 Common problems in development board connection to host",
+          "videoUrl": "https://obs-9be7.obs.cn-east-2.myhuaweicloud.com/turing/vedio/first-video-remanufacture/7.3开发板与宿主机连接常见问题.mp4",
+          "docText": " ",
+          "docUrl": ""
+        },{
+          "id": 19,
+          "label":"8.1 Upgrade Mind Studio and development board",
+          "videoUrl": "https://obs-9be7.obs.cn-east-2.myhuaweicloud.com/turing/vedio/first-video-remanufacture/8.1升级MS和开发板.mp4",
+          "docText": "Reference documentation",
+          "docUrl": "http://ascend.huawei.com/documentation/details/zh/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0177457243.html"
+        },{
+          "id": 20,
+          "label":"8.2 Reloading Mind Studio and business card printing",
+          "videoUrl": "https://obs-9be7.obs.cn-east-2.myhuaweicloud.com/turing/vedio/first-video-remanufacture/8.2重装MS和重制卡.mp4",
+          "docText": "Reference documentation",
+          "docUrl": "http://ascend.huawei.com/documentation/details/zh/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0160789109.html"
+        },{
+          "id": 22,
+          "label":"9.1 Simple case presentation",
+          "videoUrl": "https://obs-9be7.obs.cn-east-2.myhuaweicloud.com/turing/vedio/first-video-remanufacture/9简单编排.mp4",
+          "docText": "Reference documentation",
+          "docUrl": "http://ascend.huawei.com/documentation/details/zh/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0160786274.html"
+        },{
+          "id": 23,
+          "label":"9.2 Image classification application deployment and use",
+          "videoUrl": "https://obs-9be7.obs.cn-east-2.myhuaweicloud.com/turing/vedio/first-video-remanufacture/classification.mp4",
+          "docText": "Reference documentation",
+          "docUrl": "https://github.com/Ascend/sample-classification"
+        },{
+          "id": 24,
+          "label":"9.3 Deployment and use of target detection applications",
+          "videoUrl": "https://obs-9be7.obs.cn-east-2.myhuaweicloud.com/turing/vedio/first-video-remanufacture/objectdetection.mp4",
+          "docText": "Reference documentation",
+          "docUrl": "https://github.com/Ascend/sample-objectdetection"
+        },{
+          "id": 25,
+          "label":"9.4 Deployment and use of face detection applications",
+          "videoUrl": "https://obs-9be7.obs.cn-east-2.myhuaweicloud.com/turing/vedio/first-video-remanufacture/face_detectin.mp4",
+          "docText": "Reference documentation",
+          "docUrl": "https://github.com/Ascend/sample-facedetection"
+        },{
+          "id": 26,
+          "label":"9.5 Deployment and use of face recognition applications",
+          "videoUrl": "https://obs-9be7.obs.cn-east-2.myhuaweicloud.com/turing/vedio/first-video-remanufacture/facialrecognition.mp4",
+          "docText": "Reference documentation",
+          "docUrl": "https://github.com/Ascend/sample-facialrecognition"
+        }
+      ],
+      "applicationVideos": {
+        "thumbnail": "",
+        "tabTitle": "应用教程",
+        "tabText": "本教程详细介绍了蒙面脸检测的原理，在Atlas 200 DK上开发蒙面脸检测应用程序的详细流程，最后向大家演示了应用程序的部署、运行及结果展示",
+        "collegeVideos": [
+          {
+            "title": "蒙面脸检测",
+            "description": "介绍了蒙面脸检测的原理，和开发蒙面脸检测应用程序的详细流程及演示",
+            "imgUrl": "/imgs/occlusion-face_0.png",
+            "videosContent": [
+              {
+                "title": "【第一课】原理",
+                "imgUrl": "/imgs/occlusion-face_4.png",
+                "videoUrl": "https://obs-9be7.obs.cn-east-2.myhuaweicloud.com/turing/vedio/第一章 蒙面脸检测原理.mp4",
+                "titleText": "本课程介绍了蒙面脸检测的基本原理，包含：",
+                "descriptionList": [
+                  "蒙面脸检测的应用场景",
+                  "使用的网络模型及关键技术点",
+                  "不同场景下蒙面脸检测应用的效果展示"
+                ]
+              },
+              {
+                "title": "【第二课】开发过程",
+                "imgUrl": "/imgs/occlusion-face_5.png",
+                "videoUrl": "https://obs-9be7.obs.cn-east-2.myhuaweicloud.com/turing/vedio/第二章 蒙面脸检测工程.mp4",
+                "titleText": "本课程介绍了通过Mind Studio进行蒙面脸检测应用开发的流程，包含：",
+                "descriptionList": [
+                  "工程的创建及功能组件的添加、编排",
+                  "工程的编译、运行",
+                  "结果的查看"
+                ]
+              },
+              {
+                "title": "【第三课】运行和配置",
+                "imgUrl": "/imgs/occlusion-face_6.png",
+                "videoUrl": "https://obs-9be7.obs.cn-east-2.myhuaweicloud.com/turing/vedio/第三章 蒙面脸检测DEMO运行和配置.mp4",
+                "titleText": "本课程介绍了如何部署运行Github上的蒙面脸检测应用程序，包含：",
+                "descriptionList": [
+                  "蒙面脸检测应用程序的一键式部署",
+                  "蒙面脸检测应用程序的执行",
+                  "运行结果的查看及结果解析"
+                ]
+              }
+            ],
+            "details": {
+              "textTitle": "摘要：",
+              "topText": "蒙面脸检测是在一张图片中找出蒙面脸的位置坐标并加以判断是否属于蒙脸状态，在安防领域有着广泛的应用。本教程详细介绍了蒙面脸检测的原理，在Atlas 200 DK上开发蒙面脸检测应用程序的详细流程，最后向大家演示了应用程序的部署、运行及结果展示",
+              "bottomText": "",
+              "topList": [],
+              "bottomList": [
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}
+

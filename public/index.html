@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-143538782-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-143538782-1');
+    </script> -->
+    <meta charset="utf-8">
+    <meta id="viewport">
+    <meta name="screen-orientation" content="portrait"/>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="full-screen" content="yes">
+    <meta name="x5-fullscreen" content="true">
+    <link rel="icon" href="<%= BASE_URL %>icon.ico">
+    <title id="title"></title>
+    <script>
+      let titleLanguage = sessionStorage.getItem("lang");
+      if (titleLanguage==="zh"||!titleLanguage){
+        document.title = "昇腾开发者社区 - 华为";
+      }else{
+        document.title = "Ascend Developer Community - Huawei";
+      }
+      if (!Function.prototype.bind) {
+            Function.prototype.bind = function(oThis) {
+                if (typeof this !== "function") {
+                    throw new TypeError("Function.prototype.bind - what is trying to be bound is not callable");
+                }
+                var aArgs = Array.prototype.slice.call(arguments, 1),
+                    fToBind = this,
+                    fNOP = function() {},
+                    fBound = function() {
+                        return fToBind.apply(this instanceof fNOP && oThis ? this : oThis,
+                            aArgs.concat(Array.prototype.slice.call(arguments)));
+                    };
+                fNOP.prototype = this.prototype;
+                fBound.prototype = new fNOP();
+                return fBound;
+            };
+        }
+    </script>
+  </head>
+  <body>
+<!--  <script type="text/javascript" src="http://122.112.203.2:8081/js/clickheat.js"></script>-->
+<!--  <noscript><p><a href="http://www.dugwood.com/index.html">Open Source Sofware</a></p></noscript>-->
+<!--  <script type="text/javascript">&lt;!&ndash;-->
+<!--  clickHeatSite = encodeURIComponent(window.location.host);-->
+<!--  clickHeatGroup = window.location.pathname+window.location.search=="/"? "/home":encodeURIComponent(window.location.pathname+window.location.search);-->
+<!--  clickHeatServer = 'http://122.112.203.2:8081/click.php';-->
+<!--  initClickHeat(); //&ndash;&gt;-->
+<!--  </script>-->
+    <noscript>
+      <strong>We're sorry but HuaweiAscend doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
+<script>
+  (function (doc, win) {
+            var maxwidth = 1920;//PSD源图 宽度尺寸
+            var oMeta = document.getElementById('viewport');
+            var docE1 = doc.documentElement,
+                resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+                recalc = function () {
+                    oMeta.content = "width=device-width,initial-scale=1.0,user-scalable=no";
+                    var clientWidth = docE1.clientWidth;
+                    var sca = (clientWidth / maxwidth);
+                    sca = sca > 1 ? 1 : sca;
+                    oMeta.content = "width=" + maxwidth + ",minimum-scale=" + sca + ",maximum-scale=" + sca + ",user-scalable=no,minimal-ui";
+                };
+            var orientchange = function () {
+                setTimeout(function () {
+                    if (window.orientation == 180 || window.orientation == 0 || window.orientation == 90 || window.orientation == -90) {
+                        recalc();
+                    }
+                }, 200);
+            };
+
+            if (!doc.addEventListener) return;
+            win.addEventListener(resizeEvt, recalc, false);
+            doc.addEventListener("DOMContentLoaded", recalc, false);
+            doc.addEventListener(resizeEvt, orientchange, false);//横竖屏切换执行
+        })(document, window);
+</script>

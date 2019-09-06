@@ -1,0 +1,103 @@
+{
+  "zh":{
+    "banner": "/imgs/activity_details_banner.png",
+    "intro": "/imgs/activity_details_title01.png",
+    "introDescription": "AI风潮席卷全球，正深刻改变组织、家庭及个人的生活和价值创造模式。2019华为Atlas人工智能开发者大赛是华为智能计算面向全球AI开发者的创新大赛，为开发者提供一个耕耘AI梦想、实践AI创新的平台，鼓励更多开发者基于华为Atlas人工智能计算平台解决众多行业AI实际应用问题，共同打造面向“端、边、云”的全行业、全场景AI解决方案，构建万物互联的智能世界。",
+    "schedule": {
+      "title": "/imgs/activity_details_title02.png",
+      "eventDates": [
+        {
+          "date": "2019年5月10日",
+          "info": ["华为Atlas 人工智能开发者大赛启动报名"]
+        },
+        {
+          "date": "2019年7月31日  12:00",
+          "info": ["报名与作品提交截止","*未完成实名认证和作品提交的队伍将被淘汰。"]
+        },
+        {
+          "date": "2019年8月9日  12:00",
+          "info": ["初赛结果"]
+        },
+        {
+          "date": "2019年8月下旬",
+          "info": ["作品路演与决赛结果","路演地点：华为松山湖基地"]
+        },
+        {
+          "date": "2019年9月",
+          "info": ["2019华为全联接大会颁奖典礼"]
+        }
+      ]
+    },
+    "competitionIntro": {
+      "title": "/imgs/activity_details_title03.png",
+      "introImg": "/imgs/activity_details_pic01.png",
+      "text": "参赛获奖者将能获得更多权益"
+    },
+    "participant": {
+      "title": "/imgs/activity_details_title04.png",
+      "list": ["大赛面向全球开放，企业从业者、高校老师、学生、科研单位人员及有志于创新的开发者个人，均可以个人身份组队报名参加。","注：华为公司员工放弃参赛资格。"]
+    },
+    "qrCode": {
+      "title": "/imgs/activity_details_title05.png",
+      "qrCodeImg": "/imgs/activity_details_pic02.png"
+    }
+  },
+  "en": {
+    "banner": "/imgs/activity_details_banner.png",
+    "intro": "/imgs/activity_details_title01.png",
+    "introDescription": "AI is sweeping the world, redefining our way of life and methods of value creation of organizations, families, and individuals. 2019 Atlas AI Developer Contest is an innovation contest for global AI developers. Developers are encouraged to resolve AI application problems across industries using the Huawei Atlas AI computing platform and bring AI solutions to all industries and scenarios on the device, edge, and cloud for a fully connected, intelligent world.",
+    "schedule": {
+      "title": "/imgs/activity_details_title02.png",
+      "eventDates": [
+        {
+          "date": "May 10, 2019",
+          "info": [
+            "Registration open"
+          ]
+        },
+        {
+          "date": "12:00, July 31, 2019",
+          "info": [
+            "Registration and work submission close",
+            "* If a team fails the real-name authentication or fails to submit its work by this deadline, the team will be disqualified from the contest."
+          ]
+        },
+        {
+          "date": "12:00, August 9, 2019",
+          "info": [
+            "Preliminary results announcement"
+          ]
+        },
+        {
+          "date": "Late August, 2019",
+          "info": [
+            "Work roadshow and final results announcement",
+            "Roadshow venue: Huawei Songshan Lake Base, Dongguan, China"
+          ]
+        },
+        {
+          "date": "September 2019",
+          "info": [
+            "Huawei CONNECT 2019 awards ceremony"
+          ]
+        }
+      ]
+    },
+    "competitionIntro": {
+      "title": "/imgs/activity_details_title03.png",
+      "introImg": "/imgs/activity_details_pic01.png",
+      "text": "Winners will be given more benefits."
+    },
+    "participant": {
+      "title": "/imgs/activity_details_title04.png",
+      "list": [
+        "The contest is open to developers from all over the world. Sign your teams up!",
+        "Note: Huawei employees are ineligible to participate in the contest."
+      ]
+    },
+    "qrCode": {
+      "title": "/imgs/activity_details_title05.png",
+      "qrCodeImg": "/imgs/activity_details_pic02.png"
+    }
+  }
+}

@@ -1,0 +1,810 @@
+{
+"zh": {
+  "codeSampletitle": {
+    "backtitle": "这里汇集了华为生态合作伙伴基于",
+    "backtitlea": "昇腾系列AI处理器的前沿应用，您可以学习并拓展最热门的AI实践。",
+    "application": "社区项目",
+    "recommend": "推荐",
+    "title": "项目详情"
+  },
+  "codeSample": [
+    {
+      "title": "人脸检测",
+      "text": "检测摄像捕获视频中的人脸，对于检测到的每张人脸返回其人脸坐标及相应的置信度。",
+      "author": "Ascend",
+      "from": "创建时间：2019/04/25",
+      "imgUrl": "/imgs/application_pic01.png"
+    },
+    {
+      "title": "人脸识别",
+      "text": "捕获摄像头中的人脸，与系统中已注册的人脸进行比对并预测出最可能的用户实时显示。",
+      "author": "Ascend",
+      "from": "创建时间：2019/04/25",
+      "imgUrl": "/imgs/application_pic03.png"
+    },
+    {
+      "title": "车辆检测",
+      "text": "检测出视频中的车辆，并进一步对车辆的型号、车辆的颜色以及车牌进行识别。",
+      "author": "Ascend",
+      "from": "创建时间：2019/04/25",
+      "imgUrl": "/imgs/appdetialdetails_car.jpg"
+    },
+    {
+      "title": "人体检测",
+      "text": "检测出视频中的人体，并进一步识别人体特征包含性别、年龄、衣服颜色、佩戴装饰等特征进行识别。",
+      "author": "Ascend",
+      "from": "创建时间：2019/04/25",
+      "imgUrl": "/imgs/body-b.png"
+    },
+    {
+      "title": "Ascend Camera",
+      "text": "通过摄像头驱动模块，按照调用者设置的帧率、图像分辨率获取相应的视频帧，并转化为通用的jpg进行保存或远程显示。",
+      "author": "Ascend",
+      "from": "创建时间：2019/04/25",
+      "imgUrl": "/imgs/appdetial_camera.jpg"
+    },
+    {
+      "title": "通用分类网络应用",
+      "text": "提供通用的分类网络应用Demo，供开发者进行学习或扩展。",
+      "author": "Ascend",
+      "from": "创建时间：2019/04/25",
+      "imgUrl": "/imgs/lie01.png"
+    },
+    {
+      "title": "Faster R-CNN检测网络应用",
+      "text": "提供基于Faster R-CNN检测网络应用开发的Demo，供开发者进行学习或扩展。",
+      "author": "Ascend",
+      "from": "创建时间：2019/04/25",
+      "imgUrl": "/imgs/appdetial_cnn.jpg"
+    },
+    {
+      "title": "持续更新中",
+      "text": "更多项目还在持续更新中，欢迎一起期待......",
+      "author": "",
+      "from": "",
+      "imgUrl": "/imgs/application_pic06.png"
+    }
+  ],
+  "applicationDetails": [
+
+    {
+      "head": {
+        "title": "人脸检测",
+        "headPortraitUrl": "/imgs/toux.png",
+        "author": "Ascend",
+        "time": "创建于 2019/04/25",
+        "introduce": "人脸是一个包含丰富信息的模型的集合，是人类互相辩证和识别的主要标志，也是图像和视频中最感兴趣的对象之一。与指纹、语音等其他人体生物特征相比，人脸识别更加直接、友好，在身份识别、访问控制、视频会议、档案管理、基于对象的图像和视频检索等方面有着广泛的应用，是当前人工智能领域的一个研究热点。",
+        "imgUrl": "/imgs/5d156c7932f2ca046356802b_origin.png",
+        "button": [
+          "<a href='https://github.com/Ascend/sample-facedetection' target='_blank'><button style='background: #3d88ff;color: #ffffff;width: 120px;height: 35px;padding: 0;'>应用下载</button></a>"
+        ]
+      },
+      "conter": {
+        "title": "项目详情 ",
+        "summary": "概述",
+        "summaryContent": "该项目使用Atlas 200 Developer Kit外接的摄像头获取的视频数据作为输入，实时检测视频画面中的人脸、对人脸信息进行标注，并推送到Web UI回显显示。",
+        "principle": "原理",
+        "principleContent": [
+          "1.CameraDatasets模块与Camera驱动进行交互，从摄像头获取YUV420SP格式的视频数据。",
+          "Atlas 200 DK提供了一套帮助开发者轻松获取摄像头图像的API接口媒体库，详细的接口使用方法可参考<a href='/documentation/details/zh/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0178961822.html'>Media API</a>。",
+          "2.FaceDetectionPreProcess是图像预处理模块，当输入图片的分辨率与网络模型要求的分辨率不匹配时，对图片进行resize预处理。Ascend DK提供了EZDVPP接口，对DVPP接口进行了封装，帮助开发者更方便的对图片进行预处理，详细的接口使用方法可参考<a href='/documentation/details/zh/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0165840096.html'>EZDVPP</a>。",
+          "3.FaceDetectionInferenceEngine会加载已训练好的人脸检测网络模型及其权值，对图片做推理，并将图片转化为JPEG格式，推理接口详细使用方法可参考<a href='/documentation/details/zh/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0178961831.html'>Matrix API</a>。",
+          "4.FaceDetectionPostProcess将接收到的JPEG图片及推理结果通过调用Present Agent的API发送到UI Host上部署的Presenter Server服务进程，Presenter Agent API的详细使用方法可参考<a href='/documentation/details/zh/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0165841897.html'>Presenter Agent</a>。",
+          "5.Presenter Server根据接收到的推理结果，在JPEG图片上进行人脸位置及置信度的标记，并将图像信息推送给Web UI（Presenter Agent）。",
+          "6.用户可通过Chrome浏览器访问Presenter Server，实时查看视频中的人脸检测信息。"
+        ],
+        "technology": "技术",
+        "technologyContent": [
+          "-    华为基于Ascend 310芯片的MindSpore DDK ",
+          "-     基于Caffe的Resnet10-SSD300模型，使用Matrix提供的模型管家接口将其转换为Ascend 310芯片支持的模型。"
+        ],
+        "hardware": "硬件",
+        "hardwareContent": [
+          "Atlas 200 Developer Kit开发者版",
+          "树莓派摄像头"
+        ],
+        "optimization": "优化点",
+        "optimizationContent": "人脸检测网络目前使用的是Res10-SSD，权重也使用的开源预训练的网络，如果对精度要求较高的应用场景，您可以找更高精度的模型来识别“人脸”，以提高检测精度。",
+        "effectShow": "效果展示",
+        "summaryImg": [
+          "<img src='/imgs/Facialdetection.png' alt=''>"
+        ],
+        "effectImg": [
+          "<img src='/imgs/FacialEffect.png' alt=''>"
+        ]
+      }
+    },
+    {
+      "head": {
+        "title": "人脸识别",
+        "headPortraitUrl": "/imgs/toux.png",
+        "author": "Ascend",
+        "time": "创建于 2019/04/25",
+        "introduce": "人脸是一个包含丰富信息的模型的集合，是人类互相辩证和识别的主要标志，也是图像和视频中最感兴趣的对象之一。与指纹、语音等其他人体生物特征相比，人脸识别更加直接、友好，在身份识别、访问控制、视频会议、档案管理、基于对象的图像和视频检索等方面有着广泛的应用，是当前人工智能领域的一个研究热点。",
+        "imgUrl": "/imgs/appdetial-pic01.png",
+        "button": [
+          "<a href='https://github.com/Ascend/sample-facialrecognition' target='_blank'><button style='background: #3d88ff;color: #ffffff;width: 120px;height: 35px;padding: 0;'>应用下载</button></a>"
+        ]
+      },
+      "conter": {
+        "title": "项目详情 ",
+        "summary": "概述",
+        "summaryContent": "该应用在Atlas 200 Developer Kit上实现人脸注册，并通过外接的摄像头对视频中的人脸信息进行预测，与已注册的人脸进行比对，预测出最可能的用户，最后推送到Web UI回显显示。",
+        "principle": "原理",
+        "principleContent": [
+          "1.face_register模块功能为接收外界输入的注册图片，并转换为下游需要的YUV420SP图片。用户可通过Chrome浏览器访问Present Server，通过Web UI进行人脸注册，应用会将注册的人脸数据经过人脸检测、特征点识别、特征向量获取后，保存注册信息。",
+          "2.camera_datasets与Camera驱动进行交互，从摄像头获取YUV420SP格式的视频帧数据。Atlas 200 DK提供了一套帮助开发者轻松获取摄像头图像的API接口媒体库，详细的接口使用方法可参考<a href='/documentation/details/zh/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0178961822.html'>Media API</a>参考。",
+          "3.face_detection是人脸检测处理模块，该模块利用人脸检测网络模型在Atlas 200 DK上推理识别出图片中的人脸坐标位置及其置信度，并将符合要求的人脸根据坐标抠图，送给下游网络。处理过程中会使用到DVPP的resize能力，Ascend DK提供了EZDVPP接口，对DVPP接口进行了封装，帮助开发者更方便的对图片进行预处理，详细的接口使用方法可参考<a href='/documentation/details/zh/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0165840096.html'>EZDVPP</a>，推理过程中应用到的接口使用方法可参考<a href='/documentation/details/zh/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0178961831.html'>Matrix API</a>。",
+          "4.face_feature_mask模块利用特征点标记网络模型（VanillaCNN model）在Atlas 200DK上推理识别出人脸小图上的5个特征点位置坐标（包括人脸双眼、鼻子、两个嘴角），并送给下游网络做进一步识别。",
+          "5.face_recognition模块为先根据face_feature_mask模块输出的人脸小图以及5个特征点坐标做正脸操作，并将正脸图片以及翻转镜像后的图片一起送给Sphereface Model推理，提取人脸1024维度的特征向量。",
+          "6.face_postprocess模块与上文整体流程无特别对应关系，其存在的意义为桥接Mini芯片侧与Presenter Server侧的通信，将接收到的推理结果、特征向量及JPEG图片通过调用Present Agent的API发送到UI Host上部署的Presenter Server服务进程，Present Agent API的详细使用方法可参考<a href='/documentation/details/zh/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0165841897.html'>Presenter Agent</a>。",
+          "7.Presenter Server：Presenter Server是华为自研的一个小的Web展示工具（https://github.com/Ascend/sdk-presenter/releases/download/1.0.0/presenteragent-1.0.0.zip），其不仅提供展示Camera实时数据的功能，还能判断人脸的相似度并展示识别结果，而且提供人脸注册上传图片的通道。Atlas 200 DK提供了一套帮助开发者轻松获取摄像头图像的API接口媒体库，详细的接口使用方法可参考<a href='/documentation/details/zh/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0178961822.html'>Media API</a>参考。"
+        ],
+        "technology": "技术",
+        "technologyContent": [
+          "-华为基于Ascend 310芯片的MindSpore DDK。<br>-基于Caffe的Resnet10-SSD300人脸检测模型，使用Matrix提供的模型管家接口将其转换为Ascend 310芯片支持的模型。<br>-基于Caffe的VanillaCNN的人脸特征点识别模型，使用Matrix提供的模型管家接口将其转换为Ascend 310芯片支持的模型。",
+          "-基于Caffe的SphereFace的特征向量提取模型，使用Matrix提供的模型管家接口将其转换为Ascend 310芯片支持的模型。"
+        ],
+        "hardware": "硬件",
+        "hardwareContent": [
+          "Atlas 200 Developer Kit开发者版",
+          "树莓派摄像头"
+        ],
+        "optimization": "优化点",
+        "optimizationContent": "人脸识别应用目前使用的网络有Res10-SSD、VanillaCNN、SphereFace，这些网络均是开源网络，而且权重也使用的是开源预训练的权重，如果对精度要求较高的应用场景，您可以找更高精度的模型来识别“人脸”，或者针对实际应用场景重新训练，以提高检测精度。",
+        "effectShow": "效果展示",
+        "summaryImg": [
+          "<img src='/imgs/Face.png' alt=''>"
+        ],
+        "effectImg": [
+          "<img src='/imgs/Face2.png' alt=''><img src='/imgs/Face3.png' alt=''>"
+        ]
+      }
+    },
+    {
+      "head": {
+        "title": "车辆检测",
+        "headPortraitUrl": "/imgs/toux.png",
+        "author": "Ascend",
+        "time": "创建于 2019/04/25",
+        "introduce": "车辆检测是检测出视频中的车辆，并进一步对车辆的型号、车辆的颜色以及车牌进行识别。针对车辆信息的智能检测和识别，可以应用在无人驾驶、平安城市、违章检测、智能停车场等多种场景下，是当前人工智能领域的一个研究热点。",
+        "imgUrl": "/imgs/appdetialdetails_car.jpg",
+        "button": [
+          "<a href='https://github.com/Ascend/sample-videoanalysiscar' target='_blank'><button style='background: #3d88ff;color: #ffffff;width: 120px;height: 35px;padding: 0;'>应用下载</button></a>"
+        ]
+      },
+      "conter": {
+        "title": "项目详情 ",
+        "summary": "概述",
+        "summaryContent": "该应用可部署至Atlas 200 DK或者AI加速云服务器上实现对本地mp4文件或者RTSP视频流进行解码，对视频帧中的车辆及其属性进行预测，生成结构化信息并推送到Web UI回显显示。",
+        "principle": "原理",
+        "principleContent": [
+          "1.     video_decode模块是视频解码模块，获取输入的视频源（mp4文件或者RTSP视频流），将其解码成YUV420SP格式的视频帧数据。",
+          "2.     object_detection是目标检测模块，首先将接收到的视频帧数据转换为YUV420sp nv12格式的图片，当输入图片的分辨率与网络模型要求的分辨率不匹配时，使用DVPP的resize功能对图片进行预处理（Ascend DK提供了EZDVPP接口，对DVPP接口进行了封装，帮助开发者更方便的对图片进行预处理，详细的接口使用方法可参考<a href='/documentation/details/zh/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0165840096.html'>EZDVPP</a>），经过预处理后的图片被送入目标检测网络模型进行推理，并输出原始图片及目标检测推理结果送入下一层Engine，推理使用的详细接口可参考<a href='/documentation/details/zh/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0178961831.html'>Matrix API</a>。",
+          "3.     object_detection_post是目标检测的后处理模块，将上一步的目标检测结果按照置信度、目标进行过滤，对类别执行度满足要求的bbox，在原图中抠取小图。将抠出小图直接传给下一层的推理Engine，同时将原图和抠出的小图转换成jpg格式传给video_analysis_post后处理Engine。",
+          "4.    车辆属性推理",
+          "4.1.   car_type_inference对输入车辆图片进行预处理，然后加载已训练好的车辆品牌识别模型及其权值，对车辆的图片做推理，给出车辆品牌的预测。",
+          "4.2.   car_color_inference对输入车辆图片进行预处理，然后加载已训练好的车辆颜色识别模型及其权值，对车辆图片进行推理，给出车颜色的预测。",
+          "4.3.   car_plate_detection对输入车辆图片进行预处理，然后加载已训练好的车牌检测模型及其权值，检测出车辆图片中的车牌，并将其抠取出来传递给下一个engine car_plate_recognition。",
+          "car_plate_recognition加载已训练好的车牌识别模型及其权值对抠取出的小图进行推理，得到车牌的预测值。",
+          "5.    video_analysis_post将接收到的图片及推理结果通过调用Present Agent的API发送到UI Host上部署的Presenter Server服务进程，Present Agent API的详细使用方法可参考<a href='/documentation/details/zh/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0165841897.html'>Presenter Agent</a>。",
+          "6.    Presenter Server将接收到的图片、推理结果进行汇总，并将结构化信息推送给Web UI（Present Agent）。",
+          "7.    用户可通过Chrome浏览器访问Present Server，实时查看视频中的结构化信息。"
+        ],
+        "technology": "技术",
+        "technologyContent": [
+          "-    华为基于Ascend 310芯片的MindSpore DDK。",
+          "-    基于Caffe的VGG16-SSD512目标检测模型，使用Matrix提供的模型管家接口将其转换为Ascend 310芯片支持的模型。",
+          "-    基于Caffe的GoogleNet模型用于车型识别，使用Matrix提供的模型管家接口将其转换为Ascend 310芯片支持的模型。",
+          "-    基于caffe的resnet18模型用于车颜色识别，使用Matrix提供的模型管家接口将其转换为Ascend 310芯片支持的模型。",
+          "-    基于Caffe的Mobilenet-SSD模型用于车牌的检测。使用Matrix提供的模型管家接口将其转换为Ascend 310芯片支持的模型。",
+          "-    基于Caffe的CNN模型用于车牌的识别，使用Matrix提供的模型管家接口将其转换为Ascend 310芯片支持的模型。"
+        ],
+        "hardware": "硬件",
+        "hardwareContent": [
+          "Atlas 200 Developer Kit开发者版",
+          "树莓派摄像头"
+        ],
+        "effectShow": "效果展示",
+        "summaryImg": [
+          "<p style='padding: 20px 0px;text-align: center;font-size: 22px;color: #333333;'>Atlas 200 DK</p><img src='/imgs/car_pic01.png' alt=''><p style='padding: 20px 0px;text-align: center;font-size: 22px;color: #333333;'>AI加速云服务器</p><img src='/imgs/car_pic02.png' alt=''>"
+        ],
+        "effectImg": [
+          "<img src='/imgs/car_pic03.jpg' alt=''>"
+        ]
+      }
+    },
+    {
+      "head": {
+        "title": "人体检测",
+        "headPortraitUrl": "/imgs/toux.png",
+        "author": "Ascend",
+        "time": "创建于 2019/04/25",
+        "introduce": "人体检测是检测出视频中的人体，并进一步人体特征包含性别、年龄、衣服颜色、佩戴装饰等特征进行识别，可应用于人体跟踪、人流量统计、人群异常监控等多种场景下，是当前人工智能领域的研究特点。",
+        "imgUrl": "/imgs/appdetial-pic02.png",
+        "button": [
+          "<a href='https://github.com/Ascend/sample-videoanalysisperson' target='_blank'><button style='background: #3d88ff;color: #ffffff;width: 120px;height: 35px;padding: 0;'>应用下载</button></a>"
+        ]
+      },
+      "conter": {
+        "title": "项目详情 ",
+        "summary": "概述",
+        "summaryContent": "该应用可部署至Atlas 200 DK或者AI加速云服务器上实现对本地mp4文件或者RTSP视频流进行解码，对视频帧中的人脸和人体姿态进行检测，对人脸信息进行识别，并分析人脸的年龄和性别，与人体姿态识别结果一起推送到Web UI回显显示。",
+        "principle": "原理",
+        "principleContent": [
+          "1.video_decode模块是视频解码模块，获取输入的RTSP视频流或视频文件，解码成YUV420SP格式的视频帧数据。",
+          "2.object_detection是目标检测模块，，首先将接收到的视频帧数据转换为YUV420sp nv12格式的图片，当输入图片的分辨率与网络模型要求的分辨率不匹配时，使用DVPP的resize功能对图片进行预处理（Ascend DK提供了EZDVPP接口，对DVPP接口进行了封装，帮助开发者更方便的对图片进行预处理，详细的接口使用方法可参考<a href='/documentation/details/zh/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0165840096.html'>EZDVPP</a>），经过预处理后的图片被送入目标检测网络模型进行推理，并输出原始图片及目标检测推理结果送入下一层Engine，推理过程中应用到的接口使用方法可参考<a href='/documentation/details/zh/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0178961831.html'>Matrix API</a>。",
+          "3.object_detection_post是目标检测的后处理模块，将上一步的目标检测结果按照置信度、目标进行过滤，对类别执行度满足要求的bbox，在原图中抠取小图。将抠出小图传给下一层的人体属性检测推理Engine；将原图传送给人脸检测推理Engine；同时将原图和抠出的小图转换成JPEG格式传给video_analysis_post后处理Engine。",
+          "4.人体属性推理",
+          "4.1.pedestrian_attr_inference是人体属性检测模块，对输入行人图片（ObjectDetectionPost抠取的小图）进行预处理后加载人体属性检测模型进行推理，并输出人体属性预测结果。",
+          "4.2.face_detection是人脸检测模块，对输入的原图进行预处理，然后加载人脸检测模型进行推理，对检测出的人脸进行抠图，并将抠取出的小图分别传送给年龄检测推理模块、性别检测推理模块与后处理      video_analysis_post Engine。",
+          "-age_inference是年龄检测模块，对上一步的人脸检测模块抠取的人脸进行预处理后，加载已训练好的年龄检测模型及其权值进行年龄的预测。",
+          "5.video_analysis_post将接收到的图片及推理结果通过调用Present Agent的API发送到UI Host上部署的Presenter Server服务进程，Present Agent API的详细使用方法可参考<a href='/documentation/details/zh/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0165841897.html'>Presenter Agent</a>。",
+          "6.Presenter Server将接收到的图片、推理结果进行汇总，并将结构化信息推送给Web UI（Present Agent）。",
+          "7.用户可通过Chrome浏览器访问Present Server，实时查看视频中的结构化信息"
+        ],
+        "technology": "技术",
+        "technologyContent": [
+          "-华为基于Ascend 310芯片的MindSpore DDK。",
+          "-基于Caffe的VGG16-SSD目标检测模型，使用Matrix提供的模型管家接口将其转换为Ascend 310芯片支持的模型。",
+          "-基于Caffe的Resnet10-SSD300人脸检测模型，使用Matrix提供的模型管家接口将其转换为Ascend 310芯片支持的模型。",
+          "-基于Caffe的vespa-peta_iter_12000人体检测模型，使用Matrix提供的模型管家接口将其转换为Ascend 310芯片支持的模型。",
+          "-基于Caffe的rude-carnie人脸年龄与性别检测模型，使用Matrix提供的模型管家接口将其转换为Ascend 310芯片支持的模型。"
+        ],
+        "hardware": "硬件",
+        "hardwareContent": [
+          "Atlas 200 Developer Kit开发者版,",
+          "树莓派摄像头"
+        ],
+        "optimization": "优化点",
+        "optimizationContent": "如果对精度要求较高的应用场景，您可以找更高精度的模型来识别目标、人脸、人体以及性别年龄信息，以提高检测精度。",
+        "effectShow": "效果展示",
+        "summaryImg": [
+          "<p style='padding: 20px 0px;text-align: center;font-size: 22px;color: #333333;'>Atlas 200 DK</p><img src='/imgs/human1.png' alt=''><p style='padding: 20px 0px;text-align: center;font-size: 22px;color: #333333;'>AI加速云服务器</p><img src='/imgs/human2.png' alt=''>"
+        ],
+        "effectImg": [
+          "<img src='/imgs/human3.png' alt=''>"
+        ]
+      }
+    },
+    {
+      "head": {
+        "title": "Ascend Camera",
+        "headPortraitUrl": "/imgs/toux.png",
+        "author": "Ascend",
+        "time": "创建于 2019/04/25",
+        "introduce": "Atlas 200 DK上有两个摄像头接口，支持V1.3与V2.1版本的树莓派摄像头。该应用的目的是封装一些常用的功能方便用户使用，例如：将从摄像头获取的yuv420sp格式视频帧流转换为可方便显示的jpg视频帧流。",
+        "imgUrl": "/imgs/appdetialdetails_camera.jpg",
+        "button": [
+          "<a href='https://github.com/Ascend/sample-ascendcamera' target='_blank'><button style='background: #3d88ff;color: #ffffff;width: 120px;height: 35px;padding: 0;'>应用下载</button></a>"
+        ]
+      },
+      "conter": {
+        "title": "项目详情 ",
+        "summary": "概述",
+        "summaryContent": "Ascend Camera主要功能是通过摄像头驱动模块，按照调用者设置的帧率、图像分辨率获取相应的视频帧，将数据经过EZDVPP处理（EZDVPP对DVPP进行了封装，简化DVPP调用的复杂度），转换为jpg，最终保存为文件或者进行远程输出展示，其中远程输出可输出到VLC进行播放展示或者通过华为自研的Presenter Server传送到浏览器输出展示。",
+        "principle": "原理",
+        "principleContent": [
+          "1.    Ascend Camera模块与Camera驱动进行交互，从摄像头获取YUV420SP格式的视频帧数据，然后根据用户设置通过调用EZDVPP接口将YUV420SP格式的视频帧数据转换为jpg格式的图片。",
+          "Atlas 200 DK提供了一套帮助开发者轻松获取摄像头图像的API接口媒体库，详细的接口使用方法可参考<a href='/documentation/details/zh/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0178961822.html'>Media API</a>。",
+          "另外Ascend DK提供了EZDVPP接口，对DVPP接口进行了封装，帮助开发者更方便的对图片进行预处理，详细的接口使用方法可参考<a href='/documentation/details/zh/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0165840096.html'>EZDVPP</a>。",
+          "2.     若用户设置为将获取的媒体文件进行保存，则Ascend Camera模块将经过EZDVPP转换后的媒体文件直接保存到本地。文件存储路径及名称用户可设置。",
+          "3.     若用户需要将媒体文件通过华为自研的Presenter Server实时播放，则Ascend Camera模块将经过转换后的媒体数据通过调用Present Agent提供的API接口推送到Presenter Server，Presenter Server将媒体数据经过浏览器进行结果展示。Presenter Agent API接口的详细使用方法可参考<a href='/documentation/details/zh/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0165841897.html'>Presenter Agent</a>。",
+          "Presenter Agent与Presenter Server的原理介绍可参考https://github.com/Ascend/sdk-presenter/blob/master/README_cn.md。",
+          "4.    若用户需要将媒体文件通过VLC实时播放，则Ascend Camera模块将讲过转换后的媒体数据通过OS的PIPE通道将数据通过gstreamer传送到Atlas 200 DK开发者版Host侧的任一端口，然后通过配置UI Host上的VLC的视频源信息，将媒体数据通过VLC播放器实时展示。"
+        ],
+        "technology": "技术",
+        "technologyContent": [
+          "-    获取摄像头图像的API接口媒体库《<a href='/documentation/details/zh/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0178961822.html'>Media API</a>》。",
+          "-    DVPP：DVPP全称Davinci Video Pre-Processor，主要实现视频解码（VDEC）、视频编码（VENC）、JPEG编解码（JPEGD/E）、PNG解码（PNGD）、视觉预处理单元(VPC)",
+          "-    EZDVPP：EZDVPP对DVPP接口进行了封装，用于简化直接调用DVPP接口的复杂度，主要功能包括：图像格式转化（包含将YUV转换为JPG,JPEG转换为YUV），图像的crop以及图像的resize"
+        ],
+        "hardware": "硬件",
+        "hardwareContent": [
+          "Atlas 200 Developer Kit开发者版",
+          "树莓派摄像头"
+        ],
+        "effectShow": "效果展示",
+        "summaryImg": [
+          "<img src='/imgs/ascendcamera_pic01.jpg' alt=''>"
+        ],
+        "effectImg": [
+          "<img src='/imgs/ascendcamera_pic02.jpg' alt=''><img src='/imgs/ascendcamera_pic03.jpg' alt=''>"
+        ]
+      }
+    },
+    {
+      "head": {
+        "title": "通用分类网络应用",
+        "headPortraitUrl": "/imgs/toux.png",
+        "author": "Ascend",
+        "time": "创建于 2019/04/25",
+        "introduce": "深度卷积神经网络AlexNet赢得了2012年ILSVRC的冠军，从那时起，CNN家族就拿下了这一比赛，并超过了人类视觉5%~10%的准确率水平，基于CNN网络模型的图像分类也成为了AI领域最为活跃的研究领域。本应用提供了基于Atlas 200 DK进行分类网络应用开发的Demo，开发者可基于本应用进行如何用Atlas 200 DK进行AI应用开发的学习或者做其他扩展。",
+        "imgUrl": "/imgs/appdetial-pic03.png",
+        "button": [
+          "<a href='https://github.com/Ascend/sample-classification' target='_blank'><button style='background: #3d88ff;color: #ffffff;width: 120px;height: 35px;padding: 0;'>应用下载</button></a>"
+        ]
+      },
+      "conter": {
+        "title": "项目详情 ",
+        "summary": "概述",
+        "summaryContent": "该应用提供python脚本作为程序入口，用户可设置接收模型路径、图片路径、resize大小等控制台参数，网络模型对输入图片依次进行推理，在控制台打印将top n个推理结果。",
+        "principle": "原理",
+        "principleContent": [
+          "1.run_classification.py脚本为图片分类程序执行交互入口，对控制台参数进行解析、校验，同时生成graph.config配置文件并拉起Engine进程。",
+          "2.图片预处理模块根据graph.config配置文件中的图片路径读取图片并调用EZDVPP接口将其转化为YUV420SP格式依次传递给推理模块，当输入图片的分辨率与网络模型要求的分辨率不匹配时，调用EZDVPP接口对图片进行resize预处理。EZDVPP接口对DVPP接口进行了封装，帮助开发者更方便的对图片进行预处理，详细的接口使用方法可参考<a href='/documentation/details/zh/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0165840096.html'>EZDVPP</a>。",
+          "3.通用推理引擎模块会根据graph.config配置文件中的模型路径加载已训练好的离线模型及其权值，对图片进行推理，推理接口详细使用方法可参考<a href='/documentation/details/zh/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0178961831.html'>Matrix API</a>。",
+          "4.后处理模块接收推理结果并进行处理，最终输出top n个类别的index以及概率得分。"
+        ],
+        "technology": "技术",
+        "technologyContent": [
+          "-华为基于Ascend 310芯片的MindSpore DDK。",
+          "-基于Caffe/Tensorflow的流行分类网络模型，使用Matrix提供的模型管家接口将其转换为Ascend 310芯片支持的模型。"
+        ],
+        "hardware": "硬件",
+        "hardwareContent": [
+          "Atlas 200 Developer Kit开发者版"
+        ],
+        "optimization": "优化点",
+        "optimizationContent": "当前代码只支持batch=1的模型的推理，可以对代码进行修改以支持batch数大于1的模型。",
+        "effectShow": "效果展示",
+        "summaryImg": [
+          "<p style='padding: 20px 0px;text-align: center;font-size: 22px;color: #333333;'>Atlas 200 DK</p><img src='/imgs/tong.png' alt=''><p style='padding: 20px 0px;text-align: center;font-size: 22px;color: #333333;'>AI加速云服务器</p><img src='/imgs/tong2.png' alt=''>"
+        ],
+        "effectImg": [
+          "<img src='/imgs/tong3.png' alt=''>"
+        ]
+      }
+    },
+    {
+      "head": {
+        "title": "Faster-R-CNN检测网络应用",
+        "headPortraitUrl": "/imgs/toux.png",
+        "author": "Ascend",
+        "time": "创建于 2019/04/25",
+        "introduce": "目标检测（Object Detection）是计算机视觉领域的基本任务之一，学术界已有将近二十年的研究历史。近些年随着深度学习技术的火热发展，目标检测算法也从基于手工特征的传统算法转向了基于深度神经网络的检测技术。本应用提供了基于Atlas 200 DK进行检测网络应用开发的Demo，开发者可基于本应用进行如何用Atlas 200 DK进行AI应用开发的学习或者做其他扩展。",
+        "imgUrl": "/imgs/appdetialdetails_cnn.jpg",
+        "button": [
+          "<a href='https://github.com/Ascend/sample-objectdetection' target='_blank'><button style='background: #3d88ff;color: #ffffff;width: 120px;height: 35px;padding: 0;'>应用下载</button></a>"
+        ]
+      },
+      "conter": {
+        "title": "项目详情 ",
+        "summary": "概述",
+        "summaryContent": "该项目提供python脚本作为程序入口，用户可设置接收模型路径、图片路径、resize大小等控制台参数，网络模型对输入图片依次进行推理，在原图中标注出检测到的边界框信息及预测概率并将结果图片保存至指定路径。",
+        "principle": "原理",
+        "principleContent": [
+          "1.     run_object_detection_faster_rcnn.py脚本为图片检测程序执行交互入口，对控制台参数进行解析、校验，同时，生成graph.config配置文件并拉起Engine进程。",
+          "2.     图片预处理模块根据graph.config配置文件中的图片路径读取图片并调用EZDVPP接口将其转化为YUV420SP格式依次传递给推理模块，当输入图片的分辨率与网络模型要求的分辨率不匹配时，调用EZDVPP接口对图片进行resize预处理。EZDVPP接口对DVPP接口进行了封装，帮助开发者更方便的对图片进行预处理，详细的接口使用方法可参考<a href='/documentation/details/zh/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0165840096.html'>EZDVPP</a>。",
+          "3.     通用推理引擎模块会根据graph.config的模型路径加载已训练好的离线模型及其权值，对图片进行推理，详细接口使用方法可参考<a href='/documentation/details/zh/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0178961831.html'>Matrix API</a>。",
+          "4.    后处理模块接收推理结果并进行处理，在图片中标注出检测到的目标的index以及预测概率，并将图片保存至指定的路径下。"
+        ],
+        "technology": "技术",
+        "technologyContent": [
+          "-    华为基于Ascend 310芯片的MindSpore DDK。",
+          "-    基于Caffe的faster rcnn目标检测网络模型，使用Matrix提供的模型管家接口将其转换为Ascend 310芯片支持的模型。"
+        ],
+        "hardware": "硬件",
+        "hardwareContent": [
+          "Atlas 200 Developer Kit开发者版"
+        ],
+        "optimization": "优化点",
+        "optimizationContent": "当前检测网络demo只对Faster-R-CNN网络模型进行了支持，您可以在后处理模块中添加SSD等网络模型的后处理实现，以增加对更多检测网络的支持。",
+        "effectShow": "效果展示",
+        "summaryImg": [
+          "<p style='padding: 20px 0px;text-align: center;font-size: 22px;color: #333333;'>Atlas 200 DK</p><img src='/imgs/cnn_pic01.jpg' alt=''><p style='padding: 20px 0px;text-align: center;font-size: 22px;color: #333333;'>AI加速云服务器</p><img src='/imgs/cnn_pic02.jpg' alt=''>"
+        ],
+        "effectImg": [
+          "<img src='/imgs/cnn_pic03.jpg' alt=''>"
+        ]
+      }
+    }
+  ]
+},
+
+"en": {
+    "codeSampletitle": {
+    "backtitle": "Collection of cutting-edge projects",
+    "backtitlea": "crafted by Huawei's eco-partners with Ascend processors",
+    "application": "Community Projects",
+    "recommend": "Rec",
+    "title": "Project Details"
+  },
+    "codeSample": [
+
+    {
+      "title": "Face detection",
+      "text": "Captures human faces in videos and returns the coordinates and confidence...",
+      "author": "Ascend",
+      "from": "Created on 2019-04-25",
+      "imgUrl": "/imgs/application_pic01.png"
+    },
+    {
+      "title": "Facial Recognition",
+      "text": "Compares faces captured by cameras with those registered in the system, predicts the most likely user, and returns the prediction result for real time display.",
+      "author": "Ascend",
+      "from": "Created on 2019-04-25",
+      "imgUrl": "/imgs/application_pic03.png"
+    },
+    {
+      "title": "Vehicle Detection",
+      "text": "Detects vehicles in videos, and further identifies vehicle brands, vehicle colors, and vehicle license plates.",
+      "author": "Ascend",
+      "from": "Created on 2019-04-25",
+      "imgUrl": "/imgs/appdetialdetails_car.jpg"
+    },
+    {
+      "title": "Human Detection",
+      "text": "Detects human bodies in videos, and further identifies the human body characteristics including the genders, ages, clothing colors, and accessories.",
+      "author": "Ascend",
+      "from": "Created on 2019-04-25",
+      "imgUrl": "/imgs/application_pic05.png"
+    },
+    {
+      "title": "Ascend Camera",
+      "text": "Obtains video frames based on specified frame rate and image resolution and converts the data into JPG for storage or remote display.",
+      "author": "Ascend",
+      "from": "Created on 2019-04-25",
+      "imgUrl": "/imgs/appdetial_camera.jpg"
+    },
+    {
+      "title": "General Classification Network App",
+      "text": "Here provides a demo for developing a classification network app.",
+      "author": "Ascend",
+      "from": "Created on 2019-04-25",
+      "imgUrl": "/imgs/lie01.png"
+    },
+    {
+      "title": "Faster R-CNN Object Detection Network App",
+      "text": "Here provides a demo for developing a Faster R-CNN object detection network app.",
+      "author": "Ascend",
+      "from": "Created on 2019-04-25",
+      "imgUrl": "/imgs/appdetial_cnn.jpg"
+    },
+    {
+      "title": "Updating",
+      "text": "Please stay tuned for more updates.",
+      "author": "",
+      "from": "",
+      "imgUrl": "/imgs/application_pic06.png"
+    }
+  ],
+    "applicationDetails": [
+      {
+        "head": {
+          "title": "Face Detection",
+          "headPortraitUrl": "/imgs/toux.png",
+          "author": "Ascend",
+          "time": "Created on 2019/04/25",
+          "introduce": "A face is a model collection that contains rich information. It provides vital information for mutual recognition of human beings. It is also one of the most interested objects in images and videos. Compared with using other human biological features such as fingerprint and voice, face detection is more direct and friendly, and is widely used in identity identification, access control, video conference, archive management, object-based image and video retrieval. It has been a research hotspot in the AI field.",
+          "imgUrl": "/imgs/5d156c7932f2ca046356802b_origin.png",
+          "button": [
+            "<a href='https://github.com/Ascend/sample-facedetection' target='_blank'><button style='background: #3d88ff;color: #ffffff;width: 120px;height: 35px;padding: 0;'>Download</button></a>"
+          ]
+        },
+        "conter": {
+          "title": "Project Details ",
+          "summary": "Overview",
+          "summaryContent": "This application uses the video data obtained by a camera connected to the Atlas 200 DK as the input, detects the face in a video image in real time, marks the face information, and pushes the information to the web UI for display.",
+          "principle": "Principle",
+          "principleContent": [
+            "1.The CameraDatasets module obtains video data in YUV420SP format from a camera by interacting with the camera driver.",
+            "The Atlas 200 DK provides a media API library for developers to easily obtain camera images. For details about how to use the APIs, see, <a href='/documentation/details/en/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0178961822.html'>Media API</a>.",
+            "2.FaceDetectionPreProcess is an image preprocessing module. When the resolution of an input image does not match the resolution required by the network model, the image is resized. The Ascend DK provides the EZDVPP, which has encapsulated the DVPP APIs, to help developers preprocess images. For details about how to use the APIs, see, <a href='/documentation/details/en/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0165840096.html'>EZDVPP</a>.",
+            "3.FaceDetectionInferenceEngine loads the trained face detection network model and its weight, performs inference on the image, and converts the image into the JPEG format. For details about how to use the inference APIs, see, <a href='/documentation/details/en/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0178961831.html'>Matrix API</a>.",
+            "4.FaceDetectionPostProcess sends the received images and inference results to Presenter Server deployed on the UI Host by calling the Presenter Agent APIs. For details about how to use the Presenter Agent APIs, see, <a href='/documentation/details/en/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0165841897.html'>Presenter Agent</a>.",
+            "5.Presenter Server marks the face position and confidence in the JPEG image according to the received inference result, and pushes the image information to the Web UI (Presenter Agent).",
+            "6.The user can access Present Server by using the Chrome browser and view the face detection information in the video in real time."
+          ],
+          "technology": "Technique",
+          "technologyContent": [
+            "-     Huawei MindSpore DDK based on the Ascend 310 chipset",
+            "-     ResNet10-SSD300 object detection network model based on Caffe, which is converted to the model supported by the Ascend 310 chipset using the model manager APIs provided by Matrix."
+          ],
+          "hardware": "Hardware",
+          "hardwareContent": [
+            "Atlas 200 DK developer board",
+            "Raspberry Pi cameras"
+          ],
+          "optimization": "Optimization",
+          "optimizationContent": "Currently, the face detection network uses the ResNet10-SSD model and the weight is also implemented by using the open source pre-training network. If high accuracy is required, use a higher accuracy model for face detection.",
+          "effectShow": "Instance",
+          "summaryImg": [
+            "<img src='/imgs/Facialdetection-en.png' alt=''>"
+          ],
+          "effectImg": [
+            "<img src='/imgs/FacialEffect.png' alt=''>"
+          ]
+        }
+      },
+      {
+        "head": {
+          "title": "Facial Recognition",
+          "headPortraitUrl": "/imgs/toux.png",
+          "author": "Ascend",
+          "time": "Created on 2019/04/25",
+          "introduce": "A face is a model collection that contains rich information. It provides vital information for mutual recognition of human beings. It is also one of the most interested objects in images and videos. Compared with using other human biological features such as fingerprint and voice, face detection is more direct and friendly, and is widely used in identity identification, access control, video conference, archive management, object-based image and video retrieval. It has been a research hotspot in the AI field.",
+          "imgUrl": "/imgs/appdetial-pic01.png",
+          "button": [
+            "<a href='https://github.com/Ascend/sample-facialrecognition' target='_blank'><button style='background: #3d88ff;color: #ffffff;width: 120px;height: 35px;padding: 0;'>Download</button></a>"
+          ]
+        },
+        "conter": {
+          "title": "Project Details ",
+          "summary": "Overview",
+          "summaryContent": "This application implements face registration on the Atlas 200 DK, predicts the face information in the video by using an external camera, compares the face information with the registered face, predicts the most likely user, and finally pushes the information to the web UI for display.",
+          "principle": "Principle",
+          "principleContent": [
+            "1.The face_register module receives registered images from external systems and converts them into YUV420SP images required by the downstream module. The user can access Present Server by using the Chrome browser and perform face registration on the web UI. The application then saves the registration information after facial recognition, feature point identification, and feature vector extraction.",
+            "2.The camera_datasets module obtains video frame data in YUV420SP format from a camera by interacting with the camera driver.",
+            "The Atlas 200 DK provides a media API library for developers to easily obtain camera images. For details about how to use the APIs, see, <a href='/documentation/details/en/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0178961822.html'>Media API Reference</a>.",
+            "3.The face_detection module infers and identifies the face coordinates and confidence in the image on the Atlas 200 DK based on the face detection network model, crops the face image based on the coordinates, and sends the cropped image to the downstream module. The resize capability of the DVPP is used during the processing. The Ascend DK provides the EZDVPP, which has encapsulated the DVPP APIs, to help developers preprocess images. For details about how to use the APIs, see <a href='/documentation/details/en/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0165840096.html'>EZDVPP</a>. For details about how to use the inference APIs, see <a href='/documentation/details/en/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0178961831.html'>Matrix API</a>.",
+            "4.The face_feature_mask module uses the feature point mark network model (Vanilla CNN model) to identify the coordinates of five feature points (including the eyes, nose, and two mouth corners) on the small face image, and sends the image to the downstream module for further identification.",
+            "5.The face_recognition module performs face correction operation based on the small face image output by the face_feature_mask module and the coordinates of the five feature points, and sends the flipped and mirrored face image to the SphereFace Model to perform inference and extract feature vectors of 1024 facial dimensions.",
+            "6.The face_postprocess module has no special relationship with the preceding process. It enables the communication between the Ascend chipset and Presenter Server, and sends the received inference results, feature vectors, and JPEG images to Presenter Server deployed on the UI Host by calling the Presenter Agent APIs. For details about how to use the Presenter Agent APIs, see <a href='/documentation/details/en/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0165841897.html'>Presenter Agent</a>.",
+            "7.Presenter Server: It is a small web display tool developed by Huawei (https://github.com/Ascend/sdk-presenter/releases/download/1.0.0/presenteragent-1.0.0.zip). It provides the functions of displaying real-time camera data, determining the similarity of faces, displaying recognition results, and providing channels for uploading images during face registration, For details about how to use the APIs, see <a href='/documentation/details/en/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0178961822.html'>Media API</a>."
+          ],
+          "technology": "Technique",
+          "technologyContent": [
+            "-Huawei MindSpore DDK based on the Ascend 310 chipset. <br>-ResNet10-SSD300 object detection network model based on Caffe, which is converted to the model supported by the Ascend 310 chipset using the model manager APIs provided by Matrix. <br>-Vanilla CNN facial feature point identification model based on Caffe, which is converted to the model supported by the Ascend 310 chipset using the model manager APIs provided by Matrix.",
+            "-SphereFace feature vector extraction model based on Caffe, which is converted to the model supported by the Ascend 310 chipset using the model manager APIs provided by Matrix"
+          ],
+          "hardware": "Hardware",
+          "hardwareContent": [
+            "Atlas 200 DK developer board",
+            "Raspberry Pi cameras"
+          ],
+          "optimization": "Optimization",
+          "optimizationContent": "Currently, ResNet10-SSD, Vanilla CNN, and SphereFace are used for the face recognition application. They are open source networks, and the weights are also implemented through open source pre-training. If high accuracy is required, use a higher accuracy model or re-train the data based on the actual situation for facial recognition.",
+          "effectShow": "Instance",
+          "summaryImg": [
+            "<img src='/imgs/Face-en.png' alt=''>"
+          ],
+          "effectImg": [
+            "<img src='/imgs/Face2.png' alt=''><img src='/imgs/Face3.png' alt=''>"
+          ]
+        }
+      },
+      {
+        "head": {
+          "title": "Vehicle Detection",
+          "headPortraitUrl": "/imgs/toux.png",
+          "author": "Ascend",
+          "time": "Created on 2019/04/25",
+          "introduce": "Vehicle detection is to detect vehicles in a video clip, and further identify vehicle brands, vehicle colors, and vehicle license plates. Intelligent vehicle information detection and identification is a research hotspot in the AI field. It can be applied in various scenarios such as unmanned driving, safe city, traffic peccancy detection, and intelligent parking lots.",
+          "imgUrl": "/imgs/appdetialdetails_car.jpg",
+          "button": [
+            "<a href='https://github.com/Ascend/sample-videoanalysiscar' target='_blank'><button style='background: #3d88ff;color: #ffffff;width: 120px;height: 35px;padding: 0;'>Download</button></a>"
+          ]
+        },
+        "conter": {
+          "title": "Project Details ",
+          "summary": "Overview",
+          "summaryContent": "The application can be deployed on the Atlas 200 DK or AI acceleration cloud server to decode local MP4 files or RTSP video streams, predict vehicles and their attributes in video frames, generate structured information, and push the information to the web UI for display.",
+          "principle": "Principle",
+          "principleContent": [
+            "1.     The video_decode module obtains video input MP4 or RTSP video streams and decodes them into video frame data in YUV420SP format.",
+            "2.     The object_detection module first converts the received video frame data into images in YUV420SP NV12 format. When the resolution of an input image does not match the resolution required by the network model, the resize function of the DVPP is used to preprocess the image. (The Ascend DK provides the EZDVPP, which has encapsulated DVPP APIs, to help developers preprocess images. For details about how to use the APIs, see <a href='/documentation/details/en/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0165840096.html'>EZDVPP</a>.) The preprocessed image is sent to the object detection network model for inference. The original image and object detection inference results are output to the next-layer engine. For details about the inference APIs, see <a href='/documentation/details/en/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0178961831.html'>Matrix API</a>.",
+            "3.     The object_detection_post module filters the object detection results that are obtained according to the confidence and objects. For a BBox that meets the classification execution requirement, a small image is cropped in the original image. The cropped small image is directly transferred to the inference engine of the next layer. The original image and the cropped small image are converted into JPG files and are sent to the post-processing engine video_analysis_post.",
+            "4.     Vehicle attribute inference",
+            "4.1.    The car_type_inference engine preprocesses the vehicle image, loads the trained vehicle brand recognition model and its weight, and performs inference on the vehicle image to predict the vehicle brand.",
+            "4.2.    The car_color_inference engine preprocesses the input vehicle image, loads the trained vehicle color recognition model and its weight, and performs inference on the vehicle image to predict the vehicle color.",
+            "4.3.    The car_plate_detection engine preprocesses the input vehicle image, loads the trained license plate detection model and its weight, detects the license plate in the vehicle image, and sends the cropped image of the vehicle license plate to the next engine car_plate_recognition.",
+            "The car_plate_recognition engine loads the trained license plate recognition model and its weight, and performs inference on the cropped small image to predict the license plate.",
+            "5.     The video_analysis_post engine sends the received images and inference results to Presenter Server deployed on the UI Host by calling the Presenter Agent APIs. For details about how to use the Presenter Agent APIs, see <a href='/documentation/details/en/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0165841897.html'>Presenter Agent</a>.",
+            "6.     Presenter Server summarizes the received images and inference results and sends the structured information to the Web UI (Presenter Agent).",
+            "7.     The user can access Present Server by using the Chrome browser and view the structured information in the video in real time."
+          ],
+          "technology": "Technique",
+          "technologyContent": [
+            "-    Huawei MindSpore DDK based on the Ascend 310 chipset",
+            "-    VGG16-SSD512 object detection network model based on Caffe, which is converted to the model supported by the Ascend 310 chipset using the model manager APIs provided by Matrix",
+            "-    GoogleNet model based on Caffe, which is used for vehicle brand recognition. The model is converted to the one supported by the Ascend 310 chipset using the model manager APIs provided by Matrix.",
+            "-    ResNet18 model based on Caffe, which is used for vehicle color recognition. The model is converted to the one supported by the Ascend 310 chipset using the model manager APIs provided by Matrix.",
+            "-    MobileNet-SSD model based on Caffe, which is used for license plate detection. The model is converted to the one supported by the Ascend 310 chipset using the model manager APIs provided by Matrix.",
+            "-    CNN model based on Caffe, which is used for license plate recognition. The model is converted to the one supported by the Ascend 310 chipset using the model manager APIs provided by Matrix."
+          ],
+          "hardware": "Hardware",
+          "hardwareContent": [
+            "Atlas 200 DK developer board",
+            "AI acceleration cloud server"
+          ],
+          "effectShow": "Instance",
+          "summaryImg": [
+            "<p style='padding: 20px 0px;text-align: center;font-size: 22px;color: #333333;'>Atlas 200 DK</p><img src='/imgs/car_pic01-en.png' alt=''><p style='padding: 20px 0px;text-align: center;font-size: 22px;color: #333333;'>AI acceleration cloud server</p><img src='/imgs/car_pic02-en.png' alt=''>"
+          ],
+          "effectImg": [
+            "<img src='/imgs/car_pic03.jpg' alt=''>"
+          ]
+        }
+      },
+      {
+        "head": {
+          "title": "Human Detection",
+          "headPortraitUrl": "/imgs/toux.png",
+          "author": "Ascend",
+          "time": "Created on 2019/04/25",
+          "introduce": "Human detection is to detect human bodies in a video, and further identify the human body characteristics including gender, age, clothing color, and wearing decorations. Human detection can be applied to various scenarios such as human tracking, human flow statistics collection, and crowd anomaly monitoring. It has been a research feature of the current AI field.",
+          "imgUrl": "/imgs/appdetial-pic02.png",
+          "button": [
+            "<a href='https://github.com/Ascend/sample-videoanalysisperson' target='_blank'><button style='background: #3d88ff;color: #ffffff;width: 120px;height: 35px;padding: 0;'>Download</button></a>"
+          ]
+        },
+        "conter": {
+          "title": "Project Details ",
+          "summary": "Overview",
+          "summaryContent": "This application can be deployed on the Atlas 200 DK or AI acceleration cloud server to decode local MP4 files or RTSP video streams, detect face and human posture in a video frame, identify the face information, analyze the age and gender of the face, and pushes the information to the web UI for display.",
+          "principle": "Principle",
+          "principleContent": [
+            "1.The video_decode module obtains the input RTSP video streams or video files and decodes them into video frame data in YUV420SP format.",
+            "2.The object_detection module first converts the received video frame data into images in YUV420SP NV12 format. When the resolution of an input image does not match the resolution required by the network model, the resize function of the DVPP is used to preprocess the image. (The Ascend DK provides the EZDVPP, which has encapsulated the DVPP APIs, to help developers preprocess images. For details about how to use the APIs, see <a href='/documentation/details/en/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0165840096.html'>EZDVPP</a>.) The preprocessed image is sent to the object detection network model for inference. The original image and object detection inference results are output to the next-layer engine. For details about the inference APIs, see <a href='/documentation/details/en/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0178961831.html'>Matrix API</a>.",
+            "3.The object_detection_post module filters the object detection results that are obtained according to the confidence and objects. For a BBox that meets the classification execution requirement, a small image is cropped in the original image. The cropped small image is transmitted to the human body attribute detection inference engine at the next layer. The original image is transmitted to the face detection inference engine. In addition, the original image and the cropped small image are converted to the JPEG format and sent to the post-processing engine video_analysis_post.",
+            "4.Human body attribute inference",
+            "4.1.The pedestrian_attr_inference module preprocesses the input pedestrian image (small image cropped by using ObjectDetectionPost), loads the human body attribute detection model to perform inference, and outputs the human body attribute prediction result.",
+            "4.2.The face_detection module preprocesses the input original image, loads the face detection model to perform inference, crops a small image of the detected face, and sends the image to the age detection inference module, gender detection inference module, and post-processing engine video_analysis_post.",
+            "--The age_inference module loads the trained age detection model and its weight to predict the age after preprocessing the cropped image of the face previously detected by the face detection module.",
+            "5.The video_analysis_post engine sends the received images and inference results to Presenter Server deployed on the UI Host by calling the Presenter Agent APIs. For details about how to use the Presenter Agent APIs, see <a href='/documentation/details/en/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0165841897.html'>Presenter Agent</a>.",
+            "6.Presenter Server summarizes the received images and inference results and sends the structured information to the Web UI (Presenter Agent).",
+            "7.The user can access Present Server by using the Chrome browser and view the structured information in the video in real time."
+          ],
+          "technology": "Technique",
+          "technologyContent": [
+            "-Huawei MindSpore DDK based on the Ascend 310 chipset",
+            "-VGG16-SSD object detection network model based on Caffe, which is converted to the model supported by the Ascend 310 chipset using the model manager APIs provided by Matrix",
+            "-ResNet10-SSD300 object detection network model based on Caffe, which is converted to the model supported by the Ascend 310 chipset using the model manager APIs provided by Matrix。",
+            "-vespa-peta_iter_12000 object detection network model based on Caffe, which is converted to the model supported by the Ascend 310 chipset using the model manager APIs provided by Matrix",
+            "-Rude-carnie facial age and gender detection model based on Caffe, which is converted to the model supported by the Ascend 310 chipset using the model manager APIs provided by Matrix"
+          ],
+          "hardware": "Hardware",
+          "hardwareContent": [
+            "Atlas 200 DK developer board",
+            "Raspberry Pi cameras"
+          ],
+          "optimization": "Optimization",
+          "optimizationContent": "If high accuracy is required, use a higher accuracy model for human body, face, age, and gender detection.",
+          "effectShow": "Instance",
+          "summaryImg": [
+            "<p style='padding: 20px 0px;text-align: center;font-size: 22px;color: #333333;'>Atlas 200 DK</p><img src='/imgs/human1-en.png' alt=''><p style='padding: 20px 0px;text-align: center;font-size: 22px;color: #333333;'>AI acceleration cloud server</p><img src='/imgs/human2-en.png' alt=''>"
+          ],
+          "effectImg": [
+            "<img src='/imgs/human3.png' alt=''>"
+          ]
+        }
+      },
+      {
+        "head": {
+          "title": "Ascend Camera",
+          "headPortraitUrl": "/imgs/toux.png",
+          "author": "Ascend",
+          "time": "Created on 2019/04/25",
+          "introduce": "The Atlas 200 developer kit (DK) provides two camera interfaces, supporting the Raspberry Pi camera v1.3 and v2.1. This application encapsulates common functions. For example, it is able to convert the YUV420SP video frame stream captured using a camera into a .jpg video frame stream that can be easily displayed.",
+          "imgUrl": "/imgs/appdetialdetails_camera.jpg",
+          "button": [
+            "<a href='https://github.com/Ascend/sample-ascendcamera' target='_blank'><button style='background: #3d88ff;color: #ffffff;width: 120px;height: 35px;padding: 0;'>Download</button></a>"
+          ]
+        },
+        "conter": {
+          "title": "Project Details",
+          "summary": "Overview",
+          "summaryContent": "With the camera driver module, the Ascend Camera obtains video frames based on the frame rate and image resolution set by the caller, processes the data through the EZDVPP (which has encapsulated the DVPP APIs to simplify the DVPP calling), converts the data into JPG, and saves the video clip as a file or displays the video clip remotely. Especially, video can be output to the VLC media player for remote display or sent to Chrome through Presenter Server developed by Huawei.",
+          "principle": "Principle",
+          "principleContent": [
+            "1.     The Ascend Camera module obtains video frame data in YUV420SP format from a camera by interacting with the camera driver, and then calls the EZDVPP API to convert the YUV420SP video into JPG images based on the user settings.",
+            "The Atlas 200 DK provides a media API library for developers to easily obtain camera images. For details about how to use the APIs, see <a href='/documentation/details/en/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0178961822.html'>Media API</a> Reference.",
+            "In addition, the Ascend DK provides the EZDVPP, which has encapsulated the DVPP APIs, to help developers preprocess images. For details about how to use the APIs, see <a href='/documentation/details/en/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0165840096.html'>EZDVPP</a>.",
+            "2.     With Ascend Camera, the user can save the media file converted by the EZDVPP to the local PC. The file storage path and name can be user-defined.",
+            "3.     To play a media file in real time through Huawei Presenter Server, the Ascend Camera module pushes the converted media data to Presenter Server through the API provided by Presenter Agent. Then, Present Server displays the media data in the browser. For details about how to use the Presenter Agent APIs, see, <a href='/documentation/details/en/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0165841897.html'>Presenter Agent</a>.",
+            "For details about the operating principles of Presenter Agent and Presenter Server, see https://github.com/Ascend/sdk-presenter/blob/master/README.md.",
+            "4.     To play the media file in real time by using the VLC media player, the Ascend Camera module transmits the converted media data to any port on the host of the Atlas 200 DK developer board through the pipe in the operating system (OS) by using GStreamer. Then, after the VLC video source information is configured, the media data is displayed in real time through the VLC media player.",
+            "GStreamer is an open-source multimedia framework on Linux, which can process all types of data streams. For details about the parameters, see https://gstreamer.freedesktop.org/."
+          ],
+          "technology": "Technique",
+          "technologyContent": [
+            "-    Obtain the media API library for camera images, that is, <a href='/documentation/details/en/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0178961822.html'>Media API</a> Reference.",
+            "-    DVPP: This module is short for Da Vinci Video Pre-Processor. It implements video decoding (VDEC), video encoding (VENC), JPEG encoding and decoding (JPEGD/E), PNG decoding (PNGD), and visual preprocessing (VPC).",
+            "-    EZDVPP: This module has encapsulated the DVPP APIs to simplify the complexity of DVPP API calling. The EZDVPP can be used for image format conversion (including YUV-to-JPG conversion, and JPEG-to-YUV conversion), image crop, and image resize."
+          ],
+          "hardware": "Hardware",
+          "hardwareContent": [
+            "Atlas 200 DK developer board",
+            "Raspberry Pi cameras"
+          ],
+          "effectShow": "Instance",
+          "summaryImg": [
+            "<img src='/imgs/ascendcamera-en.png' alt=''>"
+          ],
+          "effectImg": [
+            "<img src='/imgs/ascendcamera_pic02.jpg' alt=''><img src='/imgs/ascendcamera_pic03.jpg' alt=''>"
+          ]
+        }
+      },
+      {
+        "head": {
+          "title": "General Classification Network Application",
+          "headPortraitUrl": "/imgs/toux.png",
+          "author": "Ascend",
+          "time": "Created on 2019/04/25",
+          "introduce": "The deep convolutional neural network (CNN) AlexNet won the 2012 ImageNet Large Scale Visual Recognition Challenge (ILSVRC) championship. Since then, the CNN has won the game, exceeding the accuracy of human vision by 5%–10%. CNN-based image classification has become the most active research topic in the AI field. Here provides a demo for developing the classification network application based on the Atlas 200 DK. Developers can use the Atlas 200 DK to learn the AI application development or expand features based on this application.",
+          "imgUrl": "/imgs/appdetial-pic03.png",
+          "button": [
+            "<a href='https://github.com/Ascend/sample-classification' target='_blank'><button style='background: #3d88ff;color: #ffffff;width: 120px;height: 35px;padding: 0;'>Download</button></a>"
+          ]
+        },
+        "conter": {
+          "title": "Project Details ",
+          "summary": "Overview",
+          "summaryContent": "This application provides a Python script as the entry. The user can set the console parameters such as the receiving model path, image path, and resize extent. The network model performs inference on input images in sequence. The top n inference results will be printed on the console.",
+          "principle": "Principle",
+          "principleContent": [
+            "1.1.The run_classification.py script is the execution and interaction entry for the image classification application. It parses and verifies console parameters, generates the graph.config file, and starts the engine process.",
+            "2.The image preprocessing module reads an image input based on the image path in the graph.config file, calls the EZDVPP API to convert the image to the YUV420SP format, and then sends it to the inference module. When the resolution of the input image does not match the resolution required by the network model, the EZDVPP API is called to resize the image. The EZDVPP has encapsulated the DVPP APIs to help developers preprocess images. For details about how to use the APIs, see <a href='/documentation/details/en/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0165840096.html'>EZDVPP</a>.",
+            "3.The general inference engine module loads the trained offline model and its weight based on the model path defined in the graph.config file, and performs inference on the image. For details about how to use the inference APIs, see <a href='/documentation/details/en/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0178961831.html'>Matrix API</a>.",
+            "4.The post-processing module receives and processes the inference result, and outputs the index and the probability score of top n classifications."
+          ],
+          "technology": "Technique",
+          "technologyContent": [
+            "-Huawei MindSpore DDK based on the Ascend 310 chipset",
+            "-Popular classification network model based on Caffe or TensorFlow, which is converted to the model supported by the Ascend 310 chipset using the model manager APIs provided by Matrix"
+          ],
+          "hardware": "Hardware",
+          "hardwareContent": [
+            "Atlas 200 DK developer board"
+          ],
+          "optimization": "Optimization",
+          "optimizationContent": "The current code supports only the inference for the model when the number of batches is 1. You can modify the code to support the model whose number of batches is greater than 1.",
+          "effectShow": "Instance",
+          "summaryImg": [
+            "<p style='padding: 20px 0px;text-align: center;font-size: 22px;color: #333333;'>Atlas 200 DK</p><img src='/imgs/tong-en.png' alt=''><p style='padding: 20px 0px;text-align: center;font-size: 22px;color: #333333;'>AI acceleration cloud server</p><img src='/imgs/tong2-en.png' alt=''>"
+          ],
+          "effectImg": [
+            "<img src='/imgs/tong3.png' alt=''>"
+          ]
+        }
+      },
+      {
+        "head": {
+          "title": "Faster R-CNN Object Detection",
+          "headPortraitUrl": "/imgs/toux.png",
+          "author": "Ascend",
+          "time": "Created on 2019/04/25",
+          "introduce": "Object detection is one of the basic tasks in the computer vision field and has been under academia research for nearly 20 years. With the growth of deep learning technology in recent years, the object detection algorithm has shifted from the traditional way based on handwork features to the detection technology based on deep neural network. Here provides a demo for developing the detection network application based on the Atlas 200 DK. Developers can use the Atlas 200 DK to learn the AI application development or expand features based on this application.",
+          "imgUrl": "/imgs/appdetialdetails_cnn.jpg",
+          "button": [
+            "<a href='https://github.com/Ascend/sample-objectdetection' target='_blank'><button style='background: #3d88ff;color: #ffffff;width: 120px;height: 35px;padding: 0;'>Download</button></a>"
+          ]
+        },
+        "conter": {
+          "title": "Project Details ",
+          "summary": "Overview",
+          "summaryContent": "This application provides a Python script as the entry. The user can set the console parameters such as the receiving model path, image path, and resize extent. The network model performs inference on input images in sequence. The detected bounding box (BBox) information and prediction probability are marked in the original image. The result image is saved to the specified path.",
+          "principle": "Principle",
+          "principleContent": [
+            "1.     The run_object_detection_faster_rcnn.py script is the execution and interaction entry for the image detection application. It parses and verifies console parameters, generates the graph.config file, and starts the engine process.",
+            "2.     The image preprocessing module reads an image input based on the image path in the graph.config file, calls the EZDVPP API to convert the image to the YUV420SP format, and then sends it to the inference module. When the resolution of the input image does not match the resolution required by the network model, the EZDVPP API is called to resize the image. The EZDVPP has encapsulated the DVPP APIs to help developers preprocess images. For details about how to use the APIs, see <a href='/documentation/details/en/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0165840096.html'>EZDVPP</a>.",
+            "3.     The general inference engine module loads the trained offline model and its weight based on the model path defined in the graph.config file, and performs inference on the image. For details about how to use the APIs, see <a href='/documentation/details/en/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0178961831.html'>Matrix API</a>.",
+            "4.     The post-processing module receives and processes the inference result, marks the index and prediction probability of the detected object in the image, and saves the image to a specified path."
+          ],
+          "technology": "Technique",
+          "technologyContent": [
+            "-    Huawei MindSpore Device Developer Kit (DDK) based on the Ascend 310 chipset",
+            "-    Faster R-CNN object detection network model based on Caffe, which is converted to the model supported by the Ascend 310 chipset using the model manager APIs provided by Matrix"
+          ],
+          "hardware": "Hardware",
+          "hardwareContent": [
+            "Atlas 200 DK developer board"
+          ],
+          "optimization": "Optimization",
+          "optimizationContent": "The current detection network demo supports only the Faster R-CNN network model. You can add post-processing implementation of network models such as Single Shot MultiBox Detector (SSD) to the post-processing module to support more detection networks.",
+          "effectShow": "Instance",
+          "summaryImg": [
+            "<p style='padding: 20px 0px;text-align: center;font-size: 22px;color: #333333;'>Atlas 200 DK</p><img src='/imgs/cnn_pic01-en.png' alt=''><p style='padding: 20px 0px;text-align: center;font-size: 22px;color: #333333;'>AI acceleration cloud server</p><img src='/imgs/cnn_pic02-en.png' alt=''>"
+          ],
+          "effectImg": [
+            "<img src='/imgs/cnn_pic03.jpg' alt=''>"
+          ]
+        }
+      }
+    ]
+  }
+
+}

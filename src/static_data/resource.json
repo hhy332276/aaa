@@ -1,0 +1,176 @@
+{
+  "resource": {
+    "zh": {
+      "bannerUrl": "/imgs/banner-resource.png",
+      "ascendDk": {
+        "data": [
+          {
+            "title": "mini_mindspore_studio_Ubuntu.rar",
+            "version": "1.1.1.1.1",
+            "releaseTime":"9 days ago",
+            "content": "开发工具Mind Studio安装包",
+            "url": "https://github.com/Ascend/ascenddk-private/tree/master/B883"
+          },
+          {
+            "title": "MSpore_DDK-x86_64.ubuntu16.04-aarch64.ubuntu16.04-aarch64.ubuntu16.04.tar",
+            "version": "1.1.1.1.1",
+            "releaseTime":"9 days ago",
+            "content": "Device Development Kit，为开发者提供算法开发工具包",
+            "url": "https://github.com/Ascend/ascenddk-private/tree/master/B883"
+          },
+          {
+            "title": "mini_developerkit.rar",
+            "version": "1.1.1.1.1",
+            "releaseTime":"9 days ago",
+            "content": "Atlas 200 DK开发者板系统运行包",
+            "url": "https://github.com/Ascend/ascenddk-private/tree/master/B883"
+          }
+        ]
+      },
+      "tools": {
+        "data": [
+          {
+            "title": "configure_usb_ethernet.sh",
+            "version": "1.1.1.1.1",
+            "releaseTime":"9 days ago",
+            "content": "USB连接方式下配置Mind Spore Studio所在服务器IP地址的脚本",
+            "url": "https://github.com/Ascend/tools/blob/master/configure_usb_ethernet.sh"
+          },
+          {
+            "title": "make_sd_card.py",
+            "version": "1.1.1.1.1",
+            "releaseTime":"9 days ago",
+            "content": "Atlas 200 DK制卡入口脚本",
+            "url": "https://github.com/Ascend/tools/blob/master/make_sd_card.py"
+          },
+          {
+            "title": "make_ubuntu_sd.sh",
+            "version": "1.1.1.1.1",
+            "releaseTime":"9 days ago",
+            "content": "Atlas 200 DK SD卡中操作系统制作脚本",
+            "url": "https://github.com/Ascend/tools/blob/master/make_ubuntu_sd.sh"
+          },
+          {
+            "title": "make_ui_cross_env.py",
+            "version": "1.1.1.1.1",
+            "releaseTime":"9 days ago",
+            "content": "Mind Studio所在服务器交叉编译环境配置脚本",
+            "url": "https://github.com/Ascend/tools/blob/master/make_ui_cross_env.py"
+          }
+        ]
+      },
+      "model": {
+        "data": [
+          {
+            "img": "/temp-imgs/PIC01.png",
+            "title": "Classification",
+            "content": "分类网络的Davinci模型",
+            "num": "23文件",
+            "url": "https://github.com/Ascend/models/tree/master/computer_vision/classification"
+          },
+          {
+            "img": "/temp-imgs/PIC02.png",
+            "title": "Object Detection",
+            "content": "目标检测网络的Davinci模型",
+            "num": "23文件",
+            "url": "https://github.com/Ascend/models/tree/master/computer_vision/object_detect"
+          }
+        ]
+      }
+    },
+    "en": {
+      "bannerUrl": "/imgs/banner-resource.png",
+      "ascendDk": {
+        "data": [
+          {
+            "title": "mini_mindspore_studio_Ubuntu.rar",
+            "version": "1.1.1.1.1",
+            "releaseTime": "9 days ago",
+            "content": "Mind Studio installation package",
+            "url": "https://github.com/Ascend/ascenddk-private/tree/master/B883"
+          },
+          {
+            "title": "MSpore_DDK-x86_64.ubuntu16.04-aarch64.ubuntu16.04-aarch64.ubuntu16.04.tar",
+            "version": "1.1.1.1.1",
+            "releaseTime": "9 days ago",
+            "content": "Device development kit (algorithm development toolkit)",
+            "url": "https://github.com/Ascend/ascenddk-private/tree/master/B883"
+          },
+          {
+            "title": "mini_developerkit.rar",
+            "version": "1.1.1.1.1",
+            "releaseTime": "9 days ago",
+            "content": "Atlas 200 DK developer board package",
+            "url": "https://github.com/Ascend/ascenddk-private/tree/master/B883"
+          }
+        ]
+      },
+      "tools": {
+        "data": [
+          {
+            "title": "configure_usb_ethernet.sh",
+            "version": "1.1.1.1.1",
+            "releaseTime": "9 days ago",
+            "content": "IP address configuration script for the Mind Studio server in USB connection mode",
+            "url": "https://github.com/Ascend/tools/blob/master/configure_usb_ethernet.sh"
+          },
+          {
+            "title": "make_sd_card.py",
+            "version": "1.1.1.1.1",
+            "releaseTime": "9 days ago",
+            "content": "SD card preparation script for the Atlas 200 DK",
+            "url": "https://github.com/Ascend/tools/blob/master/make_sd_card.py"
+          },
+          {
+            "title": "make_ubuntu_sd.sh",
+            "version": "1.1.1.1.1",
+            "releaseTime": "9 days ago",
+            "content": "OS preparation script for the Atlas 200 DK SD card",
+            "url": "https://github.com/Ascend/tools/blob/master/make_ubuntu_sd.sh"
+          },
+          {
+            "title": "make_ui_cross_env.py",
+            "version": "1.1.1.1.1",
+            "releaseTime": "9 days ago",
+            "content": "Cross compilation environment configuration script for the Mind Studio server",
+            "url": "https://github.com/Ascend/tools/blob/master/make_ui_cross_env.py"
+          }
+        ]
+      },
+      "model": {
+        "data": [
+          {
+            "img": "/temp-imgs/PIC01.png",
+            "title": "Classification",
+            "content": "Da Vinci models for the classification network",
+            "num": "23 files",
+            "url": "https://github.com/Ascend/models/tree/master/computer_vision/classification"
+          },
+          {
+            "img": "/temp-imgs/PIC02.png",
+            "title": "Object Detection",
+            "content": "Da Vinci models for the target detection network",
+            "num": "23 files",
+            "url": "https://github.com/Ascend/models/tree/master/computer_vision/object_detect"
+          }
+        ]
+      }
+    }
+  },
+  "user": {
+    "zh": {
+      "nickname": "呆萌大叔",
+      "userImg": "/temp-imgs/head6.png",
+      "attention": 0,
+      "fansNum": 0,
+      "emil": ""
+    },
+    "en": {
+      "nickname": "Dorky Uncle",
+      "userImg": "/temp-imgs/head6.png",
+      "attention": 0,
+      "fansNum": 0,
+      "emil": ""
+    }
+  }
+}

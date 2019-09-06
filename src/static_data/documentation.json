@@ -1,0 +1,1265 @@
+{
+  "static": {
+    "overview": {
+      "1.3.0.0": {
+        "zh":{
+          "overViewUrl": "/documentation/details/zh/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/overview",
+          "quickExperience": "/documentation/details/zh/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/experience",
+          "moreUrl": "/documentation/details/zh/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0178961826.html",
+          "intro":{
+            "title":"初识Atlas 200 DK",
+            "subTitle":"Atlas 200 DK",
+            "description":"Atlas 200 Developer Kit是以Ascend 310为核心的开发者板形态产品，可以运用于智慧城市、无人机、机器人等众多领域。您可以基于Atlas 200 DK编写高效的人工智能应用程序。"
+          },
+          "appDev":{
+            "title":"应用开发",
+            "steps":[
+              {
+                "name":"Mind Studio快速入门",
+                "icon":"/imgs/overview_icon01.png",
+                "stepNum":"/imgs/overview_step01.png",
+                "url": "/documentation/details/zh/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0178961795.html"
+              },
+              {
+                "name":"应用开发",
+                "icon":"/imgs/overview_icon02.png",
+                "stepNum":"/imgs/overview_step02.png",
+                "url": "/documentation/details/zh/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0178961834.html"
+              },
+              {
+                "name":"Code Sample",
+                "icon":"/imgs/overview_icon03.png",
+                "stepNum":"/imgs/overview_step03.png",
+                "url": "https://github.com/Ascend"
+              },
+              {
+                "name":"自定义算子开发",
+                "icon":"/imgs/overview_icon04.png",
+                "stepNum":"/imgs/overview_step04.png",
+                "url": "/documentation/details/zh/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0178961799.html"
+              }
+            ]
+          },
+          "appTransplant":{
+            "title":"应用移植",
+            "banner":"/imgs/overview_pic02.jpg",
+            "description":"Atlas 200 DK提供将其他GPU平台的神经网络智能算法移植到Ascend 310平台的能力，本文档详细介绍应用移植的一般流程和注意事项，助力开发者快速进行应用的移植和开发。",
+            "url": "/documentation/details/zh/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0178961796.html"
+          },
+          "performanceTuning":{
+            "title":"高性能编程",
+            "banner":"/imgs/overview_pic03.jpg",
+            "description":"应用开发过程中主要的时间消耗在数据搬运、媒体预处理及模型处理这几个阶段，本文指导用户如何在这几个环节进行处理及衔接，从而实现更高的性能。",
+            "url": "/documentation/details/zh/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0178961830.html"
+          },
+          "api":{
+            "title":"API",
+            "content":[
+              {
+                "title":"Matrix  API",
+                "link":"/documentation/details/zh/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0178961831.html",
+                "intro":"Matrix提供流程编排、Engine实现、模型管家及数据定义等能力，为应用开发提供统一的标准化接口。"
+              },
+              {
+                "title":"Tensor Engine  API",
+                "link":"/documentation/details/zh/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0178961829.html",
+                "intro":"Tensor Engine是基于TVM的自定义算子开发框架，提供了一组封装好的接口（主要涵盖向量运算），供用户进行自定义算子的开发。"
+              },
+              {
+                "title":"DVPP  API",
+                "link":"/documentation/details/zh/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0178961791.html",
+                "intro":"用户可直接调用DVPP提供的API接口实现媒体预处理能力。"
+              },
+              {
+                "title":"IDE Daemon  API",
+                "link":"/documentation/details/zh/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0178966140.html",
+                "intro":"IDE Daemon模块提供接口给HiAI Engine模块调用，通过该接口可以实现将发送到Mind Studio侧的DVPP预处理结果写到文件中。"
+              },
+              {
+                "title":"Media  API",
+                "link":"/documentation/details/zh/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0178961822.html",
+                "intro":"HiAI Media是获取Atlas 200 DK开发者板中摄像头图像和音频数据的API接口媒体库，用户可通过API的调用，获取媒体数据并对开发者板的摄像头和MIC设备的工作模式进行控制。"
+              }
+            ]
+          },
+          "others":{
+            "title":"其他",
+            "content":[
+              {
+                "title":"Mind Studio基本操作",
+                "link":"/documentation/details/zh/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0178961784.html",
+                "intro":"Mind Studio基本功能使用操作指导，包含用户管理，工程管理，数据集管理及模型管理等。"
+              },
+              {
+                "title":"辅助工具",
+                "link":"/documentation/details/zh/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0178961827.html",
+                "intro":"应用开发过程中可以使用的辅助工具，包括日志工具，Profiling工具及黑匣子日志异常信息获取工具"
+              },
+              {
+                "title":"IDE-daemon-client命令参考",
+                "link":"/documentation/details/zh/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0178961823.html",
+                "intro":"IDE-daemon-client命令可以实现UI Host、Host、Device之间的文件传输、命令执行等。"
+              }
+            ]
+          },
+          "faq":{
+            "title":"常见问题",
+            "questions":[
+              {
+                "answerLink":"/documentation/details/zh/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0183300464.html",
+                "intro":"Mind Studio或DDK安装过程中提示pip2或pip不可用"
+              },
+              {
+                "answerLink":"/documentation/details/zh/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0183300902.html",
+                "intro":"开发者版无法正常连接UI Host如何处理"
+              },
+              {
+                "answerLink":"/documentation/details/zh/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0172440540.html",
+                "intro":"开发者板USB方式连接Mind Studio失败解决方法汇总"
+              },
+              {
+                "answerLink":"/documentation/details/zh/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0150540206.html",
+                "intro":"应用ssd网络模型执行检测器程序无运行结果"
+              }
+            ]
+          }
+        },
+        "en": {
+          "overViewUrl": "/documentation/details/en/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/overview",
+          "quickExperience": "/documentation/details/en/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/experience",
+          "moreUrl": "/documentation/details/en/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0178961826.html",
+          "intro": {
+            "title": "Atlas 200 DK Introduction",
+            "subTitle": "Atlas 200 DK",
+            "description": "Atlas 200 Developer Kit (DK) is an Ascend 310-powered developer board, widely used in fields such as smart city, UAV, and robotics. Atlas 200 DK enables you to write AI apps efficiently."
+          },
+          "appDev": {
+            "title": "App Development",
+            "steps": [
+              {
+                "name": "Mind Studio Quick Start",
+                "icon": "/imgs/overview_icon01.png",
+                "stepNum": "/imgs/overview_step01.png",
+                "url": "/documentation/details/en/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0178961795.html"
+              },
+              {
+                "name": "App Development",
+                "icon": "/imgs/overview_icon02.png",
+                "stepNum": "/imgs/overview_step02.png",
+                "url": "/documentation/details/en/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0178961834.html"
+              },
+              {
+                "name": "Code Sample",
+                "icon": "/imgs/overview_icon03.png",
+                "stepNum": "/imgs/overview_step03.png",
+                "url": "https://github.com/Ascend"
+              },
+              {
+                "name": "Custom Operator Development",
+                "icon": "/imgs/overview_icon04.png",
+                "stepNum": "/imgs/overview_step04.png",
+                "url": "/documentation/details/en/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0178961799.html"
+              }
+            ]
+          },
+          "appTransplant": {
+            "title": "App Migration",
+            "banner": "/imgs/overview_pic02.jpg",
+            "description": "Atlas 200 DK allows migration of neural network intelligent algorithms from other GPU platforms to the Ascend 310 platform. Check out the app migration process and precautions.",
+            "url": "/documentation/details/en/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0178961796.html"
+          },
+          "performanceTuning": {
+            "title": "High-Performance Programming",
+            "banner": "/imgs/overview_pic03.jpg",
+            "description": "Data transfer, media pre-processing, and model processing are most time-consuming in app development. Learn how to streamline these phases and boost the performance.",
+            "url": "/documentation/details/en/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0178961830.html"
+          },
+          "api": {
+            "title": "API",
+            "content": [
+              {
+                "title": "Matrix  API",
+                "link": "/documentation/details/en/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0178961831.html",
+                "intro": "Matrix provides unified standardized APIs for process orchestration, engine implementation, model management, and data definition."
+              },
+              {
+                "title": "Tensor Engine  API",
+                "link": "/documentation/details/en/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0178961829.html",
+                "intro": "Tensor Engine is a custom operator development framework based on the Tensor Virtual Machine (TVM) and provides a collection of encapsulated operator development APIs (mainly for vector computing)."
+              },
+              {
+                "title": "DVPP API",
+                "link": "/documentation/details/en/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0178961791.html",
+                "intro": "APIs provided by the digital vision pre-processing (DVPP) module can be directly called for media pre-processing."
+              },
+              {
+                "title": "IDE Daemon API",
+                "link": "/documentation/details/en/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0178966140.html",
+                "intro": "The IDE Daemon module provides APIs for HiAI Engine to send DVPP pre-processing results to Mind Studio, which can be saved to a file in Mind Studio."
+              },
+              {
+                "title": "Media API",
+                "link": "/documentation/details/en/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0178961822.html",
+                "intro": "HiAI Media is an API media library that helps you obtain captured image and audio data. With these APIs, you can easily control the operating modes of the cameras and MICs connecting to the Atlas DK."
+              }
+            ]
+          },
+          "others": {
+            "title": "Other",
+            "content": [
+              {
+                "title": "Mind Studio Basic Operations",
+                "link": "/documentation/details/en/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0178961784.html",
+                "intro": "Discover the basic features of Mind Studio, including user management, project management, dataset management, and model management."
+              },
+              {
+                "title": "Auxiliary Tools",
+                "link": "/documentation/details/en/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0178961827.html",
+                "intro": "Find out the handy tools that can facilitate your app development, including the log tool, Profiling, and black box."
+              },
+              {
+                "title": "IDE-daemon-client Command Reference",
+                "link": "/documentation/details/en/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0178961823.html",
+                "intro": "Learn the IDE-daemon-client commands for file transfer from the UI host to the host and from the host to the device, as well as command issuing from the UI host to the host and from the host to the device."
+              }
+            ]
+          },
+          "faq": {
+            "title": "FAQs",
+            "questions": [
+              {
+                "answerLink": "/documentation/details/en/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0183300464.html",
+                "intro": "What Do I Do If a Message Is Displayed Indicating pip2 or pip Unavailability During Mind Studio or DDK Installation? "
+              },
+              {
+                "answerLink": "/documentation/details/en/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0183300902.html",
+                "intro": "What Do I Do If the Developer Board Cannot Connect to the UI Host?"
+              },
+              {
+                "answerLink": "/documentation/details/en/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0172440540.html",
+                "intro": "What Do I Do If the Developer Board Fails to Connect to Mind Studio in USB Mode?"
+              },
+              {
+                "answerLink": "/documentation/details/en/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0150540206.html",
+                "intro": "How Do I Handle Unsupported Operators During SSD Caffe Model Conversion?"
+              }
+            ]
+          }
+        }
+      },
+      "B750": {
+        "zh":{
+          "overViewUrl": "/documentation/details/zh/B750/f4f39edd90e011e9a97afa163e714aa5/overview",
+          "quickExperience": "/documentation/details/zh/B750/f4f39edd90e011e9a97afa163e714aa5/experience",
+          "moreUrl": "/documentation/details/zh/B750/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0178961826.html",
+          "intro":{
+            "title":"初识Atlas 200 DK",
+            "subTitle":"Atlas 200 DK",
+            "description":"Atlas 200 Developer Kit是以Ascend 310为核心的开发者板形态产品，可以运用于智慧城市、无人机、机器人等众多领域。您可以基于Atlas 200 DK编写高效的人工智能应用程序。"
+          },
+          "appDev":{
+            "title":"应用开发",
+            "steps":[
+              {
+                "name":"Mind Studio快速入门",
+                "icon":"/imgs/overview_icon01.png",
+                "stepNum":"/imgs/overview_step01.png",
+                "url": "/documentation/details/zh/B750/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0178961795.html"
+              },
+              {
+                "name":"应用开发",
+                "icon":"/imgs/overview_icon02.png",
+                "stepNum":"/imgs/overview_step02.png",
+                "url": "/documentation/details/zh/B750/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0178961834.html"
+              },
+              {
+                "name":"Code Sample",
+                "icon":"/imgs/overview_icon03.png",
+                "stepNum":"/imgs/overview_step03.png",
+                "url": "https://github.com/Ascend"
+              },
+              {
+                "name":"自定义算子开发",
+                "icon":"/imgs/overview_icon04.png",
+                "stepNum":"/imgs/overview_step04.png",
+                "url": "/documentation/details/zh/B750/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0178961799.html"
+              }
+            ]
+          },
+          "appTransplant":{
+            "title":"应用移植",
+            "banner":"/imgs/overview_pic02.jpg",
+            "description":"Atlas 200 DK提供将其他GPU平台的神经网络智能算法移植到Ascend 310平台的能力，本文档详细介绍应用移植的一般流程和注意事项，助力开发者快速进行应用的移植和开发。",
+            "url": "/documentation/details/zh/B750/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0178961796.html"
+          },
+          "performanceTuning":{
+            "title":"高性能编程",
+            "banner":"/imgs/overview_pic03.jpg",
+            "description":"应用开发过程中主要的时间消耗在数据搬运、媒体预处理及模型处理这几个阶段，本文指导用户如何在这几个环节进行处理及衔接，从而实现更高的性能。",
+            "url": "/documentation/details/zh/B750/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0178961830.html"
+          },
+          "api":{
+            "title":"API",
+            "content":[
+              {
+                "title":"Matrix  API",
+                "link":"/documentation/details/zh/B750/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0178961831.html",
+                "intro":"Matrix提供流程编排、Engine实现、模型管家及数据定义等能力，为应用开发提供统一的标准化接口。"
+              },
+              {
+                "title":"Tensor Engine  API",
+                "link":"/documentation/details/zh/B750/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0178961829.html",
+                "intro":"Tensor Engine是基于TVM的自定义算子开发框架，提供了一组封装好的接口（主要涵盖向量运算），供用户进行自定义算子的开发。"
+              },
+              {
+                "title":"DVPP  API",
+                "link":"/documentation/details/zh/B750/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0178961791.html",
+                "intro":"用户可直接调用DVPP提供的API接口实现媒体预处理能力。"
+              },
+              {
+                "title":"IDE Daemon  API",
+                "link":"/documentation/details/zh/B750/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0178966140.html",
+                "intro":"IDE Daemon模块提供接口给HiAI Engine模块调用，通过该接口可以实现将发送到Mind Studio侧的DVPP预处理结果写到文件中。"
+              },
+              {
+                "title":"Media  API",
+                "link":"/documentation/details/zh/B750/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0178961822.html",
+                "intro":"HiAI Media是获取Atlas 200 DK开发者板中摄像头图像和音频数据的API接口媒体库，用户可通过API的调用，获取媒体数据并对开发者板的摄像头和MIC设备的工作模式进行控制。"
+              }
+            ]
+          },
+          "others":{
+            "title":"其他",
+            "content":[
+              {
+                "title":"Mind Studio基本操作",
+                "link":"/documentation/details/zh/B750/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0178961784.html",
+                "intro":"Mind Studio基本功能使用操作指导，包含用户管理，工程管理，数据集管理及模型管理等。"
+              },
+              {
+                "title":"辅助工具",
+                "link":"/documentation/details/zh/B750/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0178961827.html",
+                "intro":"应用开发过程中可以使用的辅助工具，包括日志工具，Profiling工具及黑匣子日志异常信息获取工具"
+              },
+              {
+                "title":"IDE-daemon-client命令参考",
+                "link":"/documentation/details/zh/B750/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0178961823.html",
+                "intro":"IDE-daemon-client命令可以实现UI Host、Host、Device之间的文件传输、命令执行等。"
+              }
+            ]
+          },
+          "faq":{
+            "title":"常见问题",
+            "questions":[
+              {
+                "answerLink":"/documentation/details/zh/B750/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0183300464.html",
+                "intro":"Mind Studio或DDK安装过程中提示pip2或pip不可用"
+              },
+              {
+                "answerLink":"/documentation/details/zh/B750/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0183300902.html",
+                "intro":"开发者版无法正常连接UI Host如何处理"
+              },
+              {
+                "answerLink":"/documentation/details/zh/B750/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0172440540.html",
+                "intro":"开发者板USB方式连接Mind Studio失败解决方法汇总"
+              },
+              {
+                "answerLink":"/documentation/details/zh/B750/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0150540206.html",
+                "intro":"应用ssd网络模型执行检测器程序无运行结果"
+              }
+            ]
+          }
+        },
+        "en": {
+          "overViewUrl": "/documentation/details/en/B750/f4f39edd90e011e9a97afa163e714aa5/overview",
+          "quickExperience": "/documentation/details/en/B750/f4f39edd90e011e9a97afa163e714aa5/experience",
+          "moreUrl": "/documentation/details/en/B750/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0178961826.html",
+          "intro": {
+            "title": "Atlas 200 DK Introduction",
+            "subTitle": "Atlas 200 DK",
+            "description": "Atlas 200 Developer Kit (DK) is an Ascend 310-powered developer board, widely used in fields such as smart city, UAV, and robotics. Atlas 200 DK enables you to write AI apps efficiently."
+          },
+          "appDev": {
+            "title": "App Development",
+            "steps": [
+              {
+                "name": "Mind Studio Quick Start",
+                "icon": "/imgs/overview_icon01.png",
+                "stepNum": "/imgs/overview_step01.png",
+                "url": "/documentation/details/en/B750/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0178961795.html"
+              },
+              {
+                "name": "App Development",
+                "icon": "/imgs/overview_icon02.png",
+                "stepNum": "/imgs/overview_step02.png",
+                "url": "/documentation/details/en/B750/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0178961834.html"
+              },
+              {
+                "name": "Code Sample",
+                "icon": "/imgs/overview_icon03.png",
+                "stepNum": "/imgs/overview_step03.png",
+                "url": "https://github.com/Ascend"
+              },
+              {
+                "name": "Custom Operator Development",
+                "icon": "/imgs/overview_icon04.png",
+                "stepNum": "/imgs/overview_step04.png",
+                "url": "/documentation/details/en/B750/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0178961799.html"
+              }
+            ]
+          },
+          "appTransplant": {
+            "title": "App Migration",
+            "banner": "/imgs/overview_pic02.jpg",
+            "description": "Atlas 200 DK allows migration of neural network intelligent algorithms from other GPU platforms to the Ascend 310 platform. Check out the app migration process and precautions.",
+            "url": "/documentation/details/en/B750/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0178961796.html"
+          },
+          "performanceTuning": {
+            "title": "High-Performance Programming",
+            "banner": "/imgs/overview_pic03.jpg",
+            "description": "Data transfer, media pre-processing, and model processing are most time-consuming in app development. Learn how to streamline these phases and boost the performance.",
+            "url": "/documentation/details/en/B750/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0178961830.html"
+          },
+          "api": {
+            "title": "API",
+            "content": [
+              {
+                "title": "Matrix  API",
+                "link": "/documentation/details/en/B750/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0178961831.html",
+                "intro": "Matrix provides unified standardized APIs for process orchestration, engine implementation, model management, and data definition."
+              },
+              {
+                "title": "Tensor Engine  API",
+                "link": "/documentation/details/en/B750/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0178961829.html",
+                "intro": "Tensor Engine is a custom operator development framework based on the Tensor Virtual Machine (TVM) and provides a collection of encapsulated operator development APIs (mainly for vector computing)."
+              },
+              {
+                "title": "DVPP API",
+                "link": "/documentation/details/en/B750/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0178961791.html",
+                "intro": "APIs provided by the digital vision pre-processing (DVPP) module can be directly called for media pre-processing."
+              },
+              {
+                "title": "IDE Daemon API",
+                "link": "/documentation/details/en/B750/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0178966140.html",
+                "intro": "The IDE Daemon module provides APIs for HiAI Engine to send DVPP pre-processing results to Mind Studio, which can be saved to a file in Mind Studio."
+              },
+              {
+                "title": "Media API",
+                "link": "/documentation/details/en/B750/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0178961822.html",
+                "intro": "HiAI Media is an API media library that helps you obtain captured image and audio data. With these APIs, you can easily control the operating modes of the cameras and MICs connecting to the Atlas DK."
+              }
+            ]
+          },
+          "others": {
+            "title": "Other",
+            "content": [
+              {
+                "title": "Mind Studio Basic Operations",
+                "link": "/documentation/details/en/B750/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0178961784.html",
+                "intro": "Discover the basic features of Mind Studio, including user management, project management, dataset management, and model management."
+              },
+              {
+                "title": "Auxiliary Tools",
+                "link": "/documentation/details/en/B750/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0178961827.html",
+                "intro": "Find out the handy tools that can facilitate your app development, including the log tool, Profiling, and black box."
+              },
+              {
+                "title": "IDE-daemon-client Command Reference",
+                "link": "/documentation/details/en/B750/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0178961823.html",
+                "intro": "Learn the IDE-daemon-client commands for file transfer from the UI host to the host and from the host to the device, as well as command issuing from the UI host to the host and from the host to the device."
+              }
+            ]
+          },
+          "faq": {
+            "title": "FAQs",
+            "questions": [
+              {
+                "answerLink": "/documentation/details/en/B750/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0183300464.html",
+                "intro": "What Do I Do If a Message Is Displayed Indicating pip2 or pip Unavailability During Mind Studio or DDK Installation? "
+              },
+              {
+                "answerLink": "/documentation/details/en/B750/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0183300902.html",
+                "intro": "What Do I Do If the Developer Board Cannot Connect to the UI Host?"
+              },
+              {
+                "answerLink": "/documentation/details/en/B750/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0172440540.html",
+                "intro": "What Do I Do If the Developer Board Fails to Connect to Mind Studio in USB Mode?"
+              },
+              {
+                "answerLink": "/documentation/details/en/B750/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0150540206.html",
+                "intro": "How Do I Handle Unsupported Operators During SSD Caffe Model Conversion?"
+              }
+            ]
+          }
+        }
+      },
+      "1.1.1.0": {
+        "zh":{
+          "overViewUrl": "/documentation/details/zh/1.1.1.0/f4f39edd90e011e9a97afa163e714aa5/overview",
+          "quickExperience": "/documentation/details/zh/1.1.1.0/f4f39edd90e011e9a97afa163e714aa5/experience",
+          "moreUrl": "/documentation/details/zh/1.1.1.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0178961826.html",
+          "intro":{
+            "title":"初识Atlas 200 DK",
+            "subTitle":"Atlas 200 DK",
+            "description":"Atlas 200 Developer Kit是以Ascend 310为核心的开发者板形态产品，可以运用于智慧城市、无人机、机器人等众多领域。您可以基于Atlas 200 DK编写高效的人工智能应用程序。"
+          },
+          "appDev":{
+            "title":"应用开发",
+            "steps":[
+              {
+                "name":"Mind Studio快速入门",
+                "icon":"/imgs/overview_icon01.png",
+                "stepNum":"/imgs/overview_step01.png",
+                "url": "/documentation/details/zh/1.1.1.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0174994849.html"
+              },
+              {
+                "name":"应用开发",
+                "icon":"/imgs/overview_icon02.png",
+                "stepNum":"/imgs/overview_step02.png",
+                "url": "/documentation/details/zh/1.1.1.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0167401293.html"
+              },
+              {
+                "name":"Code Sample",
+                "icon":"/imgs/overview_icon03.png",
+                "stepNum":"/imgs/overview_step03.png",
+                "url": "https://github.com/Ascend"
+              },
+              {
+                "name":"自定义算子开发",
+                "icon":"/imgs/overview_icon04.png",
+                "stepNum":"/imgs/overview_step04.png",
+                "url": "/documentation/details/zh/1.1.1.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0167401294.html"
+              }
+            ]
+          },
+          "appTransplant":{
+            "title":"应用移植",
+            "banner":"/imgs/overview_pic02.jpg",
+            "description":"Atlas 200 DK提供将其他GPU平台的神经网络智能算法移植到Ascend 310平台的能力，本文档详细介绍应用移植的一般流程和注意事项，助力开发者快速进行应用的移植和开发。",
+            "url": "/documentation/details/zh/1.1.1.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0167401295.html"
+          },
+          "performanceTuning":{
+            "title":"高性能编程",
+            "banner":"/imgs/overview_pic03.jpg",
+            "description":"应用开发过程中主要的时间消耗在数据搬运、媒体预处理及模型处理这几个阶段，本文指导用户如何在这几个环节进行处理及衔接，从而实现更高的性能。",
+            "url": "/documentation/details/zh/1.1.1.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0167401296.html"
+          },
+          "api":{
+            "title":"API",
+            "content":[
+              {
+                "title":"Matrix  API",
+                "link":"/documentation/details/zh/1.1.1.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0167401299.html",
+                "intro":"Matrix提供流程编排、Engine实现、模型管家及数据定义等能力，为应用开发提供统一的标准化接口。"
+              },
+              {
+                "title":"Tensor Engine  API",
+                "link":"/documentation/details/zh/1.1.1.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0167401301.html",
+                "intro":"Tensor Engine是基于TVM的自定义算子开发框架，提供了一组封装好的接口（主要涵盖向量运算），供用户进行自定义算子的开发。"
+              },
+              {
+                "title":"DVPP  API",
+                "link":"/documentation/details/zh/1.1.1.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0167401300.html",
+                "intro":"用户可直接调用DVPP提供的API接口实现媒体预处理能力。"
+              },
+              {
+                "title":"IDE Daemon  API",
+                "link":"/documentation/details/zh/1.1.1.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0167401307.html",
+                "intro":"IDE Daemon模块提供接口给HiAI Engine模块调用，通过该接口可以实现将发送到Mind Studio侧的DVPP预处理结果写到文件中。"
+              },
+              {
+                "title":"Media  API",
+                "link":"/documentation/details/zh/1.1.1.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0167401304.html",
+                "intro":"HiAI Media是获取Atlas 200 DK开发者板中摄像头图像和音频数据的API接口媒体库，用户可通过API的调用，获取媒体数据并对开发者板的摄像头和MIC设备的工作模式进行控制。"
+              }
+            ]
+          },
+          "others":{
+            "title":"其他",
+            "content":[
+              {
+                "title":"Mind Studio基本操作",
+                "link":"/documentation/details/zh/1.1.1.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0170680802.html",
+                "intro":"Mind Studio基本功能使用操作指导，包含用户管理，工程管理，数据集管理及模型管理等。"
+              },
+              {
+                "title":"辅助工具",
+                "link":"/documentation/details/zh/1.1.1.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0170680803.html",
+                "intro":"应用开发过程中可以使用的辅助工具，包括日志工具，Profiling工具及黑匣子日志异常信息获取工具"
+              },
+              {
+                "title":"IDE-daemon-client命令参考",
+                "link":"/documentation/details/zh/1.1.1.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0167401305.html",
+                "intro":"IDE-daemon-client命令可以实现UI Host、Host、Device之间的文件传输、命令执行等。"
+              }
+            ]
+          },
+          "faq":{
+            "title":"常见问题",
+            "questions":[
+              {
+                "answerLink":"/documentation/details/zh/1.1.1.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0183300464.html",
+                "intro":"Mind Studio或DDK安装过程中提示pip2或pip不可用"
+              },
+              {
+                "answerLink":"/documentation/details/zh/1.1.1.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0183300902.html",
+                "intro":"开发者版无法正常连接UI Host如何处理"
+              },
+              {
+                "answerLink":"/documentation/details/zh/1.1.1.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0172440540.html",
+                "intro":"开发者板USB方式连接Mind Studio失败解决方法汇总"
+              },
+              {
+                "answerLink":"/documentation/details/zh/1.1.1.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0150540206.html",
+                "intro":"应用ssd网络模型执行检测器程序无运行结果"
+              }
+            ]
+          }
+        },
+        "en": {
+          "overViewUrl": "/documentation/details/en/1.1.1.0/f4f39edd90e011e9a97afa163e714aa5/overview",
+          "quickExperience": "/documentation/details/en/1.1.1.0/f4f39edd90e011e9a97afa163e714aa5/experience",
+          "moreUrl": "/documentation/details/en/1.1.1.0/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0178961826.html",
+          "intro": {
+            "title": "Atlas 200 DK Introduction",
+            "subTitle": "Atlas 200 DK",
+            "description": "Atlas 200 Developer Kit (DK) is an Ascend 310-powered developer board, widely used in fields such as smart city, UAV, and robotics. Atlas 200 DK enables you to write AI apps efficiently."
+          },
+          "appDev": {
+            "title": "App Development",
+            "steps": [
+              {
+                "name": "Mind Studio Quick Start",
+                "icon": "/imgs/overview_icon01.png",
+                "stepNum": "/imgs/overview_step01.png",
+                "url": "/documentation/details/en/1.1.1.0/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0174994849.html"
+              },
+              {
+                "name": "App Development",
+                "icon": "/imgs/overview_icon02.png",
+                "stepNum": "/imgs/overview_step02.png",
+                "url": "/documentation/details/en/1.1.1.0/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0167401293.html"
+              },
+              {
+                "name": "Code Sample",
+                "icon": "/imgs/overview_icon03.png",
+                "stepNum": "/imgs/overview_step03.png",
+                "url": "https://github.com/Ascend"
+              },
+              {
+                "name": "Custom Operator Development",
+                "icon": "/imgs/overview_icon04.png",
+                "stepNum": "/imgs/overview_step04.png",
+                "url": "/documentation/details/en/1.1.1.0/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0167401294.html"
+              }
+            ]
+          },
+          "appTransplant": {
+            "title": "App Migration",
+            "banner": "/imgs/overview_pic02.jpg",
+            "description": "Atlas 200 DK allows migration of neural network intelligent algorithms from other GPU platforms to the Ascend 310 platform. Check out the app migration process and precautions.",
+            "url": "/documentation/details/en/1.1.1.0/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0167401295.html"
+          },
+          "performanceTuning": {
+            "title": "High-Performance Programming",
+            "banner": "/imgs/overview_pic03.jpg",
+            "description": "Data transfer, media pre-processing, and model processing are most time-consuming in app development. Learn how to streamline these phases and boost the performance.",
+            "url": "/documentation/details/en/1.1.1.0/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0167401296.html"
+          },
+          "api": {
+            "title": "API",
+            "content": [
+              {
+                "title": "Matrix  API",
+                "link": "/documentation/details/en/1.1.1.0/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0167401299.html",
+                "intro": "Matrix provides unified standardized APIs for process orchestration, engine implementation, model management, and data definition."
+              },
+              {
+                "title": "Tensor Engine  API",
+                "link": "/documentation/details/en/1.1.1.0/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0167401301.html",
+                "intro": "Tensor Engine is a custom operator development framework based on the Tensor Virtual Machine (TVM) and provides a collection of encapsulated operator development APIs (mainly for vector computing)."
+              },
+              {
+                "title": "DVPP API",
+                "link": "/documentation/details/en/1.1.1.0/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0167401300.html",
+                "intro": "APIs provided by the digital vision pre-processing (DVPP) module can be directly called for media pre-processing."
+              },
+              {
+                "title": "IDE Daemon API",
+                "link": "/documentation/details/en/1.1.1.0/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0167401307.html",
+                "intro": "The IDE Daemon module provides APIs for HiAI Engine to send DVPP pre-processing results to Mind Studio, which can be saved to a file in Mind Studio."
+              },
+              {
+                "title": "Media API",
+                "link": "/documentation/details/en/1.1.1.0/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0167401304.html",
+                "intro": "HiAI Media is an API media library that helps you obtain captured image and audio data. With these APIs, you can easily control the operating modes of the cameras and MICs connecting to the Atlas DK."
+              }
+            ]
+          },
+          "others": {
+            "title": "Other",
+            "content": [
+              {
+                "title": "Mind Studio Basic Operations",
+                "link": "/documentation/details/en/1.1.1.0/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0170680802.html",
+                "intro": "Discover the basic features of Mind Studio, including user management, project management, dataset management, and model management."
+              },
+              {
+                "title": "Auxiliary Tools",
+                "link": "/documentation/details/en/1.1.1.0/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0170680803.html",
+                "intro": "Find out the handy tools that can facilitate your app development, including the log tool, Profiling, and black box."
+              },
+              {
+                "title": "IDE-daemon-client Command Reference",
+                "link": "/documentation/details/en/1.1.1.0/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0167401305.html",
+                "intro": "Learn the IDE-daemon-client commands for file transfer from the UI host to the host and from the host to the device, as well as command issuing from the UI host to the host and from the host to the device."
+              }
+            ]
+          },
+          "faq": {
+            "title": "FAQs",
+            "questions": [
+              {
+                "answerLink": "/documentation/details/en/1.1.1.0/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0183300464.html",
+                "intro": "What Do I Do If a Message Is Displayed Indicating pip2 or pip Unavailability During Mind Studio or DDK Installation? "
+              },
+              {
+                "answerLink": "/documentation/details/en/1.1.1.0/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0183300902.html",
+                "intro": "What Do I Do If the Developer Board Cannot Connect to the UI Host?"
+              },
+              {
+                "answerLink": "/documentation/details/en/1.1.1.0/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0172440540.html",
+                "intro": "What Do I Do If the Developer Board Fails to Connect to Mind Studio in USB Mode?"
+              },
+              {
+                "answerLink": "/documentation/details/en/1.1.1.0/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0150540206.html",
+                "intro": "How Do I Handle Unsupported Operators During SSD Caffe Model Conversion?"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "experience": {
+      "1.3.0.0": {
+        "zh":{
+          "ExperienceUrl": "/documentation/details/zh/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/experience",
+          "intro": {
+            "title":"Atlas 200 DK 体验指引",
+            "top": "华为Atlas 200 DK开发者套件 Atlas 200 Developer Kit（缩写：Atlas 200 DK ）是以华为Ascend 310芯片为核心的一个开发者板形态产品，并为开发者提供一站式开发套件，助力开发者快速进行AI应用程序的开发。Atlas 200 DK系统框图如下所示，其中Atlas 200 DK开发者板主要包含Hi3559 Camera模块以及Atlas 200 AI加速模块，开发工具Mind Studio所在PC通过USB接口或者网线与Atlas 200 DK开发者板连接。",
+            "middle": "在体验Atlas 200 DK的过程中如果遇到问题，建议您先查询论坛中置顶的",
+            "middle_1":"，如果仍无法解决您的问题，建议您到Ascend论坛发帖提问。进入Ascend论坛:",
+            "imgUrl_1": "/imgs/experience_pic05.jpg",
+            "imgUrl": "/imgs/experience_pic01.jpg",
+            "bottom": "进行应用开发前，您首先需要部署开发工具Mind Studio，部署Atlas 200 DK开发者板并完成Mind Studio所在服务器（UI Host）与Atlas 200 DK开发者板的连接，详细体验流程如下所示。"
+          },
+          "parts":{
+            "title": "1. 配件准备",
+            "list": [
+              "使用Atlas 200 DK前，你需要自行购买相关配件，包含制作Atlas 200 DK启动系统的SD卡,读卡器，与UI Host相连接的Type-C连接线及摄像头等配件，详细的配件信息请参考<a href='/documentation/details/zh/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0177457276.html'>配件准备</a>。"
+            ]
+          } ,
+          "devTools": {
+            "title": "2. 部署开发工具Mind Studio",
+            "info": [
+              {
+                "title": "2.1 环境准备",
+                "list": [
+                  "Mind Studio需要部署在Ubuntu操作系统上，所以部署Mind Studio前，您需要已在本地PC上部署Ubuntu操作系统（可以是桌面版或者Server版），Ubuntu的版本需要为16.04.3。",
+                  "操作系统部署好后，需要创建安装用户，配置Ubuntu16.04.3的源，安装相关依赖软件，详细请参考<a href='/documentation/details/zh/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0160789119.html'>服务器端配置</a>。",
+                  "访问Mind Studio需要通过64位，67.0.3396.87及以上版本的Chrome浏览器。"
+                ]
+              },
+              {
+                "title": "2.2 软件包获取",
+                "list": [
+                  "准备好Ubuntu操作系统后，下面可以进行Mind Studio开发工具的部署，首先需要下载Mind Studio及DDK安装包，并将软件包以安装用户上传到Ubuntu服务器进行解压，详细请参考<a href='/documentation/details/zh/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0160789073.html'>软件包准备</a>"
+                ]
+              },
+              {
+                "title": "2.3 Mind Studio安装",
+                "list": [
+                  "以引导安装方式进行/install.sh脚本进行安装，详细操作请参考<a href='/documentation/details/zh/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0160789094.html'>Mind Studio安装</a>。"
+                ]
+              }
+            ]
+          },
+          "deploy": {
+            "title": "3. 部署Atlas 200 DK开发者板",
+            "info": [
+              {
+                "title": "3.1 拆卸上盖",
+                "list": [
+                  "安装摄像头前，需要拆卸Atlas 200 DK的上盖，详细操作步骤请参考<a href='/documentation/details/zh/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0177457203.html'>拆卸上盖</a>。"
+                ]
+              },
+              {
+                "title": "3.2 安装摄像头",
+                "list": [
+                  "Atlas 200 DK开发者板支持树莓派摄像头，需要将摄像头的排线插入开发者板的排线插槽中，详细操作步骤请参考<a href='/documentation/details/zh/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0177457267.html'>安装摄像头</a>。"
+                ]
+              },
+              {
+                "title": "3.3 制作SD卡",
+                "list": [
+                  "您可通过在线制卡或者离线制卡的方式通过SD卡制作功能自行制作Atlas 200 DK开发者板的系统启动盘，详细请参考<a href='/documentation/details/zh/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0177457226.html'>制作SD卡</a>。"
+                ]
+              }
+            ]
+          },
+          "connect": {
+            "title":"4. 连接Atlas 200 DK开发者板与UI Host",
+            "list": ["Atlas 200 DK开发者板支持通过USB接口或者网线与Mind Studio进行连接，当通过USB连接时，开发者板的默认IP地址为192.168.1.2，当通过网线连接时，开发者板的默认IP地址为192.168.0.2，您需要为Mind Studio所在Ubuntu操作系统添加与开发者板在同一网段的IP地址，从而支持与开发者板进行通信。详细请参考<a href='/documentation/details/zh/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0177457239.html'>连接Atlas 200 DK开发者板与Mind Studio</a>。"],
+            "imgUrl": "/imgs/experience_pic02.jpg"
+          },
+          "configuration": {
+            "title":"5. 配置UI Host交叉编译环境",
+            "list": [
+              "如果步骤2中制作SD卡的Ubuntu服务器即为Atlas 200 DK开发者板连接的Mind Studio所在的服务器，则此步骤可以跳过，制作SD卡时，会自动为当前制卡的Linux服务器部署交叉编译环境。否则请使用Acend仓中提供的make_ui_cross_env.py脚本在Ubuntu所在服务器中配置交叉编译环境。使用root用户执行python3 make_ui_cross_env.py，详细请参考<a href='/documentation/details/zh/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0177457216.html'>配置UI Host交叉编译环境</a>。"
+            ],
+            "imgUrl": "/imgs/experience_pic03.jpg"
+          },
+          "appDev": {
+            "title":"6. 应用开发",
+            "list": [
+              "完成以上环境部署及配置后，现在您可以体验使用Atlas 200 DK进行应用程序的开发。首先您可以体验使用Mind Studio的Matrix零编码编排功能构建首个图片分类应用程序，详细请参考<a href='/documentation/details/zh/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0178961795.html'>构建首个机器学习应用</a>。",
+              "您也可以进一步体验生态Sample。例如“面部检测”，切身感知Atlas 200 DK在实际安防应用中的使用场景。详细请参考<a href='https://github.com/Ascend/sample-facedetection' target='_blank'>人脸检测</a>。"
+            ],
+            "imgUrl": "/imgs/experience_pic04.jpg"
+          }
+        },
+        "en": {
+          "ExperienceUrl": "/documentation/details/en/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/experience",
+          "intro": {
+            "title": "Atlas 200 DK Experience Guide",
+            "top": "Huawei Atlas 200 developer kit (DK) is a developer board product powered by the Huawei Ascend 310 chipset for one-stop AI app development. The following figure shows the system block diagram of Atlas 200 DK. The Atlas DK developer board consists of the Hi3559 camera module and the Ascend 310 AI accelerator module. Connect the PC installed with Mind Studio to the Atlas 200 DK developer board through the USB or ETH port. ",
+            "imgUrl": "/imgs/experience_pic08.png",
+            "bottom": "Before app development, you need to deploy the development tool Mind Studio and the Atlas 200 DK developer board, and connect the server (that is, UI host) where Mind Studio is located to the Atlas 200 DK developer board. The detailed process is as follows."
+          },
+          "parts":{
+            "title": "1. Accessories Preparation",
+            "list": ["Prepare required accessories before getting started with the Atlas 200 DK, including a microSD card, a card reader, a Type-C cable for connecting the Atlas 200 DK to the UI Host, and a camera. For details about the accessories, see ",
+              ""
+            ]
+          } ,
+          "devTools": {
+            "title": "2. Mind Studio Deployment",
+            "info": [
+              {
+                "title": "2.1 Prepare the environment.",
+                "list": [
+                  "Deploy Ubuntu 16.04.3 (desktop or server) on the PC.",
+                  "Create an installation user account, configure the Ubuntu 16.04.3 sources, and install the required software dependencies. For details, see <a href='/documentation/details/en/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0160789119.html'>Server configuration</a>.",
+                  "Prepare a Google Chrome browser (64-bit) 67.0.3396.87 or later for accessing Mind Studio."
+                ]
+              },
+              {
+                "title": "2.2 Obtain the software packages.",
+                "list": [
+                  "Download the Mind Studio and DDK installation packages, upload them to the Ubuntu server as the installation user, and decompress them. For details, see <a href='/documentation/details/en/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0160789073.html'>Software Package Preparation</a>."
+                ]
+              },
+              {
+                "title": "2.3 Install Mind Studio.",
+                "list": [
+                  "Run the /install.sh script to install Mind Studio in boot installation mode. For details, see <a href='/documentation/details/en/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0160789094.html'>Mind Studio Boot Installation</a>."
+                ]
+              }
+            ]
+          },
+          "deploy": {
+            "title": "3. Deployment of the Atlas 200 DK Developer Board",
+            "info": [
+              {
+                "title": "3.1 Remove the upper case.",
+                "list": [
+                  "Before installing the camera, remove the upper case of the Atlas 200 DK. For details, see <a href='/documentation/details/en/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0177457203.html'>Removing the Upper Case</a>."
+                ]
+              },
+              {
+                "title": "3.2 Install the camera.",
+                "list": [
+                  "The Atlas 200 DK developer board supports the Raspberry Pi camera module. Insert the flat cable of the camera into the flat cable slot of the developer board. For details, see <a href='/documentation/details/en/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0177457267.html'>Installing a Camera</a>."
+                ]
+              },
+              {
+                "title": "3.3 Prepare the SD card.",
+                "list": [
+                  "You can create a system boot disk for the Atlas 200 DK developer board by using the SD card creation function in online or offline mode. For details, see <a href='/documentation/details/en/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0177457226.html'>Preparing the SD card</a>."
+                ]
+              }
+            ]
+          },
+          "connect": {
+            "title": "4. Connect the Atlas 200 DK developer board to UI host",
+            "list": [
+              "The Atlas 200 DK developer board can be connected to Mind Studio through the USB or ETH port. In the USB connection scenario, the default IP address of the Atlas 200 DK developer board is 192.168.1.2. In the network cable connection scenario, the default IP address of the Atlas 200 DK developer board is 192.168.0.2. The IP address must be in the same network segment as that of the developer board. For details, see <a href='/documentation/details/en/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0177457239.html'>Connecting the Atlas 200 DK Developer Board to the Mind Studio</a>."
+            ],
+            "imgUrl": "/imgs/experience_pic02.jpg"
+          },
+          "configuration": {
+            "title": "5. Configuring Cross Compilation Environment in UI Host",
+            "list": [
+              "If the Ubuntu server where the SD card is prepared in Step 2 is the server where Mind Studio is located, skip this step. When the SD card is prepared, the cross compilation environment is automatically deployed for a Linux server. Otherwise, use the make_ui_cross_env.py script provided in the Ascend repository to configure the cross compilation environment on the Ubuntu server. Run the python3 make_ui_cross_env.py command as the root user. For details, see <a href='/documentation/details/en/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0177457239.html'>Configuring the Cross Compilation Environment in the UI Host</a>."
+            ],
+            "imgUrl": "/imgs/experience_pic03.jpg"
+          },
+          "appDev": {
+            "title": "6. App Development",
+            "list": [
+              "With the environment deployed and configured, now you can use the Atlas 200 DK to develop apps. Try out the Matrix tool provided by Mind Studio to build your first image classification app. Matrix is a service orchestration tool that spares you manual programming. For details, see <a href='/documentation/details/en/1.3.0.0/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0178961795.html'>Building the First Machine Learning App</a>.",
+              "You may explore the ecosystem samples in actual applications, for example, face detection. For details, see <a href='https://github.com/Ascend/sample-facedetection' target='_blank'>Face Detection</a>."
+            ],
+            "imgUrl": "/imgs/experience_pic04.jpg"
+          }
+        }
+      },
+      "B750": {
+        "zh":{
+          "ExperienceUrl": "/documentation/details/zh/B750/f4f39edd90e011e9a97afa163e714aa5/experience",
+          "intro": {
+            "title":"Atlas 200 DK 体验指引",
+            "top": "华为Atlas 200 DK开发者套件 Atlas 200 Developer Kit（缩写：Atlas 200 DK ）是以华为Ascend 310芯片为核心的一个开发者板形态产品，并为开发者提供一站式开发套件，助力开发者快速进行AI应用程序的开发。Atlas 200 DK系统框图如下所示，其中Atlas 200 DK开发者板主要包含Hi3559 Camera模块以及Atlas 200 AI加速模块，开发工具Mind Studio所在PC通过USB接口或者网线与Atlas 200 DK开发者板连接。",
+            "middle": "在体验Atlas 200 DK的过程中如果遇到问题，建议您先查询论坛中置顶的",
+            "middle_1":"，如果仍无法解决您的问题，建议您到Ascend论坛发帖提问。进入Ascend论坛:",
+            "imgUrl_1": "/imgs/experience_pic05.jpg",
+            "imgUrl": "/imgs/experience_pic01.jpg",
+            "bottom": "进行应用开发前，您首先需要部署开发工具Mind Studio，部署Atlas 200 DK开发者板并完成Mind Studio所在服务器（UI Host）与Atlas 200 DK开发者板的连接，详细体验流程如下所示。"
+          },
+          "parts":{
+            "title": "1. 配件准备",
+            "list": [
+              "使用Atlas 200 DK前，你需要自行购买相关配件，包含制作Atlas 200 DK启动系统的SD卡,读卡器，与UI Host相连接的Type-C连接线及摄像头等配件，详细的配件信息请参考<a href='/documentation/details/zh/B750/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0177457276.html'>配件准备</a>。"
+            ]
+          } ,
+          "devTools": {
+            "title": "2. 部署开发工具Mind Studio",
+            "info": [
+              {
+                "title": "2.1 环境准备",
+                "list": [
+                  "Mind Studio需要部署在Ubuntu操作系统上，所以部署Mind Studio前，您需要已在本地PC上部署Ubuntu操作系统（可以是桌面版或者Server版），Ubuntu的版本需要为16.04.3。",
+                  "操作系统部署好后，需要创建安装用户，配置Ubuntu16.04.3的源，安装相关依赖软件，详细请参考<a href='/documentation/details/zh/B750/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0160789119.html'>服务器端配置</a>。",
+                  "访问Mind Studio需要通过64位，67.0.3396.87及以上版本的Chrome浏览器。"
+                ]
+              },
+              {
+                "title": "2.2 软件包获取",
+                "list": [
+                  "准备好Ubuntu操作系统后，下面可以进行Mind Studio开发工具的部署，首先需要下载Mind Studio及DDK安装包，并将软件包以安装用户上传到Ubuntu服务器进行解压，详细请参考<a href='/documentation/details/zh/B750/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0160789073.html'>软件包准备</a>"
+                ]
+              },
+              {
+                "title": "2.3 Mind Studio安装",
+                "list": [
+                  "以引导安装方式进行/install.sh脚本进行安装，详细操作请参考<a href='/documentation/details/zh/B750/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0160789094.html'>Mind Studio安装</a>。"
+                ]
+              }
+            ]
+          },
+          "deploy": {
+            "title": "3. 部署Atlas 200 DK开发者板",
+            "info": [
+              {
+                "title": "3.1 拆卸上盖",
+                "list": [
+                  "安装摄像头前，需要拆卸Atlas 200 DK的上盖，详细操作步骤请参考<a href='/documentation/details/zh/B750/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0177457203.html'>拆卸上盖</a>。"
+                ]
+              },
+              {
+                "title": "3.2 安装摄像头",
+                "list": [
+                  "Atlas 200 DK开发者板支持树莓派摄像头，需要将摄像头的排线插入开发者板的排线插槽中，详细操作步骤请参考<a href='/documentation/details/zh/B750/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0177457267.html'>安装摄像头</a>。"
+                ]
+              },
+              {
+                "title": "3.3 制作SD卡",
+                "list": [
+                  "您可通过在线制卡或者离线制卡的方式通过SD卡制作功能自行制作Atlas 200 DK开发者板的系统启动盘，详细请参考<a href='/documentation/details/zh/B750/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0177457226.html'>制作SD卡</a>。"
+                ]
+              }
+            ]
+          },
+          "connect": {
+            "title":"4. 连接Atlas 200 DK开发者板与UI Host",
+            "list": ["Atlas 200 DK开发者板支持通过USB接口或者网线与Mind Studio进行连接，当通过USB连接时，开发者板的默认IP地址为192.168.1.2，当通过网线连接时，开发者板的默认IP地址为192.168.0.2，您需要为Mind Studio所在Ubuntu操作系统添加与开发者板在同一网段的IP地址，从而支持与开发者板进行通信。详细请参考<a href='/documentation/details/zh/B750/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0177457239.html'>连接Atlas 200 DK开发者板与Mind Studio</a>。"],
+            "imgUrl": "/imgs/experience_pic02.jpg"
+          },
+          "configuration": {
+            "title":"5. 配置UI Host交叉编译环境",
+            "list": [
+              "如果步骤2中制作SD卡的Ubuntu服务器即为Atlas 200 DK开发者板连接的Mind Studio所在的服务器，则此步骤可以跳过，制作SD卡时，会自动为当前制卡的Linux服务器部署交叉编译环境。否则请使用Acend仓中提供的make_ui_cross_env.py脚本在Ubuntu所在服务器中配置交叉编译环境。使用root用户执行python3 make_ui_cross_env.py，详细请参考<a href='/documentation/details/zh/B750/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0177457216.html'>配置UI Host交叉编译环境</a>。"
+            ],
+            "imgUrl": "/imgs/experience_pic03.jpg"
+          },
+          "appDev": {
+            "title":"6. 应用开发",
+            "list": [
+              "完成以上环境部署及配置后，现在您可以体验使用Atlas 200 DK进行应用程序的开发。首先您可以体验使用Mind Studio的Matrix零编码编排功能构建首个图片分类应用程序，详细请参考<a href='/documentation/details/zh/B750/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0178961795.html'>构建首个机器学习应用</a>。",
+              "您也可以进一步体验生态Sample。例如“面部检测”，切身感知Atlas 200 DK在实际安防应用中的使用场景。详细请参考<a href='https://github.com/Ascend/sample-facedetection' target='_blank'>人脸检测</a>。"
+            ],
+            "imgUrl": "/imgs/experience_pic04.jpg"
+          }
+        },
+        "en": {
+          "ExperienceUrl": "/documentation/details/en/B750/f4f39edd90e011e9a97afa163e714aa5/experience",
+          "intro": {
+            "title": "Atlas 200 DK Experience Guide",
+            "top": "Huawei Atlas 200 developer kit (DK) is a developer board product powered by the Huawei Ascend 310 chipset for one-stop AI app development. The following figure shows the system block diagram of Atlas 200 DK. The Atlas DK developer board consists of the Hi3559 camera module and the Ascend 310 AI accelerator module. Connect the PC installed with Mind Studio to the Atlas 200 DK developer board through the USB or ETH port. ",
+            "imgUrl": "/imgs/experience_pic08.png",
+            "bottom": "Before app development, you need to deploy the development tool Mind Studio and the Atlas 200 DK developer board, and connect the server (that is, UI host) where Mind Studio is located to the Atlas 200 DK developer board. The detailed process is as follows."
+          },
+          "parts":{
+            "title": "1. Accessories Preparation",
+            "list": ["Prepare required accessories before getting started with the Atlas 200 DK, including a microSD card, a card reader, a Type-C cable for connecting the Atlas 200 DK to the UI Host, and a camera. For details about the accessories, see ",
+              ""
+            ]
+          } ,
+          "devTools": {
+            "title": "2. Mind Studio Deployment",
+            "info": [
+              {
+                "title": "2.1 Prepare the environment.",
+                "list": [
+                  "Deploy Ubuntu 16.04.3 (desktop or server) on the PC.",
+                  "Create an installation user account, configure the Ubuntu 16.04.3 sources, and install the required software dependencies. For details, see <a href='/documentation/details/en/B750/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0160789119.html'>Server configuration</a>.",
+                  "Prepare a Google Chrome browser (64-bit) 67.0.3396.87 or later for accessing Mind Studio."
+                ]
+              },
+              {
+                "title": "2.2 Obtain the software packages.",
+                "list": [
+                  "Download the Mind Studio and DDK installation packages, upload them to the Ubuntu server as the installation user, and decompress them. For details, see <a href='/documentation/details/en/B750/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0160789073.html'>Software Package Preparation</a>."
+                ]
+              },
+              {
+                "title": "2.3 Install Mind Studio.",
+                "list": [
+                  "Run the /install.sh script to install Mind Studio in boot installation mode. For details, see <a href='/documentation/details/en/B750/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0160789094.html'>Mind Studio Boot Installation</a>."
+                ]
+              }
+            ]
+          },
+          "deploy": {
+            "title": "3. Deployment of the Atlas 200 DK Developer Board",
+            "info": [
+              {
+                "title": "3.1 Remove the upper case.",
+                "list": [
+                  "Before installing the camera, remove the upper case of the Atlas 200 DK. For details, see <a href='/documentation/details/en/B750/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0177457203.html'>Removing the Upper Case</a>."
+                ]
+              },
+              {
+                "title": "3.2 Install the camera.",
+                "list": [
+                  "The Atlas 200 DK developer board supports the Raspberry Pi camera module. Insert the flat cable of the camera into the flat cable slot of the developer board. For details, see <a href='/documentation/details/en/B750/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0177457267.html'>Installing a Camera</a>."
+                ]
+              },
+              {
+                "title": "3.3 Prepare the SD card.",
+                "list": [
+                  "You can create a system boot disk for the Atlas 200 DK developer board by using the SD card creation function in online or offline mode. For details, see <a href='/documentation/details/en/B750/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0177457226.html'>Preparing the SD card</a>."
+                ]
+              }
+            ]
+          },
+          "connect": {
+            "title": "4. Connect the Atlas 200 DK developer board to UI host",
+            "list": [
+              "The Atlas 200 DK developer board can be connected to Mind Studio through the USB or ETH port. In the USB connection scenario, the default IP address of the Atlas 200 DK developer board is 192.168.1.2. In the network cable connection scenario, the default IP address of the Atlas 200 DK developer board is 192.168.0.2. The IP address must be in the same network segment as that of the developer board. For details, see <a href='/documentation/details/en/B750/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0177457239.html'>Connecting the Atlas 200 DK Developer Board to the Mind Studio</a>."
+            ],
+            "imgUrl": "/imgs/experience_pic02.jpg"
+          },
+          "configuration": {
+            "title": "5. Configuring Cross Compilation Environment in UI Host",
+            "list": [
+              "If the Ubuntu server where the SD card is prepared in Step 2 is the server where Mind Studio is located, skip this step. When the SD card is prepared, the cross compilation environment is automatically deployed for a Linux server. Otherwise, use the make_ui_cross_env.py script provided in the Ascend repository to configure the cross compilation environment on the Ubuntu server. Run the python3 make_ui_cross_env.py command as the root user. For details, see <a href='/documentation/details/en/B750/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0177457239.html'>Configuring the Cross Compilation Environment in the UI Host</a>."
+            ],
+            "imgUrl": "/imgs/experience_pic03.jpg"
+          },
+          "appDev": {
+            "title": "6. App Development",
+            "list": [
+              "With the environment deployed and configured, now you can use the Atlas 200 DK to develop apps. Try out the Matrix tool provided by Mind Studio to build your first image classification app. Matrix is a service orchestration tool that spares you manual programming. For details, see <a href='/documentation/details/en/B750/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0178961795.html'>Building the First Machine Learning App</a>.",
+              "You may explore the ecosystem samples in actual applications, for example, face detection. For details, see <a href='https://github.com/Ascend/sample-facedetection' target='_blank'>Face Detection</a>."
+            ],
+            "imgUrl": "/imgs/experience_pic04.jpg"
+          }
+        }
+      },
+      "1.1.1.0": {
+        "zh":{
+          "ExperienceUrl": "/documentation/details/zh/1.1.1.0/f4f39edd90e011e9a97afa163e714aa5/experience",
+          "intro": {
+            "title":"Atlas 200 DK 体验指引",
+            "top": "华为Atlas 200 DK开发者套件 Atlas 200 Developer Kit（缩写：Atlas 200 DK ）是以华为Ascend 310芯片为核心的一个开发者板形态产品，并为开发者提供一站式开发套件，助力开发者快速进行AI应用程序的开发。Atlas 200 DK系统框图如下所示，其中Atlas 200 DK开发者板主要包含Hi3559 Camera模块以及Atlas 200 AI加速模块，开发工具Mind Studio所在PC通过USB接口或者网线与Atlas 200 DK开发者板连接。",
+            "middle": "在体验Atlas 200 DK的过程中如果遇到问题，建议您先查询论坛中置顶的",
+            "middle_1":"，如果仍无法解决您的问题，建议您到Ascend论坛发帖提问。进入Ascend论坛:",
+            "imgUrl_1": "/imgs/experience_pic05.jpg",
+            "imgUrl": "/imgs/experience_pic01.jpg",
+            "bottom": "进行应用开发前，您首先需要部署开发工具Mind Studio，部署Atlas 200 DK开发者板并完成Mind Studio所在服务器（UI Host）与Atlas 200 DK开发者板的连接，详细体验流程如下所示。"
+          },
+          "parts":{
+            "title": "1. 配件准备",
+            "list": [
+              "使用Atlas 200 DK前，你需要自行购买相关配件，包含制作Atlas 200 DK启动系统的SD卡,读卡器，与UI Host相连接的Type-C连接线及摄像头等配件，详细的配件信息请参考<a href='/documentation/details/zh/1.1.1.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0168502339.html'>配件准备</a>。"
+            ]
+          } ,
+          "devTools": {
+            "title": "2. 部署开发工具Mind Studio",
+            "info": [
+              {
+                "title": "2.1 环境准备",
+                "list": [
+                  "Mind Studio需要部署在Ubuntu操作系统上，所以部署Mind Studio前，您需要已在本地PC上部署Ubuntu操作系统（可以是桌面版或者Server版），Ubuntu的版本需要为16.04.3。",
+                  "操作系统部署好后，需要创建安装用户，配置Ubuntu16.04.3的源，安装相关依赖软件，详细请参考<a href='/documentation/details/zh/1.1.1.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0136384589.html'>服务器端配置</a>。",
+                  "访问Mind Studio需要通过64位，67.0.3396.87及以上版本的Chrome浏览器。"
+                ]
+              },
+              {
+                "title": "2.2 软件包获取",
+                "list": [
+                  "准备好Ubuntu操作系统后，下面可以进行Mind Studio开发工具的部署，首先需要下载Mind Studio及DDK安装包，并将软件包以安装用户上传到Ubuntu服务器进行解压，详细请参考<a href='/documentation/details/zh/1.1.1.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0136384629.html'>软件包准备</a>"
+                ]
+              },
+              {
+                "title": "2.3 Mind Studio安装",
+                "list": [
+                  "以引导安装方式进行/install.sh脚本进行安装，详细操作请参考<a href='/documentation/details/zh/1.1.1.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0136384621.html'>Mind Studio安装</a>。"
+                ]
+              }
+            ]
+          },
+          "deploy": {
+            "title": "3. 部署Atlas 200 DK开发者板",
+            "info": [
+              {
+                "title": "3.1 拆卸上盖",
+                "list": [
+                  "安装摄像头前，需要拆卸Atlas 200 DK的上盖，详细操作步骤请参考<a href='/documentation/details/zh/1.1.1.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0155764298.html'>拆卸上盖</a>。"
+                ]
+              },
+              {
+                "title": "3.2 安装摄像头",
+                "list": [
+                  "Atlas 200 DK开发者板支持树莓派摄像头，需要将摄像头的排线插入开发者板的排线插槽中，详细操作步骤请参考<a href='/documentation/details/zh/1.1.1.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0168385483.html'>安装摄像头</a>。"
+                ]
+              },
+              {
+                "title": "3.3 制作SD卡",
+                "list": [
+                  "您可通过在线制卡或者离线制卡的方式通过SD卡制作功能自行制作Atlas 200 DK开发者板的系统启动盘，详细请参考<a href='/documentation/details/zh/1.1.1.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0179493957.html'>制作SD卡</a>。"
+                ]
+              }
+            ]
+          },
+          "connect": {
+            "title":"4. 连接Atlas 200 DK开发者板与UI Host",
+            "list": ["Atlas 200 DK开发者板支持通过USB接口或者网线与Mind Studio进行连接，当通过USB连接时，开发者板的默认IP地址为192.168.1.2，当通过网线连接时，开发者板的默认IP地址为192.168.0.2，您需要为Mind Studio所在Ubuntu操作系统添加与开发者板在同一网段的IP地址，从而支持与开发者板进行通信。详细请参考<a href='/documentation/details/zh/1.1.1.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0136179995.html'>连接Atlas 200 DK开发者板与Mind Studio</a>。"],
+            "imgUrl": "/imgs/experience_pic02.jpg"
+          },
+          "configuration": {
+            "title":"5. 配置UI Host交叉编译环境",
+            "list": [
+              "如果步骤2中制作SD卡的Ubuntu服务器即为Atlas 200 DK开发者板连接的Mind Studio所在的服务器，则此步骤可以跳过，制作SD卡时，会自动为当前制卡的Linux服务器部署交叉编译环境。否则请使用Acend仓中提供的make_ui_cross_env.py脚本在Ubuntu所在服务器中配置交叉编译环境。使用root用户执行python3 make_ui_cross_env.py，详细请参考<a href='/documentation/details/zh/1.1.1.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0159646920.html'>配置UI Host交叉编译环境</a>。"
+            ],
+            "imgUrl": "/imgs/experience_pic03.jpg"
+          },
+          "appDev": {
+            "title":"6. 应用开发",
+            "list": [
+              "完成以上环境部署及配置后，现在您可以体验使用Atlas 200 DK进行应用程序的开发。首先您可以体验使用Mind Studio的Matrix零编码编排功能构建首个图片分类应用程序，详细请参考<a href='/documentation/details/zh/1.1.1.0/f4f39edd90e011e9a97afa163e714aa5/zh-cn_topic_0174994849.html'>构建首个机器学习应用</a>。",
+              "您也可以进一步体验生态Sample。例如“面部检测”，切身感知Atlas 200 DK在实际安防应用中的使用场景。详细请参考<a href='https://github.com/Ascend/sample-facedetection' target='_blank'>人脸检测</a>。"
+            ],
+            "imgUrl": "/imgs/experience_pic04.jpg"
+          }
+        },
+        "en": {
+          "ExperienceUrl": "/documentation/details/en/1.1.1.0/f4f39edd90e011e9a97afa163e714aa5/experience",
+          "intro": {
+            "title": "Atlas 200 DK Experience Guide",
+            "top": "Huawei Atlas 200 developer kit (DK) is a developer board product powered by the Huawei Ascend 310 chipset for one-stop AI app development. The following figure shows the system block diagram of Atlas 200 DK. The Atlas DK developer board consists of the Hi3559 camera module and the Ascend 310 AI accelerator module. Connect the PC installed with Mind Studio to the Atlas 200 DK developer board through the USB or ETH port. ",
+            "imgUrl": "/imgs/experience_pic08.png",
+            "bottom": "Before app development, you need to deploy the development tool Mind Studio and the Atlas 200 DK developer board, and connect the server (that is, UI host) where Mind Studio is located to the Atlas 200 DK developer board. The detailed process is as follows."
+          },
+          "parts":{
+            "title": "1. Accessories Preparation",
+            "list": ["Prepare required accessories before getting started with the Atlas 200 DK, including a microSD card, a card reader, a Type-C cable for connecting the Atlas 200 DK to the UI Host, and a camera. For details about the accessories, see <a href='/documentation/details/en/1.1.1.0/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0168502339.html'>Parts preparation</a>",
+              ""
+            ]
+          } ,
+          "devTools": {
+            "title": "2. Mind Studio Deployment",
+            "info": [
+              {
+                "title": "2.1 Prepare the environment.",
+                "list": [
+                  "Deploy Ubuntu 16.04.3 (desktop or server) on the PC.",
+                  "Create an installation user account, configure the Ubuntu 16.04.3 sources, and install the required software dependencies. For details, see <a href='/documentation/details/en/1.1.1.0/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0136384589.html'>Server configuration</a>.",
+                  "Prepare a Google Chrome browser (64-bit) 67.0.3396.87 or later for accessing Mind Studio."
+                ]
+              },
+              {
+                "title": "2.2 Obtain the software packages.",
+                "list": [
+                  "Download the Mind Studio and DDK installation packages, upload them to the Ubuntu server as the installation user, and decompress them. For details, see <a href='/documentation/details/en/1.1.1.0/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0136384629.html'>Software Package Preparation</a>."
+                ]
+              },
+              {
+                "title": "2.3 Install Mind Studio.",
+                "list": [
+                  "Run the /install.sh script to install Mind Studio in boot installation mode. For details, see <a href='/documentation/details/en/1.1.1.0/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0136384621.html'>Mind Studio Boot Installation</a>."
+                ]
+              }
+            ]
+          },
+          "deploy": {
+            "title": "3. Deployment of the Atlas 200 DK Developer Board",
+            "info": [
+              {
+                "title": "3.1 Remove the upper case.",
+                "list": [
+                  "Before installing the camera, remove the upper case of the Atlas 200 DK. For details, see <a href='/documentation/details/en/1.1.1.0/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0155764298.html'>Removing the Upper Case</a>."
+                ]
+              },
+              {
+                "title": "3.2 Install the camera.",
+                "list": [
+                  "The Atlas 200 DK developer board supports the Raspberry Pi camera module. Insert the flat cable of the camera into the flat cable slot of the developer board. For details, see <a href='/documentation/details/en/1.1.1.0/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0168385483.html'>Installing a Camera</a>."
+                ]
+              },
+              {
+                "title": "3.3 Prepare the SD card.",
+                "list": [
+                  "You can create a system boot disk for the Atlas 200 DK developer board by using the SD card creation function in online or offline mode. For details, see <a href='/documentation/details/en/1.1.1.0/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0179493957.html'>Preparing the SD card</a>."
+                ]
+              }
+            ]
+          },
+          "connect": {
+            "title": "4. Connect the Atlas 200 DK developer board to UI host",
+            "list": [
+              "The Atlas 200 DK developer board can be connected to Mind Studio through the USB or ETH port. In the USB connection scenario, the default IP address of the Atlas 200 DK developer board is 192.168.1.2. In the network cable connection scenario, the default IP address of the Atlas 200 DK developer board is 192.168.0.2. The IP address must be in the same network segment as that of the developer board. For details, see <a href='/documentation/details/en/1.1.1.0/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0136179995.html'>Connecting the Atlas 200 DK Developer Board to the Mind Studio</a>."
+            ],
+            "imgUrl": "/imgs/experience_pic02.jpg"
+          },
+          "configuration": {
+            "title": "5. Configuring Cross Compilation Environment in UI Host",
+            "list": [
+              "If the Ubuntu server where the SD card is prepared in Step 2 is the server where Mind Studio is located, skip this step. When the SD card is prepared, the cross compilation environment is automatically deployed for a Linux server. Otherwise, use the make_ui_cross_env.py script provided in the Ascend repository to configure the cross compilation environment on the Ubuntu server. Run the python3 make_ui_cross_env.py command as the root user. For details, see <a href='/documentation/details/en/1.1.1.0/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0159646920.html'>Configuring the Cross Compilation Environment in the UI Host</a>."
+            ],
+            "imgUrl": "/imgs/experience_pic03.jpg"
+          },
+          "appDev": {
+            "title": "6. App Development",
+            "list": [
+              "With the environment deployed and configured, now you can use the Atlas 200 DK to develop apps. Try out the Matrix tool provided by Mind Studio to build your first image classification app. Matrix is a service orchestration tool that spares you manual programming. For details, see <a href='/documentation/details/en/1.1.1.0/f4f39edd90e011e9a97afa163e714aa5/en-us_topic_0174994849.html'>Building the First Machine Learning App</a>.",
+              "You may explore the ecosystem samples in actual applications, for example, face detection. For details, see <a href='https://github.com/Ascend/sample-facedetection' target='_blank'>Face Detection</a>."
+            ],
+            "imgUrl": "/imgs/experience_pic04.jpg"
+          }
+        }
+      }
+    }
+  }
+}
