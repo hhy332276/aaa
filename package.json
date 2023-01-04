@@ -22,9 +22,9 @@
     "vue-scrollto": "^2.15.0"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.6.0",
+    "@vue/cli-plugin-babel": "^3.7.0",
     "@vue/cli-plugin-eslint": "^3.6.0",
-    "@vue/cli-service": "^3.6.0",
+    "@vue/cli-service": "^5.0.8",
     "node-sass": "^4.9.0",
     "sass-loader": "^7.1.0",
     "vue-cropper": "^0.4.9",
